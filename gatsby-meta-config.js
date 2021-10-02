@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `JSH99.github.io`,
+  description: `SSEO's Gatsby`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://www.jsh99.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,16 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `정서현`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      description: ['초보 프론트엔드'],
+      thumbnail: 'idea.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/JSH99`,
+      linkedIn: ``, 
+      email: `tjgus9966@gmail.com`, 
     },
   },
 
@@ -43,7 +43,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
+        date: '2021.09 ~',
         activity: '개인 블로그 개발 및 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
