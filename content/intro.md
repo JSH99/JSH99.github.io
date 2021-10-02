@@ -7,5 +7,5 @@ tags: blog gatsby
 categories: Gatsby
 ---
 
-앞으로 Gatsby Blog에 개발 관련 글을 올리려고 한다.  
+앞으로 Gatsby Blog에 개발 관련 글을 올리려고 한다.
 어렵겠지만 1일 1커밋을 목표로! (۶•̀ᴗ•́)۶ 
