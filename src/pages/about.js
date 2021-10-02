@@ -40,7 +40,6 @@ export const pageQuery = graphql`
             email
           }
         }
-
         about {
           timestamps {
             date
@@ -53,7 +52,6 @@ export const pageQuery = graphql`
               appStore
             }
           }
-
           projects {
             title
             description

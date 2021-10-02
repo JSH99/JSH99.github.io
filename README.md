@@ -2,6 +2,8 @@
   SSEO Gatsby Blog
 </h1>
 
+https://jsh99.github.io
+
 <!-- <p align="center">
   <a href="https://github.com/zoomkoding/zoomkoding-gatsby-blog/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-0BSD-blue.svg" alt="Zoomkoding Gatsby Blog is released under the 0BSD license." />
