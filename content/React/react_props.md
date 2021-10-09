@@ -1,6 +1,6 @@
 ---
 emoji: 👩‍👦
-title: [React] component props
+title: React component props
 date: '2021-10-09'
 author: JSH99
 tags: gatsby react
