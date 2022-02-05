@@ -1,4 +1,525 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Feb 2022 13:14:34 GMT</lastBuildDate><item><title><![CDATA[javascript 조건문]]></title><description><![CDATA[조건문 if문 if는 조건식의 값이 참이면 동작문을 실행하고, 거짓이면 실행하지 않는다. ’if (조건식) 동작문;‘의 형태로 작성하며, 동작문이 하나 이상이면 동작문들을 {}로 감싼다. else if를 if…]]></description><link>https://www.jsh99.com/JavaScript/conditional_statement/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/conditional_statement/</guid><pubDate>Thu, 03 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;조건문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A1%B0%EA%B1%B4%EB%AC%B8&quot; aria-label=&quot;조건문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;조건문&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Feb 2022 07:55:43 GMT</lastBuildDate><item><title><![CDATA[MacBook Pro 언박싱 후기]]></title><description><![CDATA[Macbook Pro 14inches unboxing…]]></description><link>https://www.jsh99.com/Diary/macbook_unboxing/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/macbook_unboxing/</guid><pubDate>Sat, 05 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;macbook-pro-14inches-unboxing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#macbook-pro-14inches-unboxing&quot; aria-label=&quot;macbook pro 14inches unboxing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Macbook Pro 14inches unboxing&lt;/h2&gt;
+&lt;h3 id=&quot;구매-동기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B5%AC%EB%A7%A4-%EB%8F%99%EA%B8%B0&quot; aria-label=&quot;구매 동기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;구매 동기&lt;/h3&gt;
+&lt;p&gt;꺄아아아ㅏ아아 드디어 내가 맥북을 사다니 소리 벗고 팬티 질러..!!&lt;br&gt;
+사실 맥북을 구입하기 전까지 나한테 맥북은 디자인이 예쁜 노트북, 스타벅스 직장인 노트북 정도의 인식이었다.&lt;br&gt;
+내가 &lt;del&gt;앱등이&lt;/del&gt;라지만 맥북까지 사게 될 일은 딱히 없을 거라고 생각했었다. (아이폰, 에어팟, 아이패드 정도는 다들 있잖아..?)&lt;br&gt;
+사실 어떻게 생각해보면 인공지능학과 다니면서 목만 잘 꺾이는 문서 작업용 노트북을 쓴 게 더 미스테리인 것 같기도 하고… 🤔&lt;br&gt;
+개발자가 될 거라고 생각 못 했던 시절 바라만 보던 맥북을,, 드디어 내가 사게 되었다..!!!&lt;br&gt;
+개발을 하면서 성능 차이를 정말 많이 느꼈고, 윈도우 기반 노트북의 한계점을 온 몸으로 깨닫던 중이라 너무 반갑고 설렜다.&lt;br&gt;
+처음에는 렘 추가, SSD 추가 한 에어를 살까 고민했지만, 이왕 사는 거 더 좋은 거를 사자는 마음에 덜컥 맥북 프로 m1 14인치를 지르게 된 것이다. (아빠 내가 돈 많이 벌어서 효도할게..💝)&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;주문-및-배송&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A3%BC%EB%AC%B8-%EB%B0%8F-%EB%B0%B0%EC%86%A1&quot; aria-label=&quot;주문 및 배송 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;주문 및 배송&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwUG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAennXinq0jIGqBATYK//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBAREv/aAAgBAQABBQK25KWXLrLzM9gKlnuMQYFXR50cGxr/xAAWEQADAAAAAAAAAAAAAAAAAAAQIEH/2gAIAQMBAT8BSj//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AV//xAAfEAABAgYDAAAAAAAAAAAAAAABAAIQERITIWEwMVH/2gAIAQEABj8CAIdnxU0uB2INtznpAlru4Z4f/8QAHBABAAIDAAMAAAAAAAAAAAAAAQARECExYXGx/9oACAEBAAE/IVDncrKVU8EAS67Gz0Ix0gC1vCVDkVsHG1fwj0CsOQC7id+8f//aAAwDAQACAAMAAAAQ1MU8hA//xAAYEQACAwAAAAAAAAAAAAAAAAABECAhMf/aAAgBAwEBPxCoHC//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EF//xAAdEAEAAwEAAgMAAAAAAAAAAAABABEhMRBBcZHw/9oACAEBAAE/EDug6B3nYXYW0gy9thUEpekr72A7VEQwKBJ71VhhRLCtJZcD+ys8Cwm7/GQhVL8yyG3ZeU1XYjbxVD3P/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;order.JPG&quot;
+        title=&quot;order.JPG&quot;
+        src=&quot;/static/7559be425867e4212cf4996a83c60364/80e3c/order.jpg&quot;
+        srcset=&quot;/static/7559be425867e4212cf4996a83c60364/4ec73/order.jpg 180w,
+/static/7559be425867e4212cf4996a83c60364/158ba/order.jpg 360w,
+/static/7559be425867e4212cf4996a83c60364/80e3c/order.jpg 720w,
+/static/7559be425867e4212cf4996a83c60364/acb04/order.jpg 750w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;작년(2021) 교육할인 때는 아이패드 에어4 + 애플펜슬2를 배송으로 주문 했었는데, 예정일보다 훨씬 이르게 도착했었다.&lt;br&gt;
+그때는 애플 여의도점이 없기도 했고, 패드가 급한 상황이 아니라 언젠간 오겠지라는 마음으로 여유롭게 기다릴 수 있었다.&lt;br&gt;
+하지만 1일 1커밋을 실천하며 개발이 일상이 된 요즘은 정말 맥북이 너무 필요했다… &lt;del&gt;(지금 내 노트북은 빌드만 5분씩 걸린다구..&lt;/del&gt;😂&lt;del&gt;)&lt;/del&gt;&lt;br&gt;
+너무 들뜨고 설레는 마음에 교육할인이 시작하는 날 바로 주문을 했고, 그때는 픽업 가능 매장이 없어 그냥 배송으로 주문을 넣었다.&lt;br&gt;
+주문하자마자 동시에 에어팟이 출고되어 3일만에 도착을 해버렸는데.. 맥북은 무려 한 달이 넘게 걸린다고 뜬 상태..&lt;br&gt;
+설레는 마음으로 하루이틀 기다리다 지쳐 목이 빠질 때쯤이 되니… 가로수길과 여의도 둘 다 픽업이 가능한 상태가 되었다..&lt;br&gt;
+아니 세상에… 나 지금 한 달째 기다리고 있잖아요… 에어팟이 이미 배송 완료되어 주문 취소가 불가능했고, 주문 취소가 아니면 픽업으로 변경할 수 없기에 발만 동동 굴렀다…&lt;br&gt;
+심지어 애플 여의도점은 집에서 차로 10분 거리에 있어서 더더 후회하며 다음에는 타이밍 맞춰 무.조.건. 픽업을 하겠다고 다짐을 하게 되었다지…😠&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;언박싱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%96%B8%EB%B0%95%EC%8B%B1&quot; aria-label=&quot;언박싱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;언박싱&lt;/h3&gt;
+&lt;p&gt;아무튼 서론이 많이 길었지만,,, 그렇게 목이 다섯 번쯤 빠진 후에 맥북 프로가 나에게로 왔다!!!!!!!! 너무 설레서 지구를 3000번쯤은 부순 언박싱 후기!🍎💻🍏  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAa2zJncRAf8A/8QAGxABAAICAwAAAAAAAAAAAAAAAgEDABEEEyL/2gAIAQEAAQUCrPnVe+SY7DYYKuOJxOf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAwEBPwGo/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8BJb//xAAbEAACAQUAAAAAAAAAAAAAAAAAASECECJBcf/aAAgBAQAGPwKngsSFoU3/AP/EABwQAAICAgMAAAAAAAAAAAAAAAABESExUUFhof/aAAgBAQABPyG7qMqG6S3OIFliS0F28Fo2PBmn0f/aAAwDAQACAAMAAAAQyw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QCwwv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EEWjf//EABwQAQACAgMBAAAAAAAAAAAAAAEAETFhIVGhwf/aAAgBAQABPxCjQBDbAC63JPhLl2WiBliBBES0e0e0Mj0xtn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;box.jpg&quot;
+        title=&quot;box.jpg&quot;
+        src=&quot;/static/c29f540be2bfd00e11153fb198a2bc59/80e3c/box.jpg&quot;
+        srcset=&quot;/static/c29f540be2bfd00e11153fb198a2bc59/4ec73/box.jpg 180w,
+/static/c29f540be2bfd00e11153fb198a2bc59/158ba/box.jpg 360w,
+/static/c29f540be2bfd00e11153fb198a2bc59/80e3c/box.jpg 720w,
+/static/c29f540be2bfd00e11153fb198a2bc59/47311/box.jpg 1080w,
+/static/c29f540be2bfd00e11153fb198a2bc59/644c5/box.jpg 1440w,
+/static/c29f540be2bfd00e11153fb198a2bc59/1f368/box.jpg 2100w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+처음 마주한 택배 상자!!!! 아니 너 왜 이제 왔어ㅠㅠㅠㅠㅠ 내가 얼마나 기다렸는데 왜 이제 왔냐고ㅠㅠㅠㅠ&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAGtkeTVigr/xAAaEAADAQADAAAAAAAAAAAAAAABAgMABCIj/9oACAEBAAEFAojzIGuvdLIFbkrmqCf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGn/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAECEDGB/9oACAEBAAY/AomHBK//xAAbEAADAAMBAQAAAAAAAAAAAAAAAREhUZExof/aAAgBAQABPyFCxLw0HBDSIXI8LRRi8L6/D//aAAwDAQACAAMAAAAQd9//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAEDAQE/EEdjl//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QBkvb/8QAHRABAAMAAQUAAAAAAAAAAAAAAQARITFBUYGRwf/aAAgBAQABPxA6Ua3kufFEAApxnViKuAQXaYS8oPWYV7M//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;box_back.jpg&quot;
+        title=&quot;box_back.jpg&quot;
+        src=&quot;/static/51122cc83827c810efe04061bf7f2ad1/80e3c/box_back.jpg&quot;
+        srcset=&quot;/static/51122cc83827c810efe04061bf7f2ad1/4ec73/box_back.jpg 180w,
+/static/51122cc83827c810efe04061bf7f2ad1/158ba/box_back.jpg 360w,
+/static/51122cc83827c810efe04061bf7f2ad1/80e3c/box_back.jpg 720w,
+/static/51122cc83827c810efe04061bf7f2ad1/47311/box_back.jpg 1080w,
+/static/51122cc83827c810efe04061bf7f2ad1/644c5/box_back.jpg 1440w,
+/static/51122cc83827c810efe04061bf7f2ad1/d2602/box_back.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+크으 역시 이거지… 애플은 포장 뜯는 맛이 있지 역시…&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAaZQCs5QX//EABoQAAMBAAMAAAAAAAAAAAAAAAECEQADEiH/2gAIAQEAAQUCQAIfNZhyJOy1nF//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFn/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/ARF//8QAGBABAAMBAAAAAAAAAAAAAAAAAQAQITH/2gAIAQEABj8CMnCjZitf/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAIUExUbH/2gAIAQEAAT8hqM15BYFD0bC+qdwAXxLROaxyG9ZP/9oADAMBAAIAAwAAABDU/wD/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QqoR//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxCKGtP/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxDmyq0gHNN2Z+oLlPBiMzUDbz5L7pWtRlyBnimmf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;opened_box.jpg&quot;
+        title=&quot;opened_box.jpg&quot;
+        src=&quot;/static/6c363c9fae07151892a909257808a222/80e3c/opened_box.jpg&quot;
+        srcset=&quot;/static/6c363c9fae07151892a909257808a222/4ec73/opened_box.jpg 180w,
+/static/6c363c9fae07151892a909257808a222/158ba/opened_box.jpg 360w,
+/static/6c363c9fae07151892a909257808a222/80e3c/opened_box.jpg 720w,
+/static/6c363c9fae07151892a909257808a222/47311/opened_box.jpg 1080w,
+/static/6c363c9fae07151892a909257808a222/644c5/opened_box.jpg 1440w,
+/static/6c363c9fae07151892a909257808a222/d2602/opened_box.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+읗어후어헝후어ㅓ허엏 빼꼼 보이는 저 빛나는 아이가 내 거 맞나요…?&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAUZzIUuPBf/EABgQAQEBAQEAAAAAAAAAAAAAAAIBAwAR/9oACAEBAAEFAsszTSZyEitFz8znPaJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Bh//EABsQAQADAAMBAAAAAAAAAAAAAAEAAhExM4GR/9oACAEBAAY/AqmHEdrSMK6nk7H5FJ//xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAxQf/aAAgBAQABPyFAJ1UyUYGF64uKF4OVjQlMYPFu0Ijv/9oADAMBAAIAAwAAABAQz//EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8QjosP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxAcSdv/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhcYHw/9oACAEBAAE/ECdjdYXexvsb2fEYE4MJA5DNlViq9jmmj5uaVCzJ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unboxed.jpg&quot;
+        title=&quot;unboxed.jpg&quot;
+        src=&quot;/static/c96acb8fee784c3114e4898de6007f10/80e3c/unboxed.jpg&quot;
+        srcset=&quot;/static/c96acb8fee784c3114e4898de6007f10/4ec73/unboxed.jpg 180w,
+/static/c96acb8fee784c3114e4898de6007f10/158ba/unboxed.jpg 360w,
+/static/c96acb8fee784c3114e4898de6007f10/80e3c/unboxed.jpg 720w,
+/static/c96acb8fee784c3114e4898de6007f10/47311/unboxed.jpg 1080w,
+/static/c96acb8fee784c3114e4898de6007f10/644c5/unboxed.jpg 1440w,
+/static/c96acb8fee784c3114e4898de6007f10/d2602/unboxed.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHRoRIP/8QAFhABAQEAAAAAAAAAAAAAAAAAABIB/9oACAEBAAEFAlLx/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAECExQf/aAAgBAQABPyEsdmO1R//aAAwDAQACAAMAAAAQ+B//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAIDAAAAAAAAAAAAAAABEQAQIWFx/9oACAEBAAE/EGdI6VMLT15dX//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;side.jpg&quot;
+        title=&quot;side.jpg&quot;
+        src=&quot;/static/767b12fb0af5bd5c91209bc1038beaf7/80e3c/side.jpg&quot;
+        srcset=&quot;/static/767b12fb0af5bd5c91209bc1038beaf7/4ec73/side.jpg 180w,
+/static/767b12fb0af5bd5c91209bc1038beaf7/158ba/side.jpg 360w,
+/static/767b12fb0af5bd5c91209bc1038beaf7/80e3c/side.jpg 720w,
+/static/767b12fb0af5bd5c91209bc1038beaf7/47311/side.jpg 1080w,
+/static/767b12fb0af5bd5c91209bc1038beaf7/644c5/side.jpg 1440w,
+/static/767b12fb0af5bd5c91209bc1038beaf7/b36df/side.jpg 3814w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+비닐 포장 뜯기 전에 반짝반짝한 박스.. 맥북 프로… 그래… 너 프로구나…프로야…💘&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAcUde5sClriwp80B/wD/xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIDEyIEETL/2gAIAQEAAQUCjRIxsxMqepKXTo8HIe//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/AayvEf/EABcRAAMBAAAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8BhFjP/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAEQMXECQf/aAAgBAQAGPwLwpFCyechYf//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESEQMWGhcYGR/9oACAEBAAE/IXA39QIyvuNuO8u8aKjsM4zE6TRiqP/aAAwDAQACAAMAAAAQbMi//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAwEBPxB2sH//xAAXEQEAAwAAAAAAAAAAAAAAAAABABAx/9oACAECAQE/EA2an//EABsQAQEBAAIDAAAAAAAAAAAAAAERAFHwIWGx/9oACAEBAAE/ED6og9TT3Ga9oB6OZfSZBKOS5jEKqBN0HGQxMvE/Xf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;arrow.jpg&quot;
+        title=&quot;arrow.jpg&quot;
+        src=&quot;/static/289a61c04a589a161308b212d3f0ecb4/80e3c/arrow.jpg&quot;
+        srcset=&quot;/static/289a61c04a589a161308b212d3f0ecb4/4ec73/arrow.jpg 180w,
+/static/289a61c04a589a161308b212d3f0ecb4/158ba/arrow.jpg 360w,
+/static/289a61c04a589a161308b212d3f0ecb4/80e3c/arrow.jpg 720w,
+/static/289a61c04a589a161308b212d3f0ecb4/47311/arrow.jpg 1080w,
+/static/289a61c04a589a161308b212d3f0ecb4/644c5/arrow.jpg 1440w,
+/static/289a61c04a589a161308b212d3f0ecb4/c9f20/arrow.jpg 2645w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+역시 언박싱 맛집 애플… 이거 뜯을 때 쾌감 미쳐 정말ㅠ_ㅠ&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFXBAxTZS//xAAaEAACAgMAAAAAAAAAAAAAAAABAgADERIT/9oACAEBAAEFAm2E2cWWIGPRY3PK31Y//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHxAAAQMDBQAAAAAAAAAAAAAAAAECEVGBkQMSITJh/9oACAEBAAY/AmI2lCHRgRfDvFjnVXBG6bH/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUFx/9oACAEBAAE/IUlPnwyuzXuYAg+CJuDFdy9K1kRWHtp//9oADAMBAAIAAwAAABB37//EABYRAQEBAAAAAAAAAAAAAAAAAAEAgf/aAAgBAwEBPxDIUv/EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAgEBPxDJC//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQAxQWGBodH/2gAIAQEAAT8QFKzJMXyYmQRQbB1xzkYOiwu3NJ4bTXeLecmXzFdoxSn1n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Macbook_box.jpg&quot;
+        title=&quot;Macbook_box.jpg&quot;
+        src=&quot;/static/6c7edd3558bf74e8febefbd8f90a6fd8/80e3c/Macbook_box.jpg&quot;
+        srcset=&quot;/static/6c7edd3558bf74e8febefbd8f90a6fd8/4ec73/Macbook_box.jpg 180w,
+/static/6c7edd3558bf74e8febefbd8f90a6fd8/158ba/Macbook_box.jpg 360w,
+/static/6c7edd3558bf74e8febefbd8f90a6fd8/80e3c/Macbook_box.jpg 720w,
+/static/6c7edd3558bf74e8febefbd8f90a6fd8/47311/Macbook_box.jpg 1080w,
+/static/6c7edd3558bf74e8febefbd8f90a6fd8/644c5/Macbook_box.jpg 1440w,
+/static/6c7edd3558bf74e8febefbd8f90a6fd8/e89d8/Macbook_box.jpg 3642w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+비닐 뜯은 박스!! 이 뚜껑을 열 때 얼마나 설렜던지 정말&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 120.55555555555557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAYABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAdWaNjiF+vRgJv/EABsQAAICAwEAAAAAAAAAAAAAAAACAxMBERIU/9oACAEBAAEFArnLnLZBYNr5yZGVu1OsG8H/xAAWEQADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8BI//EABYRAAMAAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwEr/8QAGxAAAgIDAQAAAAAAAAAAAAAAADIBEQIhkTH/2gAIAQEABj8CYYYibGKjehsensdN0f/EAB8QAAIBAgcAAAAAAAAAAAAAAAABERAxQVGBkaHR8P/aAAgBAQABPyE/kia3Amx02qCXIgWHtCTqCzTU/9oADAMBAAIAAwAAABCEzwP/xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAQ/9oACAEDAQE/EGDgpdOf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAREP/aAAgBAgEBPxAFJQ5bz//EACAQAQABBAICAwAAAAAAAAAAAAEAESFR0UGRMaFhcYH/2gAIAQEAAT8QMro1DN6ahdIn01HCgqYx6pEnKVVSER+XUa9Ate4mt+OyUNi8NHjuf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Macbook_box_opened&quot;
+        title=&quot;Macbook_box_opened&quot;
+        src=&quot;/static/556944634872db5ec07f8d47fd1f9b26/80e3c/Macbook_box_opened.jpg&quot;
+        srcset=&quot;/static/556944634872db5ec07f8d47fd1f9b26/4ec73/Macbook_box_opened.jpg 180w,
+/static/556944634872db5ec07f8d47fd1f9b26/158ba/Macbook_box_opened.jpg 360w,
+/static/556944634872db5ec07f8d47fd1f9b26/80e3c/Macbook_box_opened.jpg 720w,
+/static/556944634872db5ec07f8d47fd1f9b26/47311/Macbook_box_opened.jpg 1080w,
+/static/556944634872db5ec07f8d47fd1f9b26/644c5/Macbook_box_opened.jpg 1440w,
+/static/556944634872db5ec07f8d47fd1f9b26/96287/Macbook_box_opened.jpg 3022w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+안녕 ㅠㅠㅠㅠㅠ 안녕 내 맥북아👋&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABdavLHNQK/8QAGhABAAMAAwAAAAAAAAAAAAAAAgABAwQTFP/aAAgBAQABBQLPj0s/MZvlZdM0ewxIXf8A/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAABEQIQMTJR/9oACAEBAAY/Ak3aKeCUmxk//8QAHBAAAwABBQAAAAAAAAAAAAAAAAERIUFRcYHR/9oACAEBAAE/IXLZaHvFmODQL5Hh9FM66Z//2gAMAwEAAgADAAAAEJc//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBXY4v/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QDJNv/8QAHBABAQEAAQUAAAAAAAAAAAAAAREAIWFxsdHw/9oACAEBAAE/EHuBluFgdBh84uEgEAcd5lVBOnpiQUE+Df/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;compoents.jpg&quot;
+        title=&quot;compoents.jpg&quot;
+        src=&quot;/static/662634d7200bf2637cd7b99807f0e68d/80e3c/components.jpg&quot;
+        srcset=&quot;/static/662634d7200bf2637cd7b99807f0e68d/4ec73/components.jpg 180w,
+/static/662634d7200bf2637cd7b99807f0e68d/158ba/components.jpg 360w,
+/static/662634d7200bf2637cd7b99807f0e68d/80e3c/components.jpg 720w,
+/static/662634d7200bf2637cd7b99807f0e68d/47311/components.jpg 1080w,
+/static/662634d7200bf2637cd7b99807f0e68d/644c5/components.jpg 1440w,
+/static/662634d7200bf2637cd7b99807f0e68d/df94c/components.jpg 4030w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+노트북을 꺼내고 나면 나오는 구성품들! 충전 케이블과 어댑터, 설명서가 들어있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAdi4mKaep//EABwQAAEDBQAAAAAAAAAAAAAAAAABAhIDExQhMf/aAAgBAQABBQKZFC0ilPRkMG8//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BSf/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ASf/xAAbEAABBAMAAAAAAAAAAAAAAAACAAEQERIxQf/aAAgBAQAGPwIbFrJajJ12P//EABkQAAMBAQEAAAAAAAAAAAAAAAABEUExcf/aAAgBAQABPyG3FhxYVydUFcYYJ7kV+DJqz//aAAwDAQACAAMAAAAQKC//xAAWEQADAAAAAAAAAAAAAAAAAAAQETH/2gAIAQMBAT8QVB//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8Q1Uf/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhQTFRkdH/2gAIAQEAAT8Q1KAVaORcdTa8ZwlDqVkUyA6qWDcVSPsBnCXP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;adapter.jpg&quot;
+        title=&quot;adapter.jpg&quot;
+        src=&quot;/static/f3d24a3a10392808827fa243a3b55ed2/80e3c/adapter.jpg&quot;
+        srcset=&quot;/static/f3d24a3a10392808827fa243a3b55ed2/4ec73/adapter.jpg 180w,
+/static/f3d24a3a10392808827fa243a3b55ed2/158ba/adapter.jpg 360w,
+/static/f3d24a3a10392808827fa243a3b55ed2/80e3c/adapter.jpg 720w,
+/static/f3d24a3a10392808827fa243a3b55ed2/47311/adapter.jpg 1080w,
+/static/f3d24a3a10392808827fa243a3b55ed2/644c5/adapter.jpg 1440w,
+/static/f3d24a3a10392808827fa243a3b55ed2/d2602/adapter.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+정사각형 모양에 가운데 애플 로고가 박힌 게 너무 귀엽🍎&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAFj5NIraKKf/8QAGxAAAQQDAAAAAAAAAAAAAAAAAwABAhEQEjL/2gAIAQEAAQUCkR7HKJMdlAyvVf/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AWf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAGxAAAwACAwAAAAAAAAAAAAAAAAEREDEhQVH/2gAIAQEABj8CmqPjWG30PykP/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITFh/9oACAEBAAE/IX9e/wAzpkwAPMFBxZEdj4DNqbv/2gAMAwEAAgADAAAAEMgv/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/ECGT/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qo//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFBUWGBofH/2gAIAQEAAT8QEOoRUt76IVGowN4eYANMRbFoF68SzagZSV8mcDNs/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;MacSafe&quot;
+        title=&quot;MacSafe&quot;
+        src=&quot;/static/038ad9e2f503ff0996383d54315cde8a/80e3c/MacSafe.jpg&quot;
+        srcset=&quot;/static/038ad9e2f503ff0996383d54315cde8a/4ec73/MacSafe.jpg 180w,
+/static/038ad9e2f503ff0996383d54315cde8a/158ba/MacSafe.jpg 360w,
+/static/038ad9e2f503ff0996383d54315cde8a/80e3c/MacSafe.jpg 720w,
+/static/038ad9e2f503ff0996383d54315cde8a/47311/MacSafe.jpg 1080w,
+/static/038ad9e2f503ff0996383d54315cde8a/644c5/MacSafe.jpg 1440w,
+/static/038ad9e2f503ff0996383d54315cde8a/d2602/MacSafe.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+맥세이프 충전기! 한 번도 사용해본 적이 없었는데, 자석이 챡- 달라붙는 느낌이 너무 좋았다ㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABcgznQ2XB/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAEDAgQS/9oACAEBAAEFAs5Xm9lIeJjK0T6D/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBABAAEEAwAAAAAAAAAAAAAAAQIAAxAREjJh/9oACAEBAAY/AovEoE3uuuI2mA+uP//EABoQAQADAQEBAAAAAAAAAAAAAAEAEUEhMVH/2gAIAQEAAT8hKQFC+SyfH5LXRBhk8ATATZ//2gAMAwEAAgADAAAAEDsf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ECf/xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMYHBUWGR/9oACAEBAAE/EGgPJu3XuDsoQUeG/sKEil0Kdwbctge4QmVbEvODiUMB4n//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sticker.jpg&quot;
+        title=&quot;sticker.jpg&quot;
+        src=&quot;/static/fcf02f0162c8143cbdcad03254990117/80e3c/sticker.jpg&quot;
+        srcset=&quot;/static/fcf02f0162c8143cbdcad03254990117/4ec73/sticker.jpg 180w,
+/static/fcf02f0162c8143cbdcad03254990117/158ba/sticker.jpg 360w,
+/static/fcf02f0162c8143cbdcad03254990117/80e3c/sticker.jpg 720w,
+/static/fcf02f0162c8143cbdcad03254990117/47311/sticker.jpg 1080w,
+/static/fcf02f0162c8143cbdcad03254990117/644c5/sticker.jpg 1440w,
+/static/fcf02f0162c8143cbdcad03254990117/d2602/sticker.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+설명서와 함께 동봉되어 있는 애플 로고 스티커! 붙일 곳이 있는지는 모르겠지만… 귀여우니까 합격!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFnUW4XFo//xAAXEAEBAQEAAAAAAAAAAAAAAAAAEgER/9oACAEBAAEFAs1TrqlP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFhABAQEAAAAAAAAAAAAAAAAAARAA/9oACAEBAAE/IclRH//aAAwDAQACAAMAAAAQpP8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAQACAwAAAAAAAAAAAAAAAQARITFhcf/aAAgBAQABPxBzWbtG9Ri2jcBOW//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;madedate.jpg&quot;
+        title=&quot;madedate.jpg&quot;
+        src=&quot;/static/8a29d2d8422f6e9cfb32e162f15da8b8/80e3c/madedate.jpg&quot;
+        srcset=&quot;/static/8a29d2d8422f6e9cfb32e162f15da8b8/4ec73/madedate.jpg 180w,
+/static/8a29d2d8422f6e9cfb32e162f15da8b8/158ba/madedate.jpg 360w,
+/static/8a29d2d8422f6e9cfb32e162f15da8b8/80e3c/madedate.jpg 720w,
+/static/8a29d2d8422f6e9cfb32e162f15da8b8/47311/madedate.jpg 1080w,
+/static/8a29d2d8422f6e9cfb32e162f15da8b8/644c5/madedate.jpg 1440w,
+/static/8a29d2d8422f6e9cfb32e162f15da8b8/5a8bd/madedate.jpg 3759w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+드디어 마지막 포장만 뜯으면 내 맥북을 만나는 순간…! 재조년도는 따끈따끈한 22년 1월!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAdU0xwqJf//EABkQAAMBAQEAAAAAAAAAAAAAAAECAwASEf/aAAgBAQABBQKUxxQDMnWF1GpZTlfzf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEUEQITH/2gAIAQEABj8CWqHFEnc//8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERITGhQYH/2gAIAQEAAT8hgbTHglQp1RJXwVb4E9PghHmn/9oADAMBAAIAAwAAABAD/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8Qdhcv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EDJC/8QAHBABAAICAwEAAAAAAAAAAAAAAQARIVExQWHR/9oACAEBAAE/ELuFcg1AgVKFcKXrTFqCwtQHbqXXAcUvkTD59QhFDbN6PJ//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Macbook_front.jpg&quot;
+        title=&quot;Macbook_front.jpg&quot;
+        src=&quot;/static/97c580a79e97b61d8b9a1bc8dd498451/80e3c/Macbook_front.jpg&quot;
+        srcset=&quot;/static/97c580a79e97b61d8b9a1bc8dd498451/4ec73/Macbook_front.jpg 180w,
+/static/97c580a79e97b61d8b9a1bc8dd498451/158ba/Macbook_front.jpg 360w,
+/static/97c580a79e97b61d8b9a1bc8dd498451/80e3c/Macbook_front.jpg 720w,
+/static/97c580a79e97b61d8b9a1bc8dd498451/47311/Macbook_front.jpg 1080w,
+/static/97c580a79e97b61d8b9a1bc8dd498451/644c5/Macbook_front.jpg 1440w,
+/static/97c580a79e97b61d8b9a1bc8dd498451/d2602/Macbook_front.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+헉 너무 예쁘다 스페이스 그레이..! 사과 로고에 비친 조명때문에 반반 사과가 되었다ㅎㅅㅎ&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB0FoQUlUH/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAEDAhH/2gAIAQEAAQUCwkURkVOFKti0z//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAEQICH/2gAIAQEABj8CR2P/xAAZEAADAQEBAAAAAAAAAAAAAAAAASERMUH/2gAIAQEAAT8ha0WlIba0zvrLKuzCJBDaun//2gAMAwEAAgADAAAAEHcf/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCpa//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAgEBPxASy//EAB4QAAICAgIDAAAAAAAAAAAAAAERACExQVHRYYGR/9oACAEBAAE/EDzWSdl4qob5PFQ6AD2cQxuYMbMfIVIH2fUug22+p//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Macbook_back.jpg&quot;
+        title=&quot;Macbook_back.jpg&quot;
+        src=&quot;/static/dbfdc3940a2e623ce753a259b6c68a80/80e3c/Macbook_back.jpg&quot;
+        srcset=&quot;/static/dbfdc3940a2e623ce753a259b6c68a80/4ec73/Macbook_back.jpg 180w,
+/static/dbfdc3940a2e623ce753a259b6c68a80/158ba/Macbook_back.jpg 360w,
+/static/dbfdc3940a2e623ce753a259b6c68a80/80e3c/Macbook_back.jpg 720w,
+/static/dbfdc3940a2e623ce753a259b6c68a80/47311/Macbook_back.jpg 1080w,
+/static/dbfdc3940a2e623ce753a259b6c68a80/644c5/Macbook_back.jpg 1440w,
+/static/dbfdc3940a2e623ce753a259b6c68a80/d2602/Macbook_back.jpg 4032w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+바닥에는 깔끔하게 맥북 프로가 써져있군!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABRWqcVYYKjoIAckJ//8QAHBAAAgICAwAAAAAAAAAAAAAAAQMAAgQSIjEz/9oACAEBAAEFAkUBuw6k5SBEx44HtEyPIif/xAAWEQADAAAAAAAAAAAAAAAAAAACEDH/2gAIAQMBAT8BKoqv/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAECAQE/ARiGL//EAB4QAAEDBAMAAAAAAAAAAAAAAAABAgMQESFxIjKh/9oACAEBAAY/AuSXwMVcnTwdojo7RHT/xAAcEAADAAIDAQAAAAAAAAAAAAAAAREhMUFhgXH/2gAIAQEAAT8hdklEJXQaRX4ObsZqTfpsHx9xEorYqn//2gAMAwEAAgADAAAAEGwnfv/EABcRAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8Qc7X/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EFOV/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARMSFRkXH/2gAIAQEAAT8QUhVB95CrAFB6VZR8hwZq1OT5ANehTObmG8HZbTGJ+MmMBCtGsEEsst+z/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;left.jpg&quot;
+        title=&quot;left.jpg&quot;
+        src=&quot;/static/775ab41c6e206809fc4a1d8b592834b9/80e3c/left.jpg&quot;
+        srcset=&quot;/static/775ab41c6e206809fc4a1d8b592834b9/4ec73/left.jpg 180w,
+/static/775ab41c6e206809fc4a1d8b592834b9/158ba/left.jpg 360w,
+/static/775ab41c6e206809fc4a1d8b592834b9/80e3c/left.jpg 720w,
+/static/775ab41c6e206809fc4a1d8b592834b9/47311/left.jpg 1080w,
+/static/775ab41c6e206809fc4a1d8b592834b9/644c5/left.jpg 1440w,
+/static/775ab41c6e206809fc4a1d8b592834b9/76484/left.jpg 2203w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+왼쪽은 위에서부터 충전단자, c타입 두 개, 이어폰이 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQFAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/2gAMAwEAAhADEAAAAe57M6K0EjNUQz5gf//EAB4QAQAABgMBAAAAAAAAAAAAAAIBAwQREjIAFCJD/9oACAEBAAEFAgJrON5/XHCsJFTuNfjVwsxHz//EABkRAQACAwAAAAAAAAAAAAAAAAEAEBEhMf/aAAgBAwEBPwFdzLHtf//EABkRAQACAwAAAAAAAAAAAAAAAAEAEBEhMf/aAAgBAgEBPwENTBDlf//EABwQAAEEAwEAAAAAAAAAAAAAAAABAhIhEDFxMv/aAAgBAQAGPwKU6Iq7Z7UZ0qhBncIf/8QAHhABAAIBBAMAAAAAAAAAAAAAAQARIRAxQYFRYbH/2gAIAQEAAT8hPUC9weFG18GkPQBtEVKnSK83E+2Fg5LidU//2gAMAwEAAgADAAAAEHwIgv/EABkRAAEFAAAAAAAAAAAAAAAAAAABEDFhgf/aAAgBAwEBPxBXBYSN/8QAGREAAQUAAAAAAAAAAAAAAAAAAAEQMWGB/9oACAECAQE/EE9FBA3/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxAk3KtHHwhfLyDfgRwq9l6J0jC5mEqwCNtp2KtS02zfzIwyyq/WbHxP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;right.jpg&quot;
+        title=&quot;right.jpg&quot;
+        src=&quot;/static/ff6263c7c271942a804b913ed9c1aed3/80e3c/right.jpg&quot;
+        srcset=&quot;/static/ff6263c7c271942a804b913ed9c1aed3/4ec73/right.jpg 180w,
+/static/ff6263c7c271942a804b913ed9c1aed3/158ba/right.jpg 360w,
+/static/ff6263c7c271942a804b913ed9c1aed3/80e3c/right.jpg 720w,
+/static/ff6263c7c271942a804b913ed9c1aed3/47311/right.jpg 1080w,
+/static/ff6263c7c271942a804b913ed9c1aed3/644c5/right.jpg 1440w,
+/static/ff6263c7c271942a804b913ed9c1aed3/09efe/right.jpg 2305w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+오른쪽에는 hdmi, c타입, sd 카드 삽입 슬롯이 있다. 처음에 sd카드 슬롯이 생각보다 넓어서 조금 놀랐다..ㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAXAQADAQAAAAAAAAAAAAAAAAAAAgMB/9oADAMBAAIQAxAAAAGYyou9jJN+nNWswD//xAAcEAADAAMAAwAAAAAAAAAAAAAAAQIDERIEFDH/2gAIAQEAAQUC6OhLY1p/CZtr19leMTLxpZrJy2x0z//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEP/aAAgBAwEBPwGA3//EABcRAQADAAAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8Biu3/AP/EABwQAAICAgMAAAAAAAAAAAAAAAARATECEBIhMv/aAAgBAQAGPwLacFwPCh8j0KMizudf/8QAHRAAAwACAgMAAAAAAAAAAAAAAAERITFRoXGBkf/aAAgBAQABPyFw5g8EKWwuNdbMbEjsrcMlnSt3Qnn8LyNW6EVjqirl9Io30f/aAAwDAQACAAMAAAAQGBHN/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQAQIRH/2gAIAQMBAT8QXYg1nK//xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQIf/aAAgBAgEBPxBLhSiLn//EAB4QAAICAgMBAQAAAAAAAAAAAAABESExQWGR8MHR/9oACAEBAAE/EEOhRxgyuy8IoZTjAzG7SXT6G3T23+DE29GpE62NMGtHvI9zQ0fTBGvVHFp6gbk06H//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;start.jpg&quot;
+        title=&quot;start.jpg&quot;
+        src=&quot;/static/68c09882f6a31de11fe1f815506b7ac3/80e3c/start.jpg&quot;
+        srcset=&quot;/static/68c09882f6a31de11fe1f815506b7ac3/4ec73/start.jpg 180w,
+/static/68c09882f6a31de11fe1f815506b7ac3/158ba/start.jpg 360w,
+/static/68c09882f6a31de11fe1f815506b7ac3/80e3c/start.jpg 720w,
+/static/68c09882f6a31de11fe1f815506b7ac3/47311/start.jpg 1080w,
+/static/68c09882f6a31de11fe1f815506b7ac3/644c5/start.jpg 1440w,
+/static/68c09882f6a31de11fe1f815506b7ac3/37fe4/start.jpg 2664w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+열자마자 나를 반겨주는 시작 화면! 개인적으로 프로 터치바를 사용해봤는데 너무너무 불편했어서 터치바가 사라진 건 매우 마음에 들었다!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAE/DRRSFzUP/8QAGBABAQEBAQAAAAAAAAAAAAAAAgEDEhP/2gAIAQEAAQUCOTb8tCmC73Sbm+jLT//EABcRAAMBAAAAAAAAAAAAAAAAAAABAiH/2gAIAQMBAT8BdIw//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8BV//EABoQAAMAAwEAAAAAAAAAAAAAAAABAhFBYSL/2gAIAQEABj8CpSetdE+DmFORuqTyaP/EABwQAAICAwEBAAAAAAAAAAAAAAABESExQVFh4f/aAAgBAQABPyGRlqXscXTJ+CPHFUNcLqfg6yGVsXJdK2f/2gAMAwEAAgADAAAAEF8f/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQARITH/2gAIAQMBAT8QRVHI7xn/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCI/wD/xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhMUFRcYGRwf/aAAgBAQABPxAlABwAvEcto2k6pQkIFb47wAbUu6u9pGDP18h6gg9Od5V4n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;hello.jpg&quot;
+        title=&quot;hello.jpg&quot;
+        src=&quot;/static/efb24709bdec92bcf869844ef3c1093d/80e3c/hello.jpg&quot;
+        srcset=&quot;/static/efb24709bdec92bcf869844ef3c1093d/4ec73/hello.jpg 180w,
+/static/efb24709bdec92bcf869844ef3c1093d/158ba/hello.jpg 360w,
+/static/efb24709bdec92bcf869844ef3c1093d/80e3c/hello.jpg 720w,
+/static/efb24709bdec92bcf869844ef3c1093d/47311/hello.jpg 1080w,
+/static/efb24709bdec92bcf869844ef3c1093d/644c5/hello.jpg 1440w,
+/static/efb24709bdec92bcf869844ef3c1093d/54fa3/hello.jpg 3057w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+가장 먼저 한국어로 나를 반겨주는 나의 맥북! 앞으로 잘 부탁한다❤️‍🔥&lt;/p&gt;
+&lt;p&gt;노트북 언박싱을 하고, 초기 세팅을 하느라 한참 바빴다.&lt;br&gt;
+이것저것 설정하고 나서 따끈하게 바로 언박싱 후기부터 쓰고 싶어서 블로그 글부터 작성하고 있다ㅋㅎ&lt;br&gt;
+하나하나 다 귀여워 보이는 콩깍지(?)가 언제 벗겨질지는 모르겠지만 앞으로 아껴줄게, 맥북아!😎&lt;br&gt;
+&lt;del&gt;(이 글 하나 올리기 위해 node를 몇 번을 설치했다 지우고 고생했지만 아직은 봐줄 수 있어..)&lt;/del&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[javascript 조건문]]></title><description><![CDATA[조건문 if문 if는 조건식의 값이 참이면 동작문을 실행하고, 거짓이면 실행하지 않는다. ’if (조건식) 동작문;‘의 형태로 작성하며, 동작문이 하나 이상이면 동작문들을 {}로 감싼다. else if를 if…]]></description><link>https://www.jsh99.com/JavaScript/conditional_statement/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/conditional_statement/</guid><pubDate>Thu, 03 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;조건문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A1%B0%EA%B1%B4%EB%AC%B8&quot; aria-label=&quot;조건문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;조건문&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;if문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#if%EB%AC%B8&quot; aria-label=&quot;if문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;if문&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;if&lt;/strong&gt;는 조건식의 값이 참이면 동작문을 실행하고, 거짓이면 실행하지 않는다. ’&lt;strong&gt;if (조건식) 동작문;&lt;/strong&gt;‘의 형태로 작성하며, 동작문이 하나 이상이면 동작문들을 {}로 감싼다.&lt;/p&gt;
