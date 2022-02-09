@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Feb 2022 11:34:17 GMT</lastBuildDate><item><title><![CDATA[javascript 반복문]]></title><description><![CDATA[반복문 while문 while은 조건식이 참인 동안 반복해서 동작문을 실행한다. ‘while (조건식) 동작문;‘의 형태로 작성하며 동작문이 여러 줄일 경우 {}로 감싼다. while문을 사용할 때는 무한 반복이 되지 않도록 주의해야 한다. for…]]></description><link>https://www.jsh99.com/JavaScript/loop_statement/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/loop_statement/</guid><pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;반복문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%98%EB%B3%B5%EB%AC%B8&quot; aria-label=&quot;반복문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;반복문&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Feb 2022 16:34:12 GMT</lastBuildDate><item><title><![CDATA[package-lock.json 충돌 오류 해결]]></title><description><![CDATA[package-lock.json 충돌 오류 해결 노트북을 바꾸면서 진행중인 프로젝트를 모두 새 노트북에 클론 받아서 진행해야 했다. git…]]></description><link>https://www.jsh99.com/Git/package-lock_error/</link><guid isPermaLink="false">https://www.jsh99.com/Git/package-lock_error/</guid><pubDate>Thu, 10 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;package-lockjson-충돌-오류-해결&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#package-lockjson-%EC%B6%A9%EB%8F%8C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0&quot; aria-label=&quot;package lockjson 충돌 오류 해결 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;package-lock.json 충돌 오류 해결&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;노트북을 바꾸면서 진행중인 프로젝트를 모두 새 노트북에 클론 받아서 진행해야 했다. git을 잘 다룰 줄 몰라 혹시 잘 되지 않거나 충돌이 나면 어쩌나 걱정을 많이 했는데.. 역시나 한참을 헤맸다.. 누군가 이 글을 본다면 나와 같은 고생을 하지 않기를 바라면서 쓰는 오류 해결 글&lt;/em&gt;🥲&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;npm-install--start-오류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#npm-install--start-%EC%98%A4%EB%A5%98&quot; aria-label=&quot;npm install  start 오류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;npm install &amp;#x26; start 오류&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;There was a problem loading the local develop command. Gatsby may not be installed in your site&apos;s &quot;node_modules&quot; directory. Perhaps you need to run &quot;npm install&quot;? You
+might need to delete your &quot;package-lock.json&quot; as well.&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;새 노트북에 git 저장소를 클론을 해온 후 npm install이 잘 되지 않았다. 오류를 구글링 해서 install 문제를 겨우 해결했더니 이번에는 npm start에서 말썽이고… 구글링해서 해결하면 또 다른 이유로 start가 되지 않는 무한 반복에서 헤어나오지 못하다가 결국 node_modules 디렉토리를 싹 지우고  후, 새로 처음부터 다시 install한 후 start 해보니 되었다. &lt;em&gt;(이 방법은 적절한 해결 방법이 아니니 시도하지 말고 글을 끝까지 읽을 것!!)&lt;/em&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;package-lockjson-충돌-오류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#package-lockjson-%EC%B6%A9%EB%8F%8C-%EC%98%A4%EB%A5%98&quot; aria-label=&quot;package lockjson 충돌 오류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;package-lock.json 충돌 오류&lt;/h3&gt;
+&lt;p&gt;한시름 놓으며 커밋 후 merge를 해주려 하니,, package-lock.json 파일에서 충돌이 났다. 파일을 들여다보니 바뀌어도 한참 바뀌었더라… 충돌이 나지 않는 게 더 이상할 정도로ㅋㅋㅋㅋㅋ.. &lt;del&gt;2만 줄이었던 파일이 무려 5만 줄이 되어 있었다..&lt;/del&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 7.777777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAc0lEQVQI13WOywqDMBRE/YgqtFI0qe9obHygiFT8/486Jll14+Iww+UyM0HzXaj1TKEGckvVTd4necvjmRLF0iL+kIQvwVvWiKLjU/UkmSK13mkwbSdm+TGsB8qs9POOHjf/eBfo7qLUtnjEDXJDssb40AsajznRznpFngAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;package-lock_update&quot;
+        title=&quot;package-lock_update&quot;
+        src=&quot;/static/3caf58726a92b2c9f495fa1d343ba5cf/37523/package-lock-update.png&quot;
+        srcset=&quot;/static/3caf58726a92b2c9f495fa1d343ba5cf/e9ff0/package-lock-update.png 180w,
+/static/3caf58726a92b2c9f495fa1d343ba5cf/f21e7/package-lock-update.png 360w,
+/static/3caf58726a92b2c9f495fa1d343ba5cf/37523/package-lock-update.png 720w,
+/static/3caf58726a92b2c9f495fa1d343ba5cf/c6bbc/package-lock-update.png 910w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;충돌이 나면 그 전 파일로 다시 바꿔주면 충돌이 사라지지 않을까..? 싶은 마음에 package-lock.json 파일을 마음대로 전 노트북 때의 파일로 바꿨더니 merge는 성공했지만 다시 npm start가 되지 않는 상황ㅋㅋㅋㅋㅋㅋ 역시 이건 해결 방법이 아니었구나.. 스스로 어이없어 하며 열심히 오류를 구글링했다.  &lt;/p&gt;
+&lt;p&gt;찾아보니 package.json 파일과 package-lock.json 파일이 동기화 되지 않았을 때 npm install하면서 package-lock.json 파일만 업데이트되어 충돌이 생겼던 것이었다. 그렇다면 해결 방법이 없을까… 또 폭풍 구글링을 했고, 결국 npm start 오류와 git 충돌 오류 둘 다 해결할 수 있었다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;package-lockjson-충돌-해결&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#package-lockjson-%EC%B6%A9%EB%8F%8C-%ED%95%B4%EA%B2%B0&quot; aria-label=&quot;package lockjson 충돌 해결 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;package-lock.json 충돌 해결&lt;/h3&gt;
+&lt;p&gt;결론은! package-lock.json 파일이 변경되지 않도록 안전하게 설치해주기 위해서 npm install 대신 &lt;code class=&quot;language-text&quot;&gt;npm ci&lt;/code&gt;를 해주어야 했던 것! &lt;strong&gt;npm ci&lt;/strong&gt;는 기존의 node&lt;em&gt;modules/ 디렉토리를 제거하고 새로 설치한다. 여기까지는 내가 시도한 node&lt;/em&gt;modules 디렉토리를 제거하는 방법과 비슷한 것 같지만, 결정적으로 install과 ci의 차이점은 &lt;strong&gt;재설치 시 package.json 파일과 package-lock.json 파일이 다르더라도 package-lock.json 파일을 변경하지 않아&lt;/strong&gt; 충돌이 생기지 않게 되는 것이다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABCElEQVQoz52RW26DMBRE2Un/8fuNDSEpSVUp+9/P9NokpEpRWvXj6IKMDzN2d1wuWD6vmJcPzO8XTMeFOCNPR/hUII3/E8IEKBvRactR8oyhLMjjiBQc4REJ7x2sMVBSPBD89iw3JMGUQ090nL9hiiOGTMlOZ6RyQD6cUMYJpRSEOEAbB209jAtttnetN7j24DaBG0qorIF1CcYPsDGvhAylDYQQYNKA0YYHAUxosL4HY+wHXfBrvVbRuVZH8HWxr5uIfo/b+jNdoDOKMTWhcwJeKUhKdv9gL8X2s72EnhKGEGBIXM+jzooiMef8pfSlsM67rFJv7l/CKosxNmmV1IsQT5V/q/+dL6OrF/qngKfDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;npm_ci&quot;
+        title=&quot;npm_ci&quot;
+        src=&quot;/static/7310feea0008ec615c354d64f31c0db5/37523/npm_ci.png&quot;
+        srcset=&quot;/static/7310feea0008ec615c354d64f31c0db5/e9ff0/npm_ci.png 180w,
+/static/7310feea0008ec615c354d64f31c0db5/f21e7/npm_ci.png 360w,
+/static/7310feea0008ec615c354d64f31c0db5/37523/npm_ci.png 720w,
+/static/7310feea0008ec615c354d64f31c0db5/302a4/npm_ci.png 1080w,
+/static/7310feea0008ec615c354d64f31c0db5/07a9c/npm_ci.png 1440w,
+/static/7310feea0008ec615c354d64f31c0db5/990be/npm_ci.png 2748w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA0ElEQVQoz41R2Q6DMAzrz0ziGL0pl8T1//+UzZFSsWqbeDBNg3Eco7z3FEJgxBhpGIZ8d85xr+97Ag/AHZD3177WmhQeIiRECIAsH1VVRXVd/wU4TdOQSinRuq6MbdvoPE+apomnWWvJGENt296GgiogLlDLRAF6IMtZ1h+CXdexC6wGV1LLiXzA+SVQ9hXywprHcdC+73zO85yzRLZY/bag0YZiiNkNhK4RXKP4hlJUPd07I/cg6/XbUcrO8GPgbhxHBnpwjqEYviwLR1Q6fAFgoPeVa7zCjAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;npm_start&quot;
+        title=&quot;npm_start&quot;
+        src=&quot;/static/a633004b1d42bf78ef4d9a4ba8f3d8fe/37523/npm_start.png&quot;
+        srcset=&quot;/static/a633004b1d42bf78ef4d9a4ba8f3d8fe/e9ff0/npm_start.png 180w,
+/static/a633004b1d42bf78ef4d9a4ba8f3d8fe/f21e7/npm_start.png 360w,
+/static/a633004b1d42bf78ef4d9a4ba8f3d8fe/37523/npm_start.png 720w,
+/static/a633004b1d42bf78ef4d9a4ba8f3d8fe/2e694/npm_start.png 1048w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 8.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAjElEQVQI1z2NPQ6CQBhEOcSyLiv/u2BiYiMGYyRcQgsLKk9hbCws9Er0eq7nB4XFZPKKeRPcLiOP4cPp+CK0KWW9IUoci7iU9iiTYoSnaJsRFltU0RIuvXAu3KDdHpU3svEE92Hkef1y7t6oKCFza0zssFk15y+Ug0moyx266lCzUNi1mFWP9gdMWvMD0TY82BZ5TBsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;merged&quot;
+        title=&quot;merged&quot;
+        src=&quot;/static/0f58685f031ff4accd579206c41a45a5/37523/merged.png&quot;
+        srcset=&quot;/static/0f58685f031ff4accd579206c41a45a5/e9ff0/merged.png 180w,
+/static/0f58685f031ff4accd579206c41a45a5/f21e7/merged.png 360w,
+/static/0f58685f031ff4accd579206c41a45a5/37523/merged.png 720w,
+/static/0f58685f031ff4accd579206c41a45a5/eb3fa/merged.png 1026w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;npm ci&lt;/strong&gt;를 통해 package-lock.json을 변경하지 않고 node_modules 재설치를 해주었더니 start와 merge 모두 오류 없이 잘 진행되는 것을 확인할 수 있다.  &lt;/p&gt;
+&lt;p&gt;결국 다시 clone한 후에 npm ci를 해주고 원격 저장소 연결까지 다시 해주는 수고스러움을 통해 오류를 해결했다. 이렇게 &lt;del&gt;무식하게&lt;/del&gt; 몸이 고생하지 않으려면 git 공부를 정말 열심히 해야겠구나 싶었다. 앞으로 얼렁뚱땅 내 맘대로 package-lock.json 파일을 만지는 행동은 절대 하면 안 되겠다고 반성도 하고, 내가 아직 정말 배울 게 많구나라는 생각이 들게 만드는 오류였다. 같은 오류를 겪지 않도록 더욱 성장하자🌱💦&lt;/p&gt;</content:encoded></item><item><title><![CDATA[javascript 반복문]]></title><description><![CDATA[반복문 while문 while은 조건식이 참인 동안 반복해서 동작문을 실행한다. ‘while (조건식) 동작문;‘의 형태로 작성하며 동작문이 여러 줄일 경우 {}로 감싼다. while문을 사용할 때는 무한 반복이 되지 않도록 주의해야 한다. for…]]></description><link>https://www.jsh99.com/JavaScript/loop_statement/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/loop_statement/</guid><pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;반복문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%98%EB%B3%B5%EB%AC%B8&quot; aria-label=&quot;반복문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;반복문&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;while문&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#while%EB%AC%B8&quot; aria-label=&quot;while문 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;while문&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;while&lt;/strong&gt;은 조건식이 참인 동안 반복해서 동작문을 실행한다. ‘&lt;strong&gt;while (조건식) 동작문;&lt;/strong&gt;‘의 형태로 작성하며 동작문이 여러 줄일 경우 {}로 감싼다. while문을 사용할 때는 무한 반복이 되지 않도록 주의해야 한다.&lt;/p&gt;
