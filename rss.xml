@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 17 Feb 2022 12:43:24 GMT</lastBuildDate><item><title><![CDATA[javascript 객체]]></title><description><![CDATA[javascript 객체 배열(Array) 배열은 ‘예약어 변수명 = [];’의 형태로 선언하고, 쉼표로 구분하여 값을 넣어줄 수 있다. 배열의 자릿수는 index로 나타내며 0부터 시작한다. 배열 내부의 값을 요소(element…]]></description><link>https://www.jsh99.com/JavaScript/object/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/object/</guid><pubDate>Thu, 17 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript-객체&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EA%B0%9D%EC%B2%B4&quot; aria-label=&quot;javascript 객체 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript 객체&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Feb 2022 17:19:10 GMT</lastBuildDate><item><title><![CDATA[javascript 알림창]]></title><description><![CDATA[javascript 알림 창 경고 창(Alert) 은  으로, 사용자에게 알릴 메세지를 표시한다.     선택 창(Confirm…]]></description><link>https://www.jsh99.com/JavaScript/notification_window/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/notification_window/</guid><pubDate>Fri, 25 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript-알림-창&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EC%95%8C%EB%A6%BC-%EC%B0%BD&quot; aria-label=&quot;javascript 알림 창 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript 알림 창&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;경고-창alert&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EA%B3%A0-%EC%B0%BDalert&quot; aria-label=&quot;경고 창alert permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경고 창(Alert)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;alert&lt;/code&gt;은  &lt;code class=&quot;language-text&quot;&gt;경고 창&lt;/code&gt;으로, 사용자에게 알릴 메세지를 표시한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 556px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 28.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAApklEQVQY052Pyw3CMBBE3QVnOqIVTvTAlTIogCJogFukEIjt/A6AsA3rwTZgIsVBiJVm97CjpxlmjMFbWut4rbV/iQkhUJYcdVUhyzJIKZHne/fET+N95BYFIJ7AumkCSGvTM9p4U3Kf6OkPU0qFiv4S0QCWTvWBdRdC0d5x6AjKuMpj5m9Q+6roZ7ZqMV1wTOYc6+0VbFhlPFkqoYcsNyenM3bHGx6279LY/cSaXwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Alert&quot;
+        title=&quot;Alert&quot;
+        src=&quot;/static/18c1980a31c25768f0e0aa94ca148d35/96638/alert.png&quot;
+        srcset=&quot;/static/18c1980a31c25768f0e0aa94ca148d35/e9ff0/alert.png 180w,
+/static/18c1980a31c25768f0e0aa94ca148d35/f21e7/alert.png 360w,
+/static/18c1980a31c25768f0e0aa94ca148d35/96638/alert.png 556w&quot;
+        sizes=&quot;(max-width: 556px) 100vw, 556px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;선택-창confirm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%ED%83%9D-%EC%B0%BDconfirm&quot; aria-label=&quot;선택 창confirm permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;선택 창(Confirm)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;confirm&lt;/code&gt;은 &lt;code class=&quot;language-text&quot;&gt;선택 창&lt;/code&gt;으로, &lt;strong&gt;취소 버튼&lt;/strong&gt;이 있어 사용자의 확인을 요구한다. 어떤 버튼을 누르는지 결과에 따라 프로그램이 동작한다. 사용자가 &lt;code class=&quot;language-text&quot;&gt;확인&lt;/code&gt;을 선택하면 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt;를 반환하고, &lt;code class=&quot;language-text&quot;&gt;취소&lt;/code&gt;를 선택하면 &lt;code class=&quot;language-text&quot;&gt;false&lt;/code&gt;를 반환한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;confirm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;삭제하시겠습니까?&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 555px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 28.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxUlEQVQY051QyQ3CMBBMJXyogsKQaIAvD0qgCyS+/OgBYSRyOSCSCMfHeohNjEI4Hqw0ntV6d/aIlFJw0FpDSul9x9bavxBlWYY4TsA5BzuwlgswdvSfn8yFqX0ChhZ5sZzDCSdpjrIsu8LXzm3kZ5OnoBACspFomsbDrRwK+wLBV8bidCGwwiArqZuyt/LnjvZN1NCDd3uF0TTFeJZiMs9RCYNzZSAktbmE6NtxhxOGeyVXwnJTY7GusdreoDRBG4Ix5PPvy2PSO/1cHlcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Confirm&quot;
+        title=&quot;Confirm&quot;
+        src=&quot;/static/6be8075dc05a1ab2b6f271290c5e23ce/cd039/confirm.png&quot;
+        srcset=&quot;/static/6be8075dc05a1ab2b6f271290c5e23ce/e9ff0/confirm.png 180w,
+/static/6be8075dc05a1ab2b6f271290c5e23ce/f21e7/confirm.png 360w,
+/static/6be8075dc05a1ab2b6f271290c5e23ce/cd039/confirm.png 555w&quot;
+        sizes=&quot;(max-width: 555px) 100vw, 555px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;입력-창prompt&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%85%EB%A0%A5-%EC%B0%BDprompt&quot; aria-label=&quot;입력 창prompt permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;입력 창(Prompt)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;prompt&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;입력 창&lt;/code&gt;으로, 텍스트 필드 안에 &lt;strong&gt;메세지를 입력&lt;/strong&gt;할 수 있다. 입력한 내용은 프로그램에서 사용 가능하며, &lt;code class=&quot;language-text&quot;&gt;기본 값&lt;/code&gt;을 지정할 수도 있다. 입력된 값의 자료형은 &lt;strong&gt;문자열&lt;/strong&gt;이다. 사용자가 값을 입력하고 &lt;code class=&quot;language-text&quot;&gt;확인&lt;/code&gt; 버튼을 누르면 사용자가 &lt;code class=&quot;language-text&quot;&gt;입력한 값&lt;/code&gt;을 반환하고, &lt;code class=&quot;language-text&quot;&gt;취소&lt;/code&gt; 버튼을 누르면 &lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;을 반환한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;1.이름을 입력하세요.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2.국적을 입력하세요.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;대한민국&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; #기본값 지정&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 553px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA7UlEQVQoz52RQU7DMBBFcx82nKK3QuIEnIRtt5wAFrCALRLBSao0TWPHdsYef8ZuEUICUTrS00hj+2n0XYUQ4JyD9x7W2oIxBkSEXCmlwqlV5cdKKXTdBnVdQzUN2raF1vqb8FQqWnwRKtWg73s0IhzH8SxZ2XCzZ2yniJ2JGDL60MeZhfQjg8lw4XO2O86KcG8TtEuY3Fef7O8sISFEgMLhfiY7tlqEFBNmLyzH/hdy7/k94OGV8PhGImKZM4xjRJYMcUatbnpcXHW4vJaPHAJmF+GJJXTZ8L/B5+zvXjxu7y3WT65sF5klAi7nHyPRbXx2ymJKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;prompt&quot;
+        title=&quot;prompt&quot;
+        src=&quot;/static/4ce978fe0629bcc36bce221dbfda25bb/74cfa/prompt.png&quot;
+        srcset=&quot;/static/4ce978fe0629bcc36bce221dbfda25bb/e9ff0/prompt.png 180w,
+/static/4ce978fe0629bcc36bce221dbfda25bb/f21e7/prompt.png 360w,
+/static/4ce978fe0629bcc36bce221dbfda25bb/74cfa/prompt.png 553w&quot;
+        sizes=&quot;(max-width: 553px) 100vw, 553px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 554px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/klEQVQoz52QzUrDQBSF8zz6Lr6RvoRv4aoL98V1oIu60YKg2DSZJs0kmf/f42QQVJASeuDbnDucOfcWzjkopTJSSgghwTmHMQazYoyZpSqmiWG/r1A3BFVV4XCo0RCCibE/gUsptJJgYw/atWgTpKlBh+GisNzwrdF4LFusnymOowPlHj3zoCJgEPFfej4TMvTbo8nrWEDxfjR42hKUO5rMAKYjJnUGGaFthPMR1kXwX343pUAfgJDapjmkiRD6PPOb19ph82Gx/bR5E6FTERXyJ0W6FH5Yppv7E65uCa7vSAq3MNbnUMTU8JLDr180HkqJ1UZhlB4hzO1Cnn8B4Ohr0nLE8rsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;prompt_default&quot;
+        title=&quot;prompt_default&quot;
+        src=&quot;/static/f83448536d64c3f722316751560a2b83/04abd/prompt_default.png&quot;
+        srcset=&quot;/static/f83448536d64c3f722316751560a2b83/e9ff0/prompt_default.png 180w,
+/static/f83448536d64c3f722316751560a2b83/f21e7/prompt_default.png 360w,
+/static/f83448536d64c3f722316751560a2b83/04abd/prompt_default.png 554w&quot;
+        sizes=&quot;(max-width: 554px) 100vw, 554px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[javascript 객체]]></title><description><![CDATA[javascript 객체 배열(Array) 배열은 ‘예약어 변수명 = [];’의 형태로 선언하고, 쉼표로 구분하여 값을 넣어줄 수 있다. 배열의 자릿수는 index로 나타내며 0부터 시작한다. 배열 내부의 값을 요소(element…]]></description><link>https://www.jsh99.com/JavaScript/object/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/object/</guid><pubDate>Thu, 17 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;javascript-객체&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EA%B0%9D%EC%B2%B4&quot; aria-label=&quot;javascript 객체 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript 객체&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;배열array&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%B0%EC%97%B4array&quot; aria-label=&quot;배열array permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;배열(Array)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;배열&lt;/strong&gt;은 ‘&lt;strong&gt;예약어 변수명 = [];&lt;/strong&gt;’의 형태로 선언하고, 쉼표로 구분하여 값을 넣어줄 수 있다. 배열의 자릿수는 &lt;strong&gt;index&lt;/strong&gt;로 나타내며 0부터 시작한다. 배열 내부의 값을 &lt;strong&gt;요소&lt;/strong&gt;(element)라고 한다.  &lt;/p&gt;
