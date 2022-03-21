@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['초보 프론트엔드', '꾸준히 성장 중인'],
-      thumbnail: 'idea.png', // Path to the image in the 'asset' folder
+      thumbnail: 'Memoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/JSH99`,
