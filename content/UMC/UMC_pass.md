@@ -10,7 +10,7 @@ categories: UMC
 ## UMC 2기 합격 후기
 <br>  
 
-![UMC](./img/UMC.png)  
+![UMC](./img/UMC.png)
 
 ### UMC⭐️
 👉**UMC 홈페이지**  https://makeus-challenge.oopy.io/umc
