@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `JSH99/JSH99.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
@@ -14,12 +14,12 @@ module.exports = {
     name: `정서현`,
     bio: {
       role: `개발자`,
-      description: ['초보 프론트엔드'],
-      thumbnail: 'idea.png', // Path to the image in the 'asset' folder
+      description: ['초보 프론트엔드', '꾸준히 성장 중인'],
+      thumbnail: 'Memoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/JSH99`,
-      linkedIn: ``, 
+      linkedIn: `https://www.linkedin.com/in/seohyeon-jeong-9a5b40234/`,
       email: `tjgus9966@gmail.com`, 
     },
   },
@@ -51,6 +51,26 @@ module.exports = {
           demo: 'https://jsh99.github.io',
         },
       },
+
+      {
+        date: '2021.09 ~ 2021.11',
+        activity: 'We.borrow(대여 물품 관리 웹) 프로젝트',
+        links: {
+          post: '',
+          github: 'https://github.com/JSH99/we.borrow',
+          demo: '',
+        },
+      },
+
+      {
+        date: '2022.03 ~',
+        activity: 'UMC 2기 챌린저 (Web)',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
     ],
 
     projects: [
@@ -72,15 +92,28 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
+        title: 'We.borrow(대여 물품 관리 웹)',
+        description:
+          '수기 작성을 통한 물품 대여 진행의 불편함을 개선하고자 만든 웹 사이트. 목록 조회 및 검색을 통해 사용자가 대여 가능 물품을 대여하고, 관리자가 물품 등록&삭제 및 반납 처리를 한다.',
+        techStack: ['react','node.js'],
+        thumbnailUrl: 'weborrow.png',
+        links: {
+          post: '',
+          github: 'https://github.com/JSH99/we.borrow',
+          demo: '',
+        },
+      },
+
+      {
         title: '여행지 추천',
         description:
-          '자신에게 맞는 여행지를 추천해주는 웹 사이트',
+          '여행을 가고 싶지만 어디로 떠나야 할지 막막한 분들을 위해 자신에게 잘 맞는 여행지를 추천해주는 웹 사이트',
         techStack: ['javascript'],
         thumbnailUrl: 'travel_recommendation.png',
         links: {
-          post: '/about',
+          post: '',
           github: 'https://github.com/JSH99/Travel_Recommendation',
-          demo: 'https://jsh99.github.io',
+          demo: '',
         },
       },
     ],
