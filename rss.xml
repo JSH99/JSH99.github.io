@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Apr 2022 07:49:16 GMT</lastBuildDate><item><title><![CDATA[UMC 2주차 워크북(2)]]></title><description><![CDATA[UMC 2주차 워크북(2) CSS 속성(property) 태그는 컨텐츠 크기와 상관 없이 한 줄을 차지하는 태그인   요소와 컨텐츠 크기만큼 차지하는 태그인  요소가 있다. 너비와 높이를 지정해주는 width, height 속성은 block…]]></description><link>https://www.jsh99.com/UMC/W2_workbook2/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W2_workbook2/</guid><pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-2주차-워크북2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-2%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%812&quot; aria-label=&quot;umc 2주차 워크북2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 2주차 워크북(2)&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 Apr 2022 16:04:03 GMT</lastBuildDate><item><title><![CDATA[22년 3월 회고]]></title><description><![CDATA[2022년 3월 회고 휴학🏫…]]></description><link>https://www.jsh99.com/Diary/202203/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/202203/</guid><pubDate>Fri, 08 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;2022년-3월-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2022%EB%85%84-3%EC%9B%94-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;2022년 3월 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2022년 3월 회고&lt;/h2&gt;
+&lt;br&gt; 
+&lt;h3 id=&quot;휴학&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%9C%B4%ED%95%99&quot; aria-label=&quot;휴학 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;휴학🏫&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABaklEQVQoz5WPW2/aQBCF/f9/SV7aIBXlUqlNkxKaOKIkAcLFEEKoGqixvd61udnm66yt9j0rHc3MmXNmZp3T+5APtRqNG5fLRpPPXy+o1U+Yvc6x73A48J7n/A63JEmKNgn+KiBSMUbq3X5PIcOyPCfL8ioK8rwo+bwoBFX818uyDEdpg0q26HRHLFGZDUEsw0PNcqUI9ZowTomEtzpbv/khfmRKjR9p4auerR1LdPsjloFCr/eMp3M6vQGdpyEP3T5/RFQuEphNJsMibu9aeM8zHjpP9AYeyTZHS88e4iizLoWVaUO6KzAyWCgkrcRyvc0tpCy5WDj7G3u57VtPoAzORDZ25gsmK81oGXLV7vKjN+Ty5yPnTZeW98Lj9FeZn1+7nH6/of08ZxoljFcxk0D/j94iwBn6itbsjUFg6AlRF1O9eceZ2+aT5M3hFNebcXT2hY8XDY6/XXM7fmUUpfTlCIuBhfj7i5C/PYUKPwlZ4OUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;take off&quot;
+        title=&quot;take off&quot;
+        src=&quot;/static/6f85f89c5a4ec576d4f209a0e19540f7/01e7c/take_off.png&quot;
+        srcset=&quot;/static/6f85f89c5a4ec576d4f209a0e19540f7/e9ff0/take_off.png 180w,
+/static/6f85f89c5a4ec576d4f209a0e19540f7/f21e7/take_off.png 360w,
+/static/6f85f89c5a4ec576d4f209a0e19540f7/01e7c/take_off.png 512w&quot;
+        sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;3월, 평소같았으면 개강으로 정신 없어야 할 시기였지만 휴학을 하니 세상 모든 것이 아름다워 보였다.😆&lt;br&gt;
+하지만 아름다움도 정말 잠시.. 공부를 위해 휴학을 한 만큼 마냥 쉴 수만은 없다 보니 개강한 것처럼 스케줄이 바빴다.&lt;br&gt;
+휴학하면 꽃 보러 나들이도 가고,, 여행도 가고,, 나름대로 로망 아닌 로망들이 있었지만 현실은 기숙사 방 구석에서 맥북만 두들기고 있었다.ㅎㅎ&lt;br&gt;
+그래도 학기 중과 다르게 내 시간을 온전히 다 가질 수 있는 것이 좋고, 앞으로 내가 하고 싶었던 것들로 이 시간들을 알차게 채워나가고 싶다!&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;h3 id=&quot;umc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc&quot; aria-label=&quot;umc permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC👨‍👩‍👧‍👦&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 256px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC20lEQVQ4y6VUvUtjQRB/MRHsBCEggho1IseBhQYbtQvXKIJaBBQLK9FCsNEQMX5rIRaBdAYiWggeUfxCEQ0JAT8K8TDYxTR3/4AcVxx52d/tjG+f8RmLwwc/dt7Mzm9mdnZHE0J8A/BL13W5IC8hCiH1Qn0kW+3yy8uPfNNS/qpJ4adBpudyOezv72NhYQHhcBhPT0/gKC8O/N3f32N9fR3Ly8u4uLhQat3Yk9IUWTabRUtLi9A0zURpaamQxGY2k5OTb+yErq4u8fz8LF7i5nXKUFBmra2tigR2ux20yn9GKpXCxsYGyzabDQ6Hg2HsET6fTxiV5Jjw4OAAiowcCORMTrS2t7ejubmZZQqmiAklJSXsm06niZMJsbKyYhKojYpUOSlyq90IIOjsTcKlpSXTWIywULaSKsJYLPZKSB2jjVQyZWMFOalghTq1viNUGX4CxQlra2tRWVmJuro6VFVVob6+nnVutxsNDQ2oqKhgW1NTE10x1peXlzPh3t7eK+H8/DwTnp2d4ejoCHd3d9je3sbp6SkSiQTOz89ZF4lEcHJygt3dXUSjUezs7KCmpuY9oTpDylReXgQCAYyNjaGtrQ3d3d1YW1vDzMwM66empjA0NITOzk709/ejrKzs46aQw+rqKsbHx1keHh7G6OgoY2RkBBMTE2hsbOS9xv0r3hR6u+pFPD4+cnm3t7e4vLxkUInX19dIJpPweDxvGmLcz+IZ9vb2YnBwEF6vl0vt6emBfKvo6Ohg28DAAFwuF8PpdKK6urpol4WRodjc3EQoFEI8HsfNzQ1PluPjY2xtbfFK+qurK37X1JxgMGgSFjZFzM7OsnJ6elrQ4dM/jS/KfG5ujp8mNYbO1+/3Y3FxkQP39fVBTR06FppaXLKMrFvH0v9A3sV8JpOhgfhXk1P2B5E+PDxw2oeHhwyaQGothNVGZ6cGsZyt3ynDL3KOxeX65xP4LcmoZuc/XcCjS4bx8KcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;umc logo&quot;
+        title=&quot;umc logo&quot;
+        src=&quot;/static/072202b54fbdab5fe9521ebb5c92f32a/6f3f2/UMC.png&quot;
+        srcset=&quot;/static/072202b54fbdab5fe9521ebb5c92f32a/e9ff0/UMC.png 180w,
+/static/072202b54fbdab5fe9521ebb5c92f32a/6f3f2/UMC.png 256w&quot;
+        sizes=&quot;(max-width: 256px) 100vw, 256px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;학생회, 스터디, 교육봉사는 해봤지만 연합 동아리는 처음이어서 설렜다.&lt;br&gt;
+휴학하는 동안 팀 프로젝트를 꼭 해보고 싶었는데 UMC를 통해 내가 바라던 것을 이룰 수 있게 되어 기뻤다.&lt;br&gt;
+3월에는 OT와 3주 동안의 스터디를 진행해왔는데, 아직까지는 무리없이 잘 따라가고 있다.&lt;br&gt;
+개발 공부를 하면서 기본은 쌓으면 쌓을수록 탄탄해지는구나 라는 것을 느껴 복습이라고 해서 소홀히 하지 않게 되었다.&lt;br&gt;
+자바스크립트 기본을 공부하는 것은 이번이 3번째인데도, 간과하고 넘어갔던 부분들이 보여서 공부하며 새로운 깨달음을 얻는 것이 소소한 즐거움이 되었다.&lt;br&gt;
+앞으로 4월에는 아이디어톤, 4월 챌린지(무려 4개!) 등 앞으로도 참여할 활동이 많으니 열심히 해야겠다.👩‍💻&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;h3 id=&quot;1일-1커밋&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EC%9D%BC-1%EC%BB%A4%EB%B0%8B&quot; aria-label=&quot;1일 1커밋 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1일 1커밋🌱&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.444444444444443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA8UlEQVQY00VQ0W7DIBDLD6TNAQkkEAI0TTtN1SbtZdL+/7s8k6zdg4UxnO/OTbq+o2Iud8TLG3za0IrFSbl/dO7Q5OC7Rt6eB6g+wLqM3i2Q3qM56RFqCNAuojMT+Qzh3fjlpQ+3smt6XqBLhuYfFSJUTjD1vhW007Q3bepEYgJUjDD8INpDORb4yI4BYml+zTApQd8zZE1QykPIu58N3ecF8s3zkQ/DOoG2B4a1QIeFk7KgglPJSPPMdVw4EOb9Td1o+LVCPlYoGp5LZAQ0rHubkavYGYNnd57PDF9ZmmeGFq0m/3vr9LQ30Rvj4SZV+wU54IA2SbnSwQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github&quot;
+        title=&quot;github&quot;
+        src=&quot;/static/6bad6eb1315c5fd6648254ff82c824b0/37523/github.png&quot;
+        srcset=&quot;/static/6bad6eb1315c5fd6648254ff82c824b0/e9ff0/github.png 180w,
+/static/6bad6eb1315c5fd6648254ff82c824b0/f21e7/github.png 360w,
+/static/6bad6eb1315c5fd6648254ff82c824b0/37523/github.png 720w,
+/static/6bad6eb1315c5fd6648254ff82c824b0/302a4/github.png 1080w,
+/static/6bad6eb1315c5fd6648254ff82c824b0/07a9c/github.png 1440w,
+/static/6bad6eb1315c5fd6648254ff82c824b0/191e2/github.png 1836w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;개발 공부를 어떻게 시작해야 할지, 또 어떤 공부를 하면 좋을지 고민을 많이 했었다.&lt;br&gt;
+과거의 나는 개발에 소질이 없는 사람이라 생각해왔고, (&lt;del&gt;그렇다고 지금 소질이 생겼다는 이야기는 아니지만&lt;/del&gt;) 소질 없는 사람이 어떻게 재능있는 사람을 이길 수 있을까 라는 생각에 스스로 성장의 벽을 세웠다.&lt;br&gt;
+늦은 것처럼 느껴져 초조했지만, 사람마다 속도가 다르다는 말을 새기며 내가 잘 할 수 있는 작은 일부터 시작하기로 했다.&lt;br&gt;
+내가 지금 자신 있는 것은 성실함이었고, 그 마음으로 매일 잔디를 심고 꾸준히 개발 블로그 포스팅을 하는 것을 목표로 삼았다.&lt;br&gt;
+정말 기초부터, 아주 쉽고 귀여운 알고리즘부터 풀어나가며 매일 커밋을 했더니 2달 동안 잔디가 꽤 많이 자랐다.&lt;br&gt;
+아직 많이 부족하지만, 앞으로도 내 잔디밭이 무럭무럭 자랐으면 좋겠다.🌳&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;h3 id=&quot;정처기-실기-준비&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%B2%98%EA%B8%B0-%EC%8B%A4%EA%B8%B0-%EC%A4%80%EB%B9%84&quot; aria-label=&quot;정처기 실기 준비 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정처기 실기 준비✍🏻&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABdvI+a2PH/8QAGxAAAQUBAQAAAAAAAAAAAAAAAAECERITITH/2gAIAQEAAQUCb42CUUtzartj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhABAAEFAAAAAAAAAAAAAAAAADEBAiEicf/aAAgBAQAGPwJd1tKFcIf/xAAbEAEAAgIDAAAAAAAAAAAAAAABACFRYRHB0f/aAAgBAQABPyGp3AEAAYQwAqBT2ljfncKe5//aAAwDAQACAAMAAAAQiM//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQMBAT8QRtv/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QEsv/xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMUFhofDx/9oACAEBAAE/EEOapeIQ8CAMWcEAxMhhp7OmMDoRYCha+ZaErfvif//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;studying&quot;
+        title=&quot;studying&quot;
+        src=&quot;/static/3dc215c0a7260679bdee739d0ff26e27/80e3c/study_note.jpg&quot;
+        srcset=&quot;/static/3dc215c0a7260679bdee739d0ff26e27/4ec73/study_note.jpg 180w,
+/static/3dc215c0a7260679bdee739d0ff26e27/158ba/study_note.jpg 360w,
+/static/3dc215c0a7260679bdee739d0ff26e27/80e3c/study_note.jpg 720w,
+/static/3dc215c0a7260679bdee739d0ff26e27/47311/study_note.jpg 1080w,
+/static/3dc215c0a7260679bdee739d0ff26e27/644c5/study_note.jpg 1440w,
+/static/3dc215c0a7260679bdee739d0ff26e27/589fa/study_note.jpg 2877w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;정처기 필기를 합격하고 나서 책이 올 때까지 꽤 오랜 시간이 걸려(&lt;del&gt;좋은 핑계&lt;/del&gt;) 공부를 약 2주 정도 쉬었다.ㅎㅎ&lt;br&gt;
+필기 시험까지 계속 달리다가 갑자기 푹 쉬어버리니 다시 집중하기까지 쉽지 않았다.&lt;br&gt;
+필기 때 배웠던 내용이지만 벌써 가물가물해서 당황스럽기도 하고, 아는 내용이어도 서술형으로 설명하라 하니 막막하기도 하고..&lt;br&gt;
+벌써부터 걱정이 태산이지만 아직 한 달의 시간이 있으니까! 붙을 각오로 열심히 부숴줘야겠다.👊&lt;br&gt;
+뭔가 이 방대한 범위에서 20문제만 나온다니 많은 양을 공부하는 게 억울한(?) 느낌이지만 그래도 한 번에 붙기 위해 달려보자.🐎&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;h3 id=&quot;잘-하고-싶은-욕심&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%98-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EC%9A%95%EC%8B%AC&quot; aria-label=&quot;잘 하고 싶은 욕심 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;잘 하고 싶은 욕심🏆&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByklEQVQoz1VS2XLaQBDc//+dVKUSx4mJsS0QIIRuIYTQhYDY4OMDOtNjKXYeumaP2e6emTWXOsa5ivDcJHjrMrzu1x9RwHOumfNUhThL/lMZvkPOzopQ8wjz0qa6OGxW2IU2tv4EwfQGVTxH7lloUgcr6xqpM8Zm9YA6WfQk0T9iEnJ/qSOYwUG7drC8/4FwNoL7cI3QHiFe3Cq8yU84d1cac9/Caed/uBQ87gKNrNYM5fIwc+/FhaWRropgqq53kY35+Jue7zMXfyS327j/kQ4wqlAGyv7cxGALXtpE7b+LxXLP3kV6xzOKH7YeutzFSeJRMLjUki+fGn0sfKTLOwT2DezRVyzG32H9+oJSXDbpQlryW9YzzW0zR1vVZksVoJih/QEnIVNlKaeTpEYGUCdzjV2+kv5NtKcc1EH2HBBFiFpAYvP4iWiwzj0JhjKOvQj7mci0i3Cq93RHslJ+BPtcibjRC2EebHNPwv1GHK6XEl0ce3J+pTKe6bAaIaOQijOn8KRKH4YXfNT0veAUNbJsAUvjH+VjOiwElZDuJWcbTLRsOmM8bYWQGyYdck+J6JCgAMtgb7pekCRdL8TpVskMJXtMM1INxf8CgyIPVCVkYK8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Abraham Lincoln&quot;
+        title=&quot;Abraham Lincoln&quot;
+        src=&quot;/static/a25acbf39b4b97d2ea1f969559197a42/37523/Lincoln.png&quot;
+        srcset=&quot;/static/a25acbf39b4b97d2ea1f969559197a42/e9ff0/Lincoln.png 180w,
+/static/a25acbf39b4b97d2ea1f969559197a42/f21e7/Lincoln.png 360w,
+/static/a25acbf39b4b97d2ea1f969559197a42/37523/Lincoln.png 720w,
+/static/a25acbf39b4b97d2ea1f969559197a42/5a190/Lincoln.png 800w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;살면서 처음으로 개발을 정말 잘 하고 싶다는 욕심이 생겼다.&lt;br&gt;
+3월은 나에게 스스로 더 나아가고 싶고, 내가 정말 잘 할 수 있는 사람이고 싶다는 생각이 드는 중요한 달이었다.&lt;br&gt;
+조급해하지 않고, 조금씩 꾸준히 성장하는 개발자가 되고 싶다.&lt;br&gt;
+느리게 가더라도 뒤로는 가지 않는다는 말이 있듯이, 매순간 과거보다는 더 나은 사람이 되자.&lt;br&gt;
+내가 힘차게 시작 할 수 있게 해준 이 ✨초심✨을 잊지 않고 늘 안고 살아야겠다.&lt;br&gt;
+앞으로 나를 돌아보고 반성하며 더 발전하기 위해 매달 회고를 기록하려고 한다.❤️‍🔥  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC 2주차 워크북(2)]]></title><description><![CDATA[UMC 2주차 워크북(2) CSS 속성(property) 태그는 컨텐츠 크기와 상관 없이 한 줄을 차지하는 태그인   요소와 컨텐츠 크기만큼 차지하는 태그인  요소가 있다. 너비와 높이를 지정해주는 width, height 속성은 block…]]></description><link>https://www.jsh99.com/UMC/W2_workbook2/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W2_workbook2/</guid><pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-2주차-워크북2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-2%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%812&quot; aria-label=&quot;umc 2주차 워크북2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 2주차 워크북(2)&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;css-속성property&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#css-%EC%86%8D%EC%84%B1property&quot; aria-label=&quot;css 속성property permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CSS 속성(property)&lt;/h3&gt;
 &lt;p&gt;태그는 컨텐츠 크기와 상관 없이 한 줄을 차지하는 태그인  &lt;code class=&quot;language-text&quot;&gt;block&lt;/code&gt; 요소와 컨텐츠 크기만큼 차지하는 태그인 &lt;code class=&quot;language-text&quot;&gt;inline&lt;/code&gt; 요소가 있다. 너비와 높이를 지정해주는 width, height 속성은 &lt;strong&gt;block&lt;/strong&gt; 요소만 사용 가능하다. &lt;strong&gt;inline&lt;/strong&gt; 요소는 적용해도 변화가 없다. 이런 특성을 변경해주는 속성이 &lt;code class=&quot;language-text&quot;&gt;display&lt;/code&gt;이다.&lt;/p&gt;
