@@ -1,4 +1,311 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 10 Apr 2022 13:18:41 GMT</lastBuildDate><item><title><![CDATA[UMC 3주차 워크북]]></title><description><![CDATA[UMC 3주차 워크북 변수(Variable…]]></description><link>https://www.jsh99.com/UMC/W3_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W3_workbook/</guid><pubDate>Sun, 10 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-3주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-3%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 3주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 3주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 Apr 2022 13:04:02 GMT</lastBuildDate><item><title><![CDATA[UMC 4주차 워크북]]></title><description><![CDATA[UMC 4주차 워크북 document document = html. 개발자 도구를 켜서 console에 document를 입력하면 전체 선택되는 것을 확인할 수 있다. DOM…]]></description><link>https://www.jsh99.com/UMC/W4_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W4_workbook/</guid><pubDate>Tue, 12 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-4주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-4%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 4주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 4주차 워크북&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;document&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#document&quot; aria-label=&quot;document permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;document&lt;/h3&gt;
+&lt;p&gt;document = html. 개발자 도구를 켜서 console에 document를 입력하면 전체 선택되는 것을 확인할 수 있다. DOM을 선택한 변수는 다른 변수와 구분하기 위해 $ 표시를 하는데, 생략해도 무관하다.&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABaElEQVQoz6WQ2U7CQBiF50UsLV1QA2j0nUSF+gJuxMRrl4Ka0IoFr73SGI0RQXB7AxNjhLBqxEc4zrQF2orExIsv5++cM+eflGQKVRyVWxZmpe2ambZxUGghe1ODUapDL9RgMt/J9fLZ26almWIVxKBh867jK207hS2krqhePkO7eEX6/AW5ctMqNF15N0RnhZ6XDebeS81Kxy6p2IsPSw1nqTfLGFnIZnaZYRTrlo5aPrTwvxD9+m3wY4eQ/UHDh9cnRqmJ3MOnzf0H5d1Dnp7nH7sWx0+MLx/dvs8g8eQe1I19xNdTSGydQE2fQ9VOsZQ6g8rY1JFIprFI/YU1DbGVHcz32bW+55a3EVvVLJ9MRacRCUcg8DykiSiUyCyU8AxkClNJUhAUROoL4AM8uDGOEnDg6JkASZQhySEoyjiIHJqEKIXACzJ4XqSBIFUXggQhKFMUG/EXHJ9wtCDAiujFv8Cyftz+N3J6U4tOj+XwAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;document&quot;
+        title=&quot;document&quot;
+        src=&quot;/static/9e8a7b038b2060143403b9ea4c18fb46/37523/document.png&quot;
+        srcset=&quot;/static/9e8a7b038b2060143403b9ea4c18fb46/e9ff0/document.png 180w,
+/static/9e8a7b038b2060143403b9ea4c18fb46/f21e7/document.png 360w,
+/static/9e8a7b038b2060143403b9ea4c18fb46/37523/document.png 720w,
+/static/9e8a7b038b2060143403b9ea4c18fb46/302a4/document.png 1080w,
+/static/9e8a7b038b2060143403b9ea4c18fb46/07a9c/document.png 1440w,
+/static/9e8a7b038b2060143403b9ea4c18fb46/e8d55/document.png 2894w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DOM을 제어하는 것이 곧 HTML을 제어하는 것이다.&lt;/strong&gt; 자바스크립트는 HTML의 DOM 객체를 가져와 조작할 수 있다. element를 가져오고, element의 텍스트를 읽고, element를 생성, 삭제, 수정할 수 있다.&lt;br&gt;
+➕참고 : &lt;a href=&quot;https://grace-go.tistory.com/78&quot;&gt;https://grace-go.tistory.com/78&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;dom-elements-가져오기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dom-elements-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0&quot; aria-label=&quot;dom elements 가져오기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;dom elements 가져오기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;getElementsByTagName&lt;/code&gt;&lt;/strong&gt; : 해당되는 &lt;strong&gt;태그&lt;/strong&gt;를 모두 지정해서 유사 배열(HTMLCollection)에 넣는다. document가 아닌 dom을 선택한 변수를 선택하여 영역을 제한할 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;getElementsByTagClassName&lt;/code&gt;&lt;/strong&gt; : 해당되는 &lt;strong&gt;클래스&lt;/strong&gt;를 모두 지정해서 유사 배열(HTMLCollection)에 넣는다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;getElementById&lt;/code&gt;&lt;/strong&gt; : 해당되는 &lt;strong&gt;id&lt;/strong&gt;를 배열이 아닌 element로 반환한다. id 값은 중복될 수 없기 때문에 결과 값이 하나이므로 단일 값이 반환되는 것이다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;querySelector&lt;/code&gt;&lt;/strong&gt; : css 선택자처럼 사용할 수 있어, 복잡한 조합의 선택자들을 선택할 수 있다. &lt;strong&gt;해당 조건을 만족하는 첫번째 element&lt;/strong&gt;만 선택한다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;querySelectorAll&lt;/code&gt;&lt;/strong&gt; : &lt;strong&gt;해당 조건을 만족하는 모든 element&lt;/strong&gt;를 선택하여 유사 배열(NodeList)로 반환한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $body &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $container &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementsByClassName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $title &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $cityList &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;cityList&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $cities &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; $cityList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;li&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $citiesAll &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; $cityList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;li&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $cityDiv &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.city&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;innerText&lt;/code&gt; : 태그를 제외하고 태그 안에 있는 모든 텍스트들을 나열한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;$container&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerText&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA00lEQVQY05WQy26DMBRELVWUTYCissjDAT/BsU2gm6zy/781vdhFYtvF0cydq7Fss67r8Fl8oCgKlGWJtv2GUAZSjzidGtRNi7rOVH96zPa5qhqcLxzs/eqxhDOVazTNF658QN8LzHMgPELweJKP0WN5bhoQfESkfGOOee+cgzEWbP1ZaYiw5gFjHewUqfBIDEJBSA1JJKWbi+R3zbuNYVCEBlP0NK1NOl1KC2U81iXAe4fLVYDfJW6cOGjKjvCcbbDd5KKgv3OYpgnjOKbs3qt/8QtU/4gHZ05b8wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;innerText&quot;
+        title=&quot;innerText&quot;
+        src=&quot;/static/a179db679cefb23025ecea254b4b6d4b/37523/innerText.png&quot;
+        srcset=&quot;/static/a179db679cefb23025ecea254b4b6d4b/e9ff0/innerText.png 180w,
+/static/a179db679cefb23025ecea254b4b6d4b/f21e7/innerText.png 360w,
+/static/a179db679cefb23025ecea254b4b6d4b/37523/innerText.png 720w,
+/static/a179db679cefb23025ecea254b4b6d4b/302a4/innerText.png 1080w,
+/static/a179db679cefb23025ecea254b4b6d4b/07a9c/innerText.png 1440w,
+/static/a179db679cefb23025ecea254b4b6d4b/fcdaa/innerText.png 2892w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;innerHTML&lt;/code&gt; : 태그를 포함해서 태그와  태그 안에 있는 모든 텍스트들을 나열한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;$body&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABSUlEQVQoz32SW0/DMAyFK4YE0sQKAzTYlra5NUnTy1aNiyYe+P9/6uCUTSvtxsMnO059HB812rUfeHq8w+3NNa4mE8xnMVaLJYR2iOM5ZvEDxQH3BwZ1nXtEdWPxvc/Ak2dMpzMsXpZ4XSVgjINzjYxIMoUklUhDJFgiu/OQ1TpDpJWGtRWsKVG4GlIZcGHQ1CW+9i2atoHzHrZwRAGZh3uNlCusaWgflghELOE0WXSEAmMCXBooncM6B20JyrnMu/uuMRWn/BCPRMMpgSCotYEviw5jDIRQZIEkFLLsN6bpSfRINCyEF4eVJVmxaytUpaP1C7TbEtuNR135zo4AP6x9VrAfg6CiF2pjyexgh+x983fNfu+/gsH4t90GVVNRno/8Cl4PxS4KSuUoCny+b9GSaMjZyJqx2Eiwn4f/qiafvC+6/FzzOX4Alr8TBHAFa8QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;innerHTML&quot;
+        title=&quot;innerHTML&quot;
+        src=&quot;/static/5f0eb6fd72113737e746fdf62f101903/37523/innerHTML.png&quot;
+        srcset=&quot;/static/5f0eb6fd72113737e746fdf62f101903/e9ff0/innerHTML.png 180w,
+/static/5f0eb6fd72113737e746fdf62f101903/f21e7/innerHTML.png 360w,
+/static/5f0eb6fd72113737e746fdf62f101903/37523/innerHTML.png 720w,
+/static/5f0eb6fd72113737e746fdf62f101903/302a4/innerHTML.png 1080w,
+/static/5f0eb6fd72113737e746fdf62f101903/07a9c/innerHTML.png 1440w,
+/static/5f0eb6fd72113737e746fdf62f101903/0bd07/innerHTML.png 2898w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;유사-배열&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9C%A0%EC%82%AC-%EB%B0%B0%EC%97%B4&quot; aria-label=&quot;유사 배열 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;유사 배열&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;유사 배열&lt;/strong&gt;이란, 배열은 아니지만 배열처럼 인덱스를 이용해 값에 접근할 수 있는 데이터 구조를 말한다. &lt;code class=&quot;language-text&quot;&gt;HTMLCollection&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;NodeList&lt;/code&gt;가 있는데, NodeList에서만 &lt;strong&gt;forEach&lt;/strong&gt;를 지원한다. 유사 배열을 배열로 변환하는 방법은 두 가지가 있다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;spread operator&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; newCities &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;$cities&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Array.from&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; newCities_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;$cities&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;style-변경&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#style-%EB%B3%80%EA%B2%BD&quot; aria-label=&quot;style 변경 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;style 변경&lt;/h3&gt;
+&lt;p&gt;css뿐만 아니라, &lt;strong&gt;자바스크립트에서도 스타일을 변경할 수 있다.&lt;/strong&gt; 파일 별로 명확하게 코드가 분리되는 것이 좋으므로 자바스크립트에서 스타일을 변경하는 것을 권장하지는 않는다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;$body&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;backgroundColor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;teal&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 하이픈 X&lt;/span&gt;
+$cityDiv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;grey&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;element-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#element-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;element 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;element 추가&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;createElement&lt;/code&gt;&lt;/strong&gt; : 지정한 태그의 HTML 요소를 만들어 반환한다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; worstCity &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;ul&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;appendChild&lt;/code&gt;&lt;/strong&gt; : 한 노드를 특정 부모 노드의 자식 노드 리스트 중 마지막 자식으로 붙인다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;$container&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;worstCityDiv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;token comment&quot;&gt;// container 요소에 마지막 자식으로 worstCityDiv 넣기&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9ElEQVQoz4WS7UtTYRiHB40YQUFrU9O59mKdPG4OMTCiQsz64Poj+9QXv0iEFFaUUBFUJNnJvaS5F/fq3s55zs5WefVsZxKa0YeL36fn4r6f++cYHR3ijOsUTqdTcphOXKdd3Ll1g1pdwzTT6PoWhp7AMBIII3kCKQyRxnFzLsTcrI+RYQ8X3F48Hi/n3W7OnnOzsLhAo6EhzF2EVaTdLSPaBXSRRzfzdg4wxHZf6lAmp5lQYkSjEVQ1ijo1jTI5xdh4gPj9OM2mht6uksxU+Jz8TqbcpGFBzTyg3j6gNkAXuf6kjtnZGWIz15mOXeOqFAWDCuGwwshFP0txW2hYVTa393ivpdhI77K5k0fbLQyySNX8JSccCFVVRVEiXL4SITSh4g9MMO4PMTTss4WNL+jWPtnsPoVMiVKuQjFbllm1M1uh0erKLxgIx3xBxnyBPr7xHkH8l8JHhOJHnfL6R8oPV2DtLTx9bbP2Bh6/wkxmaXWLCHk0R2+a4/wRLvWF5s8G2dV16g+WpeAlrDyTPIdHL2D5CW1t56iwN9VJwv5RpNDo1NjfytF6t0ln4xvWp5TNRprOhwR6vk7L2pMr/0d4996irM1XWZuMfFBB71Zodiq0jtMu2bURqb+Fh3/olcL5+dt9Ya/Yhix2byVh/ANhF/s3LmIuNoVDluwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;appendChild 전&quot;
+        title=&quot;appendChild 전&quot;
+        src=&quot;/static/ce8472c183b3be337bde2ef00c87d10a/37523/appendChild.png&quot;
+        srcset=&quot;/static/ce8472c183b3be337bde2ef00c87d10a/e9ff0/appendChild.png 180w,
+/static/ce8472c183b3be337bde2ef00c87d10a/f21e7/appendChild.png 360w,
+/static/ce8472c183b3be337bde2ef00c87d10a/37523/appendChild.png 720w,
+/static/ce8472c183b3be337bde2ef00c87d10a/302a4/appendChild.png 1080w,
+/static/ce8472c183b3be337bde2ef00c87d10a/07a9c/appendChild.png 1440w,
+/static/ce8472c183b3be337bde2ef00c87d10a/0bd07/appendChild.png 2898w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;appendChild 전&lt;/center&gt;  
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.222222222222214%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACPUlEQVQoz22RO0xTYRiGa6xtRYoXJCwFe8opvVApCjoYVxOdBF0YnFglhBJj4mB0kKVEGB2Ni4vRBI2aGC9REmMYTOQqkUvvtpxTakovQul5/E9L8Mbw5M0/fM//5vsMvlYvtmYH+2tqMZlMmM3mChaLBdNeI/52L7293fT0nOfypQt0XzxHX98VAkMDXLs+xGB/PwN3B7l6L0AgEMBwsus0slRPY70Zo9G4g8Ui3nv2MRK8CRQplVMifwgyaKhsaatVWKW8paCVEmhaBIPXK3P2zHFOdbmRZQeSXUZqaaHZLmE92EBw5LaQpIgqaWaX4iyEk6j5MpkirOkUhL4gvsqlWM/OY3A4ZLy+DlzeTtr9HbjdbbS62nB5fBw60sjY2LAQqkKoMjm3yOeFFb4sRZgJJZheiTG1HCWRLbFeVMjnvupCJ/4OP22+TsEJnGKnx/SWjlasdUcZHbsjhAqp9BqxxThKJIUSTlVSjayihJJklDzZgi5cqAo9bg9O2YPL5cEhuytH0qXWugZGR3VhmrV4kuiDx5TGX8OLCXj+XuQHePqWzU+zZItqVWiz2bE1STs0baddcv4lVGPfiT8cpyxE2ssJNCHTk2fv2JicF8LthrqgSTT6F7tUbVjdoRBG48TuP0Ibf1NpVUHIePKKzY/Tvxvqw7ZdpHrDWms9weCtylFUNUNmaoniXIjCXLjKfJjizAq5UPqPhrsI9bckdltz4DDDwzcqR8lkxeBmkuxG4j/WfybI5ZeF8Bu/AEO1CqbZdEDtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;appendChild 후&quot;
+        title=&quot;appendChild 후&quot;
+        src=&quot;/static/b1ed1fd6d6db20a173ff06ea9df44d10/37523/appendChildAfter.png&quot;
+        srcset=&quot;/static/b1ed1fd6d6db20a173ff06ea9df44d10/e9ff0/appendChildAfter.png 180w,
+/static/b1ed1fd6d6db20a173ff06ea9df44d10/f21e7/appendChildAfter.png 360w,
+/static/b1ed1fd6d6db20a173ff06ea9df44d10/37523/appendChildAfter.png 720w,
+/static/b1ed1fd6d6db20a173ff06ea9df44d10/302a4/appendChildAfter.png 1080w,
+/static/b1ed1fd6d6db20a173ff06ea9df44d10/07a9c/appendChildAfter.png 1440w,
+/static/b1ed1fd6d6db20a173ff06ea9df44d10/db1b2/appendChildAfter.png 2900w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;appendChild 후&lt;/center&gt;  
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;insertAdjacentHTML&lt;/code&gt;&lt;/strong&gt; : 특정 position에 노드를 추가할 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;beforebegin&lt;/code&gt; : element 앞에&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;afterbegin&lt;/code&gt; : element 안에 가장 첫번째 child&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;beforeend&lt;/code&gt; : element 안에 가장 마지막 child&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;afterend&lt;/code&gt; : element 뒤에  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; worstCityList &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+&amp;lt;ul&gt;
+  &amp;lt;li&gt;Cairo&amp;lt;/li&gt;
+  &amp;lt;li&gt;London&amp;lt;/li&gt;
+  &amp;lt;li&gt;Risbon&amp;lt;/li&gt;
+   &amp;lt;li&gt;Sydney&amp;lt;/li&gt;
+&amp;lt;ul&gt;
+&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+$cityDiv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;insertAdjacentHTML&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;beforeend&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; worstCityList&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token comment&quot;&gt;// element 안에 가장 마지막 child에 worstCityList 넣기&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9ElEQVQoz4WS7UtTYRiHB40YQUFrU9O59mKdPG4OMTCiQsz64Poj+9QXv0iEFFaUUBFUJNnJvaS5F/fq3s55zs5WefVsZxKa0YeL36fn4r6f++cYHR3ijOsUTqdTcphOXKdd3Ll1g1pdwzTT6PoWhp7AMBIII3kCKQyRxnFzLsTcrI+RYQ8X3F48Hi/n3W7OnnOzsLhAo6EhzF2EVaTdLSPaBXSRRzfzdg4wxHZf6lAmp5lQYkSjEVQ1ijo1jTI5xdh4gPj9OM2mht6uksxU+Jz8TqbcpGFBzTyg3j6gNkAXuf6kjtnZGWIz15mOXeOqFAWDCuGwwshFP0txW2hYVTa393ivpdhI77K5k0fbLQyySNX8JSccCFVVRVEiXL4SITSh4g9MMO4PMTTss4WNL+jWPtnsPoVMiVKuQjFbllm1M1uh0erKLxgIx3xBxnyBPr7xHkH8l8JHhOJHnfL6R8oPV2DtLTx9bbP2Bh6/wkxmaXWLCHk0R2+a4/wRLvWF5s8G2dV16g+WpeAlrDyTPIdHL2D5CW1t56iwN9VJwv5RpNDo1NjfytF6t0ln4xvWp5TNRprOhwR6vk7L2pMr/0d4996irM1XWZuMfFBB71Zodiq0jtMu2bURqb+Fh3/olcL5+dt9Ya/Yhix2byVh/ANhF/s3LmIuNoVDluwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;insertAdjacentHTML 전&quot;
+        title=&quot;insertAdjacentHTML 전&quot;
+        src=&quot;/static/ce8472c183b3be337bde2ef00c87d10a/37523/insertAdjacentHTML.png&quot;
+        srcset=&quot;/static/ce8472c183b3be337bde2ef00c87d10a/e9ff0/insertAdjacentHTML.png 180w,
+/static/ce8472c183b3be337bde2ef00c87d10a/f21e7/insertAdjacentHTML.png 360w,
+/static/ce8472c183b3be337bde2ef00c87d10a/37523/insertAdjacentHTML.png 720w,
+/static/ce8472c183b3be337bde2ef00c87d10a/302a4/insertAdjacentHTML.png 1080w,
+/static/ce8472c183b3be337bde2ef00c87d10a/07a9c/insertAdjacentHTML.png 1440w,
+/static/ce8472c183b3be337bde2ef00c87d10a/0bd07/insertAdjacentHTML.png 2898w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;insertAdjacentHTML 전&lt;/center&gt;  
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACFUlEQVQoz22SS28SYRSGSSS2C11gK5UAUxguw6VglcQuNNGAXYn/0aVGN9WqrQmaSrupJpimtkBLlEIFOjN2mBtQKq9nZri0SRdPzjeZ5PnOe75jc7mcmJ66Brvdfomp69NYfvwIp9I+dL0CTTscV1U9uIQ2gv7ZHi6xeHDfjTnnLGZuETOzcDgcuHHTgcxyBm3pJ9ROE7wsg29LONU1KGc9KL0u0YNMVeroULWqKbVF40mEIneRSCwgFiXom4vF4fb6kX2ehdzeg9IRUSgeYfPbDnYP6zg6kfG7KZlUWzJE/R9UvUbCMmyp1D0kF5eQSKYQicbBshwCQQ53XAyejYUCDo5FVBoiirUW9qoNlOon2DfqMQ+xO6AOh8IYdROJJBHmEmCDMTC+ILwMC+ecxxS22xS59xf8TgXCxjbOf5RxXiijXyihb5y/04V0mdz9Ywkj8QWwoSg8FNHj9ZkyZj5AQq8lpBnqfQn1tTyEF6+B1Q0MVnLAymfg3RfgzTr0YhXyWQOaUoItvmjMLDYUWow7zE6EtU9bkF6+Bda3MPjw1eJjnsQ56OXaRBgKc9bcAhz8gTDFDlF8a4aZp8Yr75rCRm4b8qv3wNpImCfhptmpXq5PhMw8RWQCZkwLFj5/0OwwnX4yXBsekiBDafJQWiIhDKFzU6A5q1BGr3wx6ghDfNvpRjpjCK3FVgi18+tqjIUfLvZ/es4stOTUBY4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;insertAdjacentHTML 후&quot;
+        title=&quot;insertAdjacentHTML 후&quot;
+        src=&quot;/static/ff554c24f46e82628cca0fa1c7b8d381/37523/insertAdjacentHTMLafter.png&quot;
+        srcset=&quot;/static/ff554c24f46e82628cca0fa1c7b8d381/e9ff0/insertAdjacentHTMLafter.png 180w,
+/static/ff554c24f46e82628cca0fa1c7b8d381/f21e7/insertAdjacentHTMLafter.png 360w,
+/static/ff554c24f46e82628cca0fa1c7b8d381/37523/insertAdjacentHTMLafter.png 720w,
+/static/ff554c24f46e82628cca0fa1c7b8d381/302a4/insertAdjacentHTMLafter.png 1080w,
+/static/ff554c24f46e82628cca0fa1c7b8d381/07a9c/insertAdjacentHTMLafter.png 1440w,
+/static/ff554c24f46e82628cca0fa1c7b8d381/e671a/insertAdjacentHTMLafter.png 2896w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;insertAdjacentHTML 후&lt;/center&gt;  
+&lt;br&gt;  
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;-&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;appendChild&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;insertAdjecentHTML&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;메서드&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Node.appendChild(child)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Node.insertAdjacentHTML(position, text)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;설명&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;요소에 마지막 자식 요소 생성&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;HTML 문자열 지정 위치에 삽입&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;추가 위치&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;자식 노드 리스트 중 마지막 자식&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;beforebegin, afterbegin, beforeend, afterend&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;element-클래스-및-속성-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#element-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%B0%8F-%EC%86%8D%EC%84%B1-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;element 클래스 및 속성 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;element 클래스 및 속성 추가&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;classList&lt;/code&gt;&lt;/strong&gt; : 해당 element들의 class들을 배열 형태로 나타낸다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;add&lt;/code&gt; : class 추가&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;worstCityDiv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;city&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;remove&lt;/code&gt; : class 삭제&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;worstCityDiv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;city&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;setAttribute&lt;/code&gt;&lt;/strong&gt; : element에 attribute를 추가한다. &lt;strong&gt;element.setAttribute(“name”, “value”)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;worstCity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;worstCity&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// worstCity element의 name 속성 값을 worstCity로 설정&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[UMC 3주차 워크북]]></title><description><![CDATA[UMC 3주차 워크북 변수(Variable…]]></description><link>https://www.jsh99.com/UMC/W3_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W3_workbook/</guid><pubDate>Sun, 10 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-3주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-3%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 3주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 3주차 워크북&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;변수variable&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EC%88%98variable&quot; aria-label=&quot;변수variable permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변수(Variable)&lt;/h3&gt;
 &lt;ul&gt;
