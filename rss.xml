@@ -1,4 +1,418 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 Apr 2022 13:04:02 GMT</lastBuildDate><item><title><![CDATA[UMC 4주차 워크북]]></title><description><![CDATA[UMC 4주차 워크북 document document = html. 개발자 도구를 켜서 console에 document를 입력하면 전체 선택되는 것을 확인할 수 있다. DOM…]]></description><link>https://www.jsh99.com/UMC/W4_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W4_workbook/</guid><pubDate>Tue, 12 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-4주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-4%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 4주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 4주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 Apr 2022 13:35:10 GMT</lastBuildDate><item><title><![CDATA[UMC 5주차 워크북]]></title><description><![CDATA[UMC 5주차 워크북 이벤트 핸들러(Event Handler…]]></description><link>https://www.jsh99.com/UMC/W5_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W5_workbook/</guid><pubDate>Fri, 15 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-5주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-5%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 5주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 5주차 워크북&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;이벤트-핸들러event-handler&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%95%B8%EB%93%A4%EB%9F%ACevent-handler&quot; aria-label=&quot;이벤트 핸들러event handler permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 핸들러(Event Handler)&lt;/h3&gt;
+&lt;p&gt;콜백함수를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;이벤트 핸들러&lt;/code&gt;&lt;/strong&gt;라고 한다. 이벤트 핸들러는 가독성 및 유지보수를 위해 따로 작성하는 것이 좋다. 함수 뒤에 호출 기호가 없는 이유는 콜백함수이기 때문이다. 콜백은 클릭이 이루어질 때마다 함수를 자동적으로 호출해준다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;event_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; callback_function&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;p&gt;이벤트 핸들러의 단점은 동일한 이벤트에 서로 다른 콜백함수를 지정할 경우 뒤의 이벤트 핸들러가 앞의 이벤트 핸들러를 덮어씌운다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onclick&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;clicked&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 실행 X&lt;/span&gt;
+$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onclick&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;clicked&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 실행 O&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;이벤트-리스너event-listner&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A6%AC%EC%8A%A4%EB%84%88event-listner&quot; aria-label=&quot;이벤트 리스너event listner permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 리스너(Event Listner)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;addEventListner&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+이벤트 핸들러와 다르게 &lt;strong&gt;동일한 이벤트에 서로 다른 콜백함수를 실행할 수 있다.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;clicked&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;//실행 O&lt;/span&gt;
+$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;clicked&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;//실행 O&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;addEventListener는 아래와 같이 사용할 수 있으며, 인자들은 다음과 같다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; listener&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; listener&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; listener&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; useCapture&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;-&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;listener&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;options&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;useCapture&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;설명&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;수신할 이벤트 유형을 나타내는 대소문자 구분 문자열(&lt;strong&gt;이벤트명&lt;/strong&gt;)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;지정한 이벤트(이벤트 인터페이스를 구현한 객체)를 수신할 객체(&lt;strong&gt;콜백함수&lt;/strong&gt;)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;이벤트 수신기의 특징을 지정할 수 있는 객체(&lt;strong&gt;옵션&lt;/strong&gt;)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;이벤트 대상의 DOM 트리 하위에 위치한 자손 EventTarget으로 이벤트가 전달되기 전에, 이 수신기가 먼저 발동돼야 함을 나타내는 불리언 값(&lt;strong&gt;기본값 false&lt;/strong&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;종류&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;click&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;change&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;focus&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;select&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;load&lt;/code&gt; 등&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;지정한 콜백함수&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;capture&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;once&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;passive&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;signal&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;버블링, 캡처링&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt; 
+&lt;p&gt;addEventListener에서 함수에 파라미터를 전달하고 싶다면, &lt;strong&gt;익명함수&lt;/strong&gt;를 사용해야 한다. &lt;code class=&quot;language-text&quot;&gt;handleClick(num)&lt;/code&gt;로 작성할 경우 이벤트가 발생됐을 때 함수가 실행되어야 하는데, JS 파일을 읽어내려가는 순간 handleClick() 함수가 실행되어 버린다. 따라서 파일을 읽으면서 실행되지 않고 이벤트가 발생할 때 함수가 실행되려면 아래와 같이 작성해야 한다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;num&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 오류&lt;/span&gt;
+$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;num&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 이벤트 객체 사용하지 않을 때&lt;/span&gt;
+$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;num&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 함수&lt;/span&gt;
+$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;handleClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;num&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 화살표 함수&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;removeEventListner&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;이벤트를 삭제&lt;/strong&gt;할 때 사용한다. 제거할 함수 이름을 적어야 하기 때문에 익명함수를 넣으면 안 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;$div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;removeEventListner&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; handleClick_&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;콜백함수callback-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98callback-function&quot; aria-label=&quot;콜백함수callback function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;콜백함수(Callback Function)&lt;/h3&gt;
+&lt;p&gt;이벤트 핸들러나 addEventListener에서의 리스너 함수를 함수를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;콜백 함수&lt;/code&gt;&lt;/strong&gt;라고 한다. 이벤트가 실행됐을 때, 사용자에게 다시 알려준다는 의미에서 call back이다. &lt;strong&gt;파라미터로 함수를 전달&lt;/strong&gt;받아, 함수의 내부에서 실행하는 함수이다. 이벤트가 아니더라도 콕백을 활용할 수 있다. 콜백함수 사용 원칙은 다음과 같다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;익명 함수 사용하기&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;함수 이름만 넘기기&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;전역변수, 지역변수 콜백함수의 파라미터로 전달 가능&lt;/em&gt;
+&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;이벤트-인자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9D%B8%EC%9E%90&quot; aria-label=&quot;이벤트 인자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 인자&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+이벤트 함수들은 이벤트에 대한 정보들을 인자들로 받을 수 있다. 이벤트 함수는 첫 번째 인자로 현재 일어난 이벤트에 대한 정보를 확인할 수 있다. 매개변수의 이름은 무엇이든 상관이 없지만, 보통 &lt;code class=&quot;language-text&quot;&gt;e&lt;/code&gt;나 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt;를 많이 사용한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleClick0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAABPklEQVQoz52S2XKDMAxF+f8fbPOQhR1ssCF4Aww3wukkTV5aohnNFYM5V7KI0qxAUda4JCnivMb3MUFZc+RlhYpxZEUJxhuc4wQ1aZxm4V2c5jhdErBWPM5vGVWMQfQdhJRgjaBaYRxnyinkNN3refZBOQEK+lDILtR5xQjIkOYFYmoqklyiPBXgrMP1qjE6C2dnGKOhlCJ10FoHHZQKUGMMrHVQZoYegcXfTbeIXGfRHDjKoyDghK6b0LYu6P9ifVbrisi0GvzA0GQ9uW5OntTDOR8O7M0AZATsW/OAvPi/Pf8Vkest2FeN8ixozBHL8uq4FxpZusNt5LxQmP0TsLOxJ3AcHMSxATtL9JK2OPkf2Lp73HuH0kCcWgxsgL1aKD2FsT+5v1+/DS2FD5gX//Ey3jpsIBuNvh9fYJ9Ab54CqOuWRc2sAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;event information&quot;
+        title=&quot;event information&quot;
+        src=&quot;/static/c2ab3771c01a052a06af4af4eb8a5a46/37523/event_info.png&quot;
+        srcset=&quot;/static/c2ab3771c01a052a06af4af4eb8a5a46/e9ff0/event_info.png 180w,
+/static/c2ab3771c01a052a06af4af4eb8a5a46/f21e7/event_info.png 360w,
+/static/c2ab3771c01a052a06af4af4eb8a5a46/37523/event_info.png 720w,
+/static/c2ab3771c01a052a06af4af4eb8a5a46/302a4/event_info.png 1080w,
+/static/c2ab3771c01a052a06af4af4eb8a5a46/07a9c/event_info.png 1440w,
+/static/c2ab3771c01a052a06af4af4eb8a5a46/5faa8/event_info.png 1444w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;p&gt;여러 정보들 중 가장 많이 사용하게 될 정보는 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;이다. target은 &lt;strong&gt;이벤트가 일어난 대상&lt;/strong&gt;이다. dir를 사용하면 객체에 대한 정보를 가져올 수 있다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;container&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;click me&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleClick0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACI0lEQVQ4y6WSa08TQRSG91+rGL9qgkYRIkFukYvBBhQvEQjRUEqhEJSCtMVuCQXa3XYv3Vsv2y20j9PSRiKJwfjhzTs5M/Oc82ZGsustLB/abtcR6xZOAErJ5EdincNk5Jo2RC3M0fEe1rXzbe9Jugls4jTgXJN5N73A2MMdXoc2mPsYZWp0i/FHYTY3PoizTWz/tkAxYd7MMD+xysDdLFOhNLNLMqNDGYb6EmxFl7GDy8692wONDAuTywz2yYxM7/Hy7XdeDBwy/OBAAJf+A3hfZmw2zvj7OCODCQHcvz2wvdkDKr3Id055FZKZ6UQ+ZuheUgBX/m1Ct/soi7MhJh5HmZtf482nNWbG15nsX2Uzsvj3R7E7xSvvfRvVsjg6ipFKxkgmt0n/jJGWhR/vkjlLddN0gdckWX4v6m+1N/RKk3yhxmnW4+S8jGa6qLpDQXSzRcOS39bNu5In4rUn+lNe0KISBNQvhBoBfqOBYdmcnJ3h+Q2ql1C5aOEGV1Gdrktp1UczLEzLRTdtIQvLtvm8X6Z/ucyzVY8nKx5PhY9FqgyHfQa/VkW9zPMvVVK5MrbjUBSMcq2OlM0VySsKebVATlHJZPOcK0VSWYOdtMl2SmNXLrGVKPAtrRNLFogc5IkeqoTjOU4VA03XBUOlqOlIpllC100Mw6BQNFCLpujoEdRrNIUCvwLNgNZFndZlQK3iYhoanmvhOqUOTG8zhBQx1C/BhLfF8XWvXQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;event target&quot;
+        title=&quot;event target&quot;
+        src=&quot;/static/7120140d51e754386853660de3bd855d/37523/event_target.png&quot;
+        srcset=&quot;/static/7120140d51e754386853660de3bd855d/e9ff0/event_target.png 180w,
+/static/7120140d51e754386853660de3bd855d/f21e7/event_target.png 360w,
+/static/7120140d51e754386853660de3bd855d/37523/event_target.png 720w,
+/static/7120140d51e754386853660de3bd855d/302a4/event_target.png 1080w,
+/static/7120140d51e754386853660de3bd855d/07a9c/event_target.png 1440w,
+/static/7120140d51e754386853660de3bd855d/c4451/event_target.png 1450w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;center&gt;event target&lt;/center&gt;&lt;br&gt;  
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleClick0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerText&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABwElEQVQ4y52SW2/TQBBG89cRokg88MJf4AUJJBQqIdFylaBNyksvoqCKNk18v6293jpxYucwtoNiIYREHo6+We/M7De7HqjFmmQOjaqF6FzWS9CBphqdU40vtpwIx2eUFz+7vE1+W7dh8NeGKzBWBIdf4P0I3h13NPHbI+qjU1Txvw3tuG2w/ngCn75ukW/V+HxHh1JcfxgzeTbk+9PnhMMDkANWo7MdGvYczg8+t6w2Yzd3u4PDTcP+uP2Rd7rD5lEaV/IQLU0sTpuX/qfD9mOPNtGs0K5CO4nQqfFSCl+jI9OaSJrcP2oH3UaPRZeoSkiXa/RKEM3FdZAXTPyIpFyTyX6DWvTrNg7TdtztKc3aN2tstcRLS1zBS5dMxd3ljYclf76jZT+rie7qrv63w8uZwfN9wijGC0JcPyAMQ16MFPdepuy9UtwfKh4ITw41j98YHr3W7O2nPNzPOL3RJEmE7QbkpmAws2xmttNyK/GP6xlTJ8DxYyw/4daWOFBMLB/LDbmeuny7mnA1sVud2i6+GLEcV3DkDlWK43pkOifPjZxiKMsldV1RV1WnPebzgizLMHemRaUZUZwQxrFozC9ozdF0VmSCLQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;event target innerText&quot;
+        title=&quot;event target innerText&quot;
+        src=&quot;/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/37523/event_target_innerText.png&quot;
+        srcset=&quot;/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/e9ff0/event_target_innerText.png 180w,
+/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/f21e7/event_target_innerText.png 360w,
+/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/37523/event_target_innerText.png 720w,
+/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/302a4/event_target_innerText.png 1080w,
+/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/07a9c/event_target_innerText.png 1440w,
+/static/f3ae5e1fd1c87ae4a8d6ccad29d3a308/5faa8/event_target_innerText.png 1444w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;center&gt;event target innerText&lt;/center&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;change&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+change는 다른 곳에 한 번 클릭해야 실행이 된다. 입력받은 내용을 받아오고 싶다면 value를 받아오면 된다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleChange&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.555555555555554%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAABA0lEQVQY022PuW4CMRCG99lz0KXKW6QlaSLlAdKkQIoIRAhY9rbX2Ab2gF2+2IsUGopPM/PPHaj6zC22DRS2QdgadTgOFKYiloay6of8rb7AHsE4dHu1Hq/HYovUln3bsW9OZKVmvgxR1Qnj65rzf73HLwnmSYWQJUJpclFSSEWpFC+fhrvxjtGb5X5seBhrnj/2PL0fGL0aHh0+N1lZtNZkQrE71ATLTUqUJISbiDCKmS1CVk5bbAp+1pLvRcYsLC927bSVYLosmPymfE1D4lySpOnQmxeCwAdpXqCNdZe5F92lVd3SdyfO/XGA3vuO7uL3XctWSUopsHY3DIuS1A3O+AOgD3XykiGAqwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;evnet target value&quot;
+        title=&quot;evnet target value&quot;
+        src=&quot;/static/57d466ebfc860902a0e004dd4845f05c/37523/event_target_value.png&quot;
+        srcset=&quot;/static/57d466ebfc860902a0e004dd4845f05c/e9ff0/event_target_value.png 180w,
+/static/57d466ebfc860902a0e004dd4845f05c/f21e7/event_target_value.png 360w,
+/static/57d466ebfc860902a0e004dd4845f05c/37523/event_target_value.png 720w,
+/static/57d466ebfc860902a0e004dd4845f05c/302a4/event_target_value.png 1080w,
+/static/57d466ebfc860902a0e004dd4845f05c/07a9c/event_target_value.png 1440w,
+/static/57d466ebfc860902a0e004dd4845f05c/bd9eb/event_target_value.png 1442w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt; &lt;/p&gt;
+&lt;center&gt;event target value&lt;/center&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;form&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+form은 버튼을 누르면 자동적으로 form이 제출이 되면서 새로고침되는 것이 기본 성격이다. 이 과정에서 입력한 input 값이 모두 사라지기 때문에 새로고침이 되는 것을 막기 위해서는 &lt;code class=&quot;language-text&quot;&gt;preventDefault&lt;/code&gt; 메서드를 사용해야 한다.&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 21.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA3klEQVQY012NzU6DQBRGeXUTYxOXvocL48/GJ3BjdGGqiaWmAwPMgAMztIICx0vrxi5OzuS7OZnIdRPH1IJpJ3TdY5oOU3dY37PWFY8v7ySuJwty9yPVTpqvv1YcLVVLXhhM+UluLFlhsdZy+eA4uapZ3DhOrx1nwsV9w/ndvM00LG49T3GDcxU6N4R2R6SSlAOajfgtVmy0IS1KVF6xTgp5O2JVyG7320dqeV0pnpcrMlOS6IyNSkjFUd0EfAiE7Vbcyi8tff/NOA7/mGYPBw/DD0Ea7z2tdHXj9+3sX/L9KTn19zBGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;preventDefault before&quot;
+        title=&quot;preventDefault before&quot;
+        src=&quot;/static/503dda2432c327d562b761316cbe0c74/37523/preventDefault_before.png&quot;
+        srcset=&quot;/static/503dda2432c327d562b761316cbe0c74/e9ff0/preventDefault_before.png 180w,
+/static/503dda2432c327d562b761316cbe0c74/f21e7/preventDefault_before.png 360w,
+/static/503dda2432c327d562b761316cbe0c74/37523/preventDefault_before.png 720w,
+/static/503dda2432c327d562b761316cbe0c74/302a4/preventDefault_before.png 1080w,
+/static/503dda2432c327d562b761316cbe0c74/07a9c/preventDefault_before.png 1440w,
+/static/503dda2432c327d562b761316cbe0c74/5faa8/preventDefault_before.png 1444w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;center&gt;preventDefault 전&lt;/center&gt;&lt;br&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;preventDefault&lt;/code&gt;는 &lt;strong&gt;이벤트가 가지고 있는 기본 동작들을 막아준다&lt;/strong&gt;. form에 preventDefault를 사용하면 새로고침이 되지 않고 input이 유지되는 것을 확인할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleSubmit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAABGUlEQVQY002Nu07DQBBF/eEUEAlBy09QIQQRDR9ABRSQFCQk2CF+7dredWI74BeHcSIhitG9dzT3jGO/4W/qg25Et/UPj7OQpapYmwYva1mEltl8hil27HqoWiiaf30ZJytrTNmQyaSF+KpBbxumUceTWzEJGiZhyzTsmAY1z27Bq3/YvQTyJOkYGNmeUeOEUYTSmjhWDF6riDdPczZOGd0aTq4TRjfZXi/uDed3lmPxp2PD0VXK5UOOMYZI+rHSAhQTRArv02cVKOZuQGY3aHlic4tSinyTy7EiSROstehE7/P7YokfhKQ2Z7X2iXWCM5DLqmJblFIsxH/Rth1d19N2on1/yKKd5GHXix/ujYAGtfmGD9djLfBf9nBzm8QvEWgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;preventDefault after&quot;
+        title=&quot;preventDefault after&quot;
+        src=&quot;/static/86a481dc12550c70ff983f785b432513/37523/preventDefault_after.png&quot;
+        srcset=&quot;/static/86a481dc12550c70ff983f785b432513/e9ff0/preventDefault_after.png 180w,
+/static/86a481dc12550c70ff983f785b432513/f21e7/preventDefault_after.png 360w,
+/static/86a481dc12550c70ff983f785b432513/37523/preventDefault_after.png 720w,
+/static/86a481dc12550c70ff983f785b432513/302a4/preventDefault_after.png 1080w,
+/static/86a481dc12550c70ff983f785b432513/07a9c/preventDefault_after.png 1440w,
+/static/86a481dc12550c70ff983f785b432513/bd9eb/preventDefault_after.png 1442w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;center&gt;preventDefault 후&lt;/center&gt;&lt;br&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;이벤트-종류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%A2%85%EB%A5%98&quot; aria-label=&quot;이벤트 종류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 종류&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;마우스 이벤트&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;이벤트&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;click&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 클릭했을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dbclick&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 더블클릭했을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mouseover&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 오버했을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mouseout&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 아웃했을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mousedown&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 눌렀을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mouseup&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 떼었을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mousemove&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 마우스를 움직였을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;contextmenu&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;context menu(마우스 오른쪽 버튼을 눌렀을 때 나오는 메뉴)가 나오기 전에 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;키보드 이벤트&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;이벤트&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;keydown&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;키를 눌렀을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;keyup&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;키를 떼었을 때 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;keypress&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;키를 누른 상태에서 이벤트가 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;폼 이벤트&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;이벤트&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;focus&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 포커스가 이동되었을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;blur&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 포커스가 벗어났을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;change&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 값이 변경 되었을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;submit&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;submit 버튼을 눌렀을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;reset&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;reset 버튼을 눌렀을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;select&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;input이나 textarea 요소 안의 텍스트를 드래그하여 선택했을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;로드 이벤트&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;이벤트&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;load&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;페이지의 로딩이 완료되었을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;abort&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;이미지의 로딩이 중단되었을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;unload&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;페이지가 다른 곳으로 이동될 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;기타 이벤트&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;이벤트&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;resize&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;요소에 사이즈가 변경되었을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;scroll&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;스크롤바를 움직였을 때 이벤트 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;👉 참고 : &lt;a href=&quot;https://jenny-daru.tistory.com/17&quot;&gt;https://jenny-daru.tistory.com/17&lt;/a&gt;&lt;br&gt;
+➕ 더 많은 이벤트 : &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/Events&quot;&gt;https://developer.mozilla.org/ko/docs/Web/Events&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC 4주차 워크북]]></title><description><![CDATA[UMC 4주차 워크북 document document = html. 개발자 도구를 켜서 console에 document를 입력하면 전체 선택되는 것을 확인할 수 있다. DOM…]]></description><link>https://www.jsh99.com/UMC/W4_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W4_workbook/</guid><pubDate>Tue, 12 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-4주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-4%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 4주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 4주차 워크북&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;document&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#document&quot; aria-label=&quot;document permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;document&lt;/h3&gt;
 &lt;p&gt;document = html. 개발자 도구를 켜서 console에 document를 입력하면 전체 선택되는 것을 확인할 수 있다. DOM을 선택한 변수는 다른 변수와 구분하기 위해 $ 표시를 하는데, 생략해도 무관하다.&lt;br&gt;
