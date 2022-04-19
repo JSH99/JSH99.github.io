@@ -46,9 +46,9 @@ margin: 3px 1px 0 1.5em;
   - `border box` : content, padding, border를 포함하는 box.
 ```css
 p {
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
+          width: 100px;
+          height: 100px;
+          box-sizing: border-box;
 }
 ```  
 <br><br>  
@@ -60,7 +60,7 @@ p {
   - `rem` : 상대 단위, root 요소(html)를 기준으로 하는 단위
 ```css
 div span { /* 부모 자식 */
-    font-size: 1.2em;
+          font-size: 1.2em;
 }
 ```   
 ❗️반응형 웹 → 디바이스 크기가 다양해지면서 화면 크기에 맞게 반응하는 것이 중요. 상대 단위 및 크기 중요.  
@@ -104,35 +104,35 @@ div span { /* 부모 자식 */
 - **`flex-grow`** : 화면이 커져 남는 공간을 일정 비율로 나눠 갖는 속성(기본값: 0)  
 ```html
 <div class='flex-container'>
-    <div class='flex-item'>1</div>
-    <div class='flex-item'>2</div>
-    <div class='flex-item'>3</div>
-    <div class='flex-item'>4</div>
-    <div class='flex-item'>5</div>
-    <div class='flex-item'>6</div>
-    <div class='flex-item'>7</div>
-    <div class='flex-item'>8</div>
-    <div class='flex-item'>9</div>
-    <div class='flex-item'>10</div>
+      <div class='flex-item'>1</div>
+      <div class='flex-item'>2</div>
+      <div class='flex-item'>3</div>
+      <div class='flex-item'>4</div>
+      <div class='flex-item'>5</div>
+      <div class='flex-item'>6</div>
+      <div class='flex-item'>7</div>
+      <div class='flex-item'>8</div>
+      <div class='flex-item'>9</div>
+      <div class='flex-item'>10</div>
 </div>
 ```
 ```css
  /* 1200 - 1000 = 200 */
 .flex-item:nth-child(4) {
-    flex-grow: 3; /* 1000/10 + 200 * 3/5 = 220 */
+      flex-grow: 3; /* 1000/10 + 200 * 3/5 = 220 */
 }
 .flex-item:nth-child(5) {
-    flex-grow: 2; /* 1000/10 + 200 * 2/5 = 180 */
+      flex-grow: 2; /* 1000/10 + 200 * 2/5 = 180 */
 }
 ```
 - **`flex-shrink`** : 화면이 작아져 부족한 공간을 일정 비율로 나눠 갖는 속성(기본값: 1)  
 ```css
 /* 1000 - 870 = 130 */
 .flex-item:nth-child(4) {
-    flex-grow: 3; /* 1000/10 - 130 * 3/13 = 70 */
+      flex-grow: 3; /* 1000/10 - 130 * 3/13 = 70 */
 }
 .flex-item:nth-child(5) {
-    flex-grow: 2; /* 1000/10 - 130 * 2/13 = 80 */
+      flex-grow: 2; /* 1000/10 - 130 * 2/13 = 80 */
 }
 /* 나머지 item -> 1000/10 - 130 * 1/13 = 90 */
 ```

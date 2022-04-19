@@ -42,7 +42,7 @@ CSS의 문법은 다음과 같다. `선택자`는 **html 요소 선택**하는 �
 ```
 ```css
 div {
-	background-color: pink;
+	  background-color: pink;
 }
 ```
 ![tag](./img/tag.png)  
@@ -55,10 +55,10 @@ div {
 ```
 ```css
 .lightblue {
-	background-color: lightblue;
+	  background-color: lightblue;
 }
 .orange {
-  background-color: orange; /* 순차적으로 실행 */
+      background-color: orange; /* 순차적으로 실행 */
 }
 ```
 ![class](./img/class.png)  
@@ -77,7 +77,7 @@ div {
 ```
 ```css
 #yellow {
-	background-color: yellow;
+	  background-color: yellow;
 }	
 ```
 ![id](./img/id_.png)
@@ -90,7 +90,7 @@ div {
   - `hover` : 마우스를 올린 상태
 ```css
 div:hover {
-	background-color: grey;
+	      background-color: grey;
 }	
 ```
 ![hover](./img/hover.png)  
@@ -112,7 +112,7 @@ div:hover {
 /* 중복되는 다른 선택자의 background-color를 다른 색으로 설정해도,
   important로 인해 덮어쓰이기 때문에 주의해서 사용해야 한다. */
 div {
-      background-color: pink !important; /*우선순위가 가장 높은 important*/
+  background-color: pink !important; /*우선순위가 가장 높은 important*/
   }
 .lightblue {
   background-color: lightblue;
