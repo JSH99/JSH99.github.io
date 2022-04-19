@@ -129,7 +129,7 @@ void function() {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
 <div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">div</span> <span class="token punctuation">{</span>
-<span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -162,10 +162,10 @@ void function() {
 <div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>orange lightblue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lightblue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
 <div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.lightblue</span> <span class="token punctuation">{</span>
-<span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 <span class="token selector">.orange</span> <span class="token punctuation">{</span>
-<span class="token property">background-color</span><span class="token punctuation">:</span> orange<span class="token punctuation">;</span> <span class="token comment">/* 순차적으로 실행 */</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> orange<span class="token punctuation">;</span> <span class="token comment">/* 순차적으로 실행 */</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -202,7 +202,7 @@ void function() {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>red blue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
 <div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>yellow<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
 <div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">#yellow</span> <span class="token punctuation">{</span>
-<span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>	</code></pre></div>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -239,7 +239,7 @@ void function() {
 <li>
 <p><code class="language-text">hover</code> : 마우스를 올린 상태</p>
 <div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">div:hover</span> <span class="token punctuation">{</span>
-<span class="token property">background-color</span><span class="token punctuation">:</span> grey<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> grey<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>	</code></pre></div>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -282,7 +282,7 @@ void function() {
 <div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token comment">/* 중복되는 다른 선택자의 background-color를 다른 색으로 설정해도,
   important로 인해 덮어쓰이기 때문에 주의해서 사용해야 한다. */</span>
 <span class="token selector">div</span> <span class="token punctuation">{</span>
-      <span class="token property">background-color</span><span class="token punctuation">:</span> pink <span class="token important">!important</span><span class="token punctuation">;</span> <span class="token comment">/*우선순위가 가장 높은 important*/</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> pink <span class="token important">!important</span><span class="token punctuation">;</span> <span class="token comment">/*우선순위가 가장 높은 important*/</span>
   <span class="token punctuation">}</span>
 <span class="token selector">.lightblue</span> <span class="token punctuation">{</span>
   <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
