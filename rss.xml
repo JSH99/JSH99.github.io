@@ -1,4 +1,346 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Apr 2022 14:29:31 GMT</lastBuildDate><item><title><![CDATA[UMC 5주차 워크북]]></title><description><![CDATA[UMC 5주차 워크북 이벤트 핸들러(Event Handler…]]></description><link>https://www.jsh99.com/UMC/W5_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W5_workbook/</guid><pubDate>Fri, 15 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-5주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-5%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 5주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 5주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Apr 2022 12:13:14 GMT</lastBuildDate><item><title><![CDATA[UMC 6주차 워크북]]></title><description><![CDATA[UMC 6주차 워크북 Local Storage 로그인 정보와 같이 계속 유지되어야 하는 데이터를 저장하기 위해 를 사용한다. 말 그대로 로컬 환경의 저장 공간에 정보를 저정하는 것이다. 개발자 도구를 통해 Application - Local…]]></description><link>https://www.jsh99.com/UMC/W6_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W6_workbook/</guid><pubDate>Sat, 30 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-6주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-6%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 6주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 6주차 워크북&lt;/h2&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;local-storage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-storage&quot; aria-label=&quot;local storage permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Local Storage&lt;/h2&gt;
+&lt;p&gt;로그인 정보와 같이 계속 유지되어야 하는 데이터를 저장하기 위해 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Local Storage&lt;/code&gt;&lt;/strong&gt;를 사용한다. 말 그대로 로컬 환경의 저장 공간에 정보를 저정하는 것이다. 개발자 도구를 통해 Application - Local Storage를 누르면 해당 페이지에서 로컬 스토리지에 저장되고 있는 정보 목록을 확인할 수 있고, &lt;strong&gt;Key - Value&lt;/strong&gt; 형태로 저장된다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 28.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA2ElEQVQY042QyXLEIAxE+ZEYM3gBGxuw8YYnS+WSa/7/Zzog36ZSkxxeNepSCwTrBw/dj1jWA9bPsO5C6R66M1ed/LDsWJeIed4Q5h3D6DHaKamDmxb4cMD7ANYpDSkk4vmGdT/hUtgYS4HcbAZLtUuDt+OeOIk9nfd4xxFfsW4RfgoEs5/f4P4dXFQoE1mLUqLgF7z8i4r0pRCUZ/HjC7w2aUVDa7aqR9N2RPbqRpOXtaoVhR4Rt5q4yQZMqQ6cCzJ+a37k2WvzDObSR8qq/cdqF88uygN/AEttsCM09JBHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;local storage&quot;
+        title=&quot;local storage&quot;
+        src=&quot;/static/1b0a2c97ddce70353749a1b8c53b8683/37523/localStorage.png&quot;
+        srcset=&quot;/static/1b0a2c97ddce70353749a1b8c53b8683/e9ff0/localStorage.png 180w,
+/static/1b0a2c97ddce70353749a1b8c53b8683/f21e7/localStorage.png 360w,
+/static/1b0a2c97ddce70353749a1b8c53b8683/37523/localStorage.png 720w,
+/static/1b0a2c97ddce70353749a1b8c53b8683/302a4/localStorage.png 1080w,
+/static/1b0a2c97ddce70353749a1b8c53b8683/07a9c/localStorage.png 1440w,
+/static/1b0a2c97ddce70353749a1b8c53b8683/e671a/localStorage.png 2896w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;local-storage가-사용되는-기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-storage%EA%B0%80-%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot;local storage가 사용되는 기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Local Storage가 사용되는 기능&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;중요 CSS 저장용&lt;/li&gt;
+&lt;li&gt;웹페이지간 정보 전달(웹서버를 경유하지 않고 정보 로컬에 유지)&lt;/li&gt;
+&lt;li&gt;Canvas나 이미지에 대한 임시 저장 기능(base64로 변환)&lt;/li&gt;
+&lt;li&gt;현재 읽은 글의 히스토리 저장(카운팅, 읽은글 표시 등으로 활용)&lt;/li&gt;
+&lt;li&gt;웹페이지의 개인화 설정들에 대한 저장과 제공(캐쉬로 활용)&lt;/li&gt;
+&lt;li&gt;웹서버에 필수적으로 접근해야 하는 캐쉬용(캐쉬로 먼저 서비스 제공, 차후에 업데이트)&lt;/li&gt;
+&lt;li&gt;글쓰기를 하다가 사용자가 창을 벗어난 경우 관련 작성하던 내용 백업/복구용&lt;/li&gt;
+&lt;li&gt;Sesstion Storage를 활용해서 사용자가 ‘입력폼’을 입력하다가 페이지에서 벗어난 경우 백업/복구&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;setitem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#setitem&quot; aria-label=&quot;setitem permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;setItem&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;setItem&lt;/code&gt;&lt;/strong&gt;은 &lt;strong&gt;local storage 정보를 저장할 때 사용하는 메소드&lt;/strong&gt;이다. 개발자 도구를 통해 local storage에 정보가 잘 저장된 것을 확인할 수 있으며, 새로고침해도 여전히 저장되어 있는 것을 확인할 수 있다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// localStorage.setItem(Key, Value)&lt;/span&gt;
+localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Fody&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA5UlEQVQY043P207CQBSF4b6CWkBKD7RCCz0OmbHTQGvkQngCNbHw/s+AN78Dxhujxp18WRcr2TvbStOULKsoKsXUD7GvrhnaAwY39iVte4RUa06nd/4zVik0YqXxg4hhlOOkNeOFZLxU3CaSkePjTDyeX17pD0fe+gN9f/yZ6a1ab6iENEsVsntCtHtW7Q6x2bGQHUVRUWY5URgxD2fcmcNnvuvhTdyLwAsIgtB8GGCpuiFOUqKkIJYPTPOasGgM/ZmiNTpitSVb74nvt8zV468sqTRK1cyWJW7e4H2XnWlc4yv/8gF8XbPAIG3KcQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;setItem&quot;
+        title=&quot;setItem&quot;
+        src=&quot;/static/0d7b596d97bb971d3f6f5f3e62cdf40b/37523/setItem.png&quot;
+        srcset=&quot;/static/0d7b596d97bb971d3f6f5f3e62cdf40b/e9ff0/setItem.png 180w,
+/static/0d7b596d97bb971d3f6f5f3e62cdf40b/f21e7/setItem.png 360w,
+/static/0d7b596d97bb971d3f6f5f3e62cdf40b/37523/setItem.png 720w,
+/static/0d7b596d97bb971d3f6f5f3e62cdf40b/302a4/setItem.png 1080w,
+/static/0d7b596d97bb971d3f6f5f3e62cdf40b/07a9c/setItem.png 1440w,
+/static/0d7b596d97bb971d3f6f5f3e62cdf40b/2e788/setItem.png 2890w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;getitem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getitem&quot; aria-label=&quot;getitem permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;getItem&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;getItem&lt;/code&gt;&lt;/strong&gt;은 &lt;strong&gt;local storage에서 정보를 가져올 때 사용하는 메소드&lt;/strong&gt;이다. local storage에 저장된 값은 모두 &lt;code class=&quot;language-text&quot;&gt;문자열&lt;/code&gt;인데, getItem을 통해 정보를 가져온 후 console에 출력해보면 문자열인 것을 확인할 수 있다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// localStorage.getItem(Key);&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;24&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAtklEQVQY04WPzW7CMBAGc0iUS/ICiXEgMTV245+QiFZIUS9IcO77v8vU0DNwmMOu9pvdzcw4c1xWzuuNy/UX50/keU5Zlk8pioKqrll/btiU18bhw0JV1WTRT4xuwYWIj0d2g6ZpJa3ontN2CLFFbHZ8ujlJA73SjzqzdsSNBmMOqCTr1QfdVrGR/RsGmkYSpm+0dSitkd1ANsWAdxatTRLtE8MjcN/2ivtMky718St9dUDI//4fRfxuqq1SaCMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;getItem&quot;
+        title=&quot;getItem&quot;
+        src=&quot;/static/1a490d353447161cece8a9a4bc1dcb9d/37523/getItem.png&quot;
+        srcset=&quot;/static/1a490d353447161cece8a9a4bc1dcb9d/e9ff0/getItem.png 180w,
+/static/1a490d353447161cece8a9a4bc1dcb9d/f21e7/getItem.png 360w,
+/static/1a490d353447161cece8a9a4bc1dcb9d/37523/getItem.png 720w,
+/static/1a490d353447161cece8a9a4bc1dcb9d/302a4/getItem.png 1080w,
+/static/1a490d353447161cece8a9a4bc1dcb9d/07a9c/getItem.png 1440w,
+/static/1a490d353447161cece8a9a4bc1dcb9d/74e37/getItem.png 1732w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;
+다음과 같이 객체 안에 다양한 타입의 자료형을 넣어주어도, local storage에 저장된 값을 가져오면 객체 안의 자료형들이 제대로 저장되지 않는다. 이때 객체를 잘 저장하기 위해 사용하는 메서드가 &lt;code class=&quot;language-text&quot;&gt;JSON.stringfy&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;JSON.parse&lt;/code&gt;이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; travel &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  destinations&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;paris&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sydney&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;taipei&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  days&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  mate&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  isAvailable&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;travel&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; travel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 6.666666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAKUlEQVQI12OwtLb7r6dn+F/fwAgr1tM3/G9oZPrf0tr2v4GBMU51MAwA6H4fhA3HFZYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;getItem object&quot;
+        title=&quot;getItem object&quot;
+        src=&quot;/static/3aa1549cd1978536dc1d5e2c8494dccb/37523/getItem_object.png&quot;
+        srcset=&quot;/static/3aa1549cd1978536dc1d5e2c8494dccb/e9ff0/getItem_object.png 180w,
+/static/3aa1549cd1978536dc1d5e2c8494dccb/f21e7/getItem_object.png 360w,
+/static/3aa1549cd1978536dc1d5e2c8494dccb/37523/getItem_object.png 720w,
+/static/3aa1549cd1978536dc1d5e2c8494dccb/302a4/getItem_object.png 1080w,
+/static/3aa1549cd1978536dc1d5e2c8494dccb/07a9c/getItem_object.png 1440w,
+/static/3aa1549cd1978536dc1d5e2c8494dccb/20a65/getItem_object.png 2490w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;json&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#json&quot; aria-label=&quot;json permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JSON&lt;/h2&gt;
+&lt;h3 id=&quot;jsonstringfy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jsonstringfy&quot; aria-label=&quot;jsonstringfy permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JSON.stringfy&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;JSON.stringfy&lt;/code&gt;&lt;/strong&gt;를 사용하여 데이터를 저장하면 &lt;strong&gt;객체를 그대로 저장&lt;/strong&gt;할 수 있다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JSON.stringify(value[, replacer[, space]])&lt;/span&gt;
+localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;travel&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;travel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 6.666666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMElEQVQI12OwtLL9r6tn8F9P3xArBskZGJr8t7C0+W9oZPLfyNgUCZv91zcwQlEPAOU6H4Tp4TTuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;JSON.stringify&quot;
+        title=&quot;JSON.stringify&quot;
+        src=&quot;/static/7619287e77294744377e91e7825b3e3f/37523/JSONstringify.png&quot;
+        srcset=&quot;/static/7619287e77294744377e91e7825b3e3f/e9ff0/JSONstringify.png 180w,
+/static/7619287e77294744377e91e7825b3e3f/f21e7/JSONstringify.png 360w,
+/static/7619287e77294744377e91e7825b3e3f/37523/JSONstringify.png 720w,
+/static/7619287e77294744377e91e7825b3e3f/302a4/JSONstringify.png 1080w,
+/static/7619287e77294744377e91e7825b3e3f/07a9c/JSONstringify.png 1440w,
+/static/7619287e77294744377e91e7825b3e3f/20a65/JSONstringify.png 2490w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;
+하지만 제대로 잘 저장한 객체의 정보를 가져와보면 객체 자료형이 아닌 &lt;code class=&quot;language-text&quot;&gt;문자열&lt;/code&gt;로 저장된다. 따라서 객체의 key에 접근하여 값을 출력하면 undefined가 출력된다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;travel&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 문자열&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;destinations&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 접근 불가능&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAfUlEQVQI12XLWQ6CMBQF0C5CIGBnXttXqJq4/71d22qIgY/zcwfB/MC2v7CVNzwxbsOEYZwPY5Vy65+wzmNeJBapDnelO6kMnE8QISRwYijj6oFqGKHN+kN16BBiAQWGsd/swlLft63ImVH2ghgzVkr91Ip/ph6U9pf8rG0++ZVSmY3n59UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;JSON.stringify getItem&quot;
+        title=&quot;JSON.stringify getItem&quot;
+        src=&quot;/static/af79337c8db79c1e4bb3abf894b590e3/37523/JSON_getItem.png&quot;
+        srcset=&quot;/static/af79337c8db79c1e4bb3abf894b590e3/e9ff0/JSON_getItem.png 180w,
+/static/af79337c8db79c1e4bb3abf894b590e3/f21e7/JSON_getItem.png 360w,
+/static/af79337c8db79c1e4bb3abf894b590e3/37523/JSON_getItem.png 720w,
+/static/af79337c8db79c1e4bb3abf894b590e3/302a4/JSON_getItem.png 1080w,
+/static/af79337c8db79c1e4bb3abf894b590e3/07a9c/JSON_getItem.png 1440w,
+/static/af79337c8db79c1e4bb3abf894b590e3/0bd07/JSON_getItem.png 2898w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;jsonparse&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jsonparse&quot; aria-label=&quot;jsonparse permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JSON.parse&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;JSON.parse&lt;/code&gt;은 문자열인 데이터를 &lt;strong&gt;객체 형태로 가져오기 위해 사용&lt;/strong&gt;한다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JSON.parse(text[, reviver])&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;travel&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;destinations&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAArElEQVQY02WNUQ6DIBBEvYHSpo1VURAQBIwm1p8mvf+xpmBtNe3Hy2x2ZmeTYVwwzQ/MyxOXa440I8jIGSSQpgR5XsIPdxg74lbQ4J9W/8gnW5Q1Em8d6oajqhkYV2GWAbHSMImyYuCthhsmyE5v/p7ZkaB1i8Q5D2MstO6hlAnHChXlX2KhkBbWT0EV6MH7ZS2MRUJoNOFLXESOgbcKKO2ge4/OOHDRbVnxxwtmR22HwYjScQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;JSON.parse&quot;
+        title=&quot;JSON.parse&quot;
+        src=&quot;/static/00c553c70239f37bb499fa8be1e75476/37523/JSONparse.png&quot;
+        srcset=&quot;/static/00c553c70239f37bb499fa8be1e75476/e9ff0/JSONparse.png 180w,
+/static/00c553c70239f37bb499fa8be1e75476/f21e7/JSONparse.png 360w,
+/static/00c553c70239f37bb499fa8be1e75476/37523/JSONparse.png 720w,
+/static/00c553c70239f37bb499fa8be1e75476/302a4/JSONparse.png 1080w,
+/static/00c553c70239f37bb499fa8be1e75476/07a9c/JSONparse.png 1440w,
+/static/00c553c70239f37bb499fa8be1e75476/fcdaa/JSONparse.png 2892w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;
+정리하자면, 객체로 만든 데이터를 &lt;code class=&quot;language-text&quot;&gt;JSON.stringfy&lt;/code&gt;를 통해 문자열로 저장하고, 문자열로 저장된 데이터를 &lt;code class=&quot;language-text&quot;&gt;JSON.parse&lt;/code&gt;를 통해 다시 객체 형태로 가져오는 것이다.&lt;br&gt;&lt;br&gt;
+✨ &lt;strong&gt;original 자료형&lt;/strong&gt; → &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;JSON.stringfy&lt;/code&gt;&lt;/strong&gt; → &lt;strong&gt;문자열&lt;/strong&gt; → &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;JSON.parse&lt;/code&gt;&lt;/strong&gt; → &lt;strong&gt;original 자료형&lt;/strong&gt; ✨&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;removeitem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#removeitem&quot; aria-label=&quot;removeitem permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;removeItem&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;removeItem&lt;/code&gt;&lt;/strong&gt;은 &lt;strong&gt;local storage의 정보를 삭제할 때 사용하는 메소드&lt;/strong&gt;이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// localStorage.removeItem(Key);&lt;/span&gt;
+localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;removeItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 7.222222222222221%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAOElEQVQI12OwtrH/r29g9N/A0Bg7NjD+b2Jq/t/K2hZMm5hawLGpmcV/IyPT/4ZAdYZGJkDa5D8A+qUgEoBlAfQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;removeItem&quot;
+        title=&quot;removeItem&quot;
+        src=&quot;/static/d84472030ab6e6ae3ad9d29e01691d84/37523/removeItem.png&quot;
+        srcset=&quot;/static/d84472030ab6e6ae3ad9d29e01691d84/e9ff0/removeItem.png 180w,
+/static/d84472030ab6e6ae3ad9d29e01691d84/f21e7/removeItem.png 360w,
+/static/d84472030ab6e6ae3ad9d29e01691d84/37523/removeItem.png 720w,
+/static/d84472030ab6e6ae3ad9d29e01691d84/302a4/removeItem.png 1080w,
+/static/d84472030ab6e6ae3ad9d29e01691d84/07a9c/removeItem.png 1440w,
+/static/d84472030ab6e6ae3ad9d29e01691d84/74dae/removeItem.png 2494w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;clear&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#clear&quot; aria-label=&quot;clear permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;clear&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;clear&lt;/code&gt;&lt;/strong&gt;는 &lt;strong&gt;local storage에 저장된 모든 정보를 삭제할 때 사용하는 메소드&lt;/strong&gt;이다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// localStorage.clear();&lt;/span&gt;
+localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 11.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAIUlEQVQI12NQUdX4r6Sshhcrq6j/J0YdCDPIKyj/pyYGAJ5ZN+xotho5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;clear&quot;
+        title=&quot;clear&quot;
+        src=&quot;/static/69caa08fb426ddf55049113ef9f741c3/37523/clear.png&quot;
+        srcset=&quot;/static/69caa08fb426ddf55049113ef9f741c3/e9ff0/clear.png 180w,
+/static/69caa08fb426ddf55049113ef9f741c3/f21e7/clear.png 360w,
+/static/69caa08fb426ddf55049113ef9f741c3/37523/clear.png 720w,
+/static/69caa08fb426ddf55049113ef9f741c3/302a4/clear.png 1080w,
+/static/69caa08fb426ddf55049113ef9f741c3/07a9c/clear.png 1440w,
+/static/69caa08fb426ddf55049113ef9f741c3/5c4aa/clear.png 2492w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;local-storage--session-storage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-storage--session-storage&quot; aria-label=&quot;local storage  session storage permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Local Storage &amp;#x26; Session Storage&lt;/h2&gt;
+&lt;p&gt;로컬 스토리지와 세션 스토리지는 &lt;strong&gt;HTML5&lt;/strong&gt;에서 추가된 저장소로서, &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Web Storage&lt;/code&gt;&lt;/strong&gt;의 일종이다. &lt;code class=&quot;language-text&quot;&gt;key - value&lt;/code&gt; 형태로 사용된다.  &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;-&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;local Storage&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;Session Storage&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;데이터 &lt;br/&gt;만료 기간&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;사용자가 데이터를 지우지 않으면 &lt;br/&gt;영구적으로 보존&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;데이터의 세션이 끝나면(브라우저 종료) 소멸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;저장되는 &lt;br/&gt;데이터&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;브라우저를 닫고 난 후 재방문 시에도 &lt;br/&gt;남아있어야 하는 데이터&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;휘발성 데이터&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;  
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Local Storage🌐&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 세션 데이터를 유지할 수 있다.&lt;/li&gt;
+&lt;li&gt;브라우저를 닫았다가 다시 열었을 때도 지속된다.&lt;/li&gt;
+&lt;li&gt;탭을 여러 개 열어도 공유된다.&lt;/li&gt;
+&lt;li&gt;명시적으로 삭제될 때까지 지속된다.&lt;/li&gt;
+&lt;li&gt;변경사항은 저장되어 현재 및 향후 사이트 방문 시 사용할 수 있다.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Session Storage⛽️&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;브라우저 세션 기간 동안만 사용할 수 있으며 탭이나 창을 닫을 때 삭제된다.&lt;/li&gt;
+&lt;li&gt;새로고침을 해도 유지된다.&lt;/li&gt;
+&lt;li&gt;변경된 사항은 현재 페이지에서 닫힐 때까지 저장되어 사용할 수 있다.&lt;/li&gt;
+&lt;li&gt;탭이 닫히면 저장된 데이터가 삭제된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Cookie🍪&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;쿠키&lt;/strong&gt;란, 클라이언트에 정보를 저장하는 기술이다. 아래와 같은 단점을 보완하기 위해 웹 스토리지가 등장하였다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문자열만 저장 가능(객체 불가능)&lt;/li&gt;
+&lt;li&gt;용량 제한, 시간 제한, 갯수 제한&lt;/li&gt;
+&lt;li&gt;모든 쿠키 서버 전송 → 부하 발생&lt;/li&gt;
+&lt;li&gt;이벤트 없음
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;👉 참고 : &lt;a href=&quot;https://dev-syhy.tistory.com/39&quot;&gt;https://dev-syhy.tistory.com/39&lt;/a&gt;&lt;br&gt;
+👉 참고 : &lt;a href=&quot;https://youngman12.tistory.com/15&quot;&gt;https://youngman12.tistory.com/15&lt;/a&gt;&lt;br&gt;
+👉 참고 : &lt;a href=&quot;https://unikys.tistory.com/352&quot;&gt;https://unikys.tistory.com/352&lt;/a&gt;  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC 5주차 워크북]]></title><description><![CDATA[UMC 5주차 워크북 이벤트 핸들러(Event Handler…]]></description><link>https://www.jsh99.com/UMC/W5_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W5_workbook/</guid><pubDate>Fri, 15 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-5주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-5%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 5주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 5주차 워크북&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;이벤트-핸들러event-handler&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%95%B8%EB%93%A4%EB%9F%ACevent-handler&quot; aria-label=&quot;이벤트 핸들러event handler permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 핸들러(Event Handler)&lt;/h3&gt;
 &lt;p&gt;콜백함수를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;이벤트 핸들러&lt;/code&gt;&lt;/strong&gt;라고 한다. 이벤트 핸들러는 가독성 및 유지보수를 위해 따로 작성하는 것이 좋다. 함수 뒤에 호출 기호가 없는 이유는 콜백함수이기 때문이다. 콜백은 클릭이 이루어질 때마다 함수를 자동적으로 호출해준다.  &lt;/p&gt;
