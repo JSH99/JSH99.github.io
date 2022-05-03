@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Apr 2022 12:13:14 GMT</lastBuildDate><item><title><![CDATA[UMC 6주차 워크북]]></title><description><![CDATA[UMC 6주차 워크북 Local Storage 로그인 정보와 같이 계속 유지되어야 하는 데이터를 저장하기 위해 를 사용한다. 말 그대로 로컬 환경의 저장 공간에 정보를 저정하는 것이다. 개발자 도구를 통해 Application - Local…]]></description><link>https://www.jsh99.com/UMC/W6_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W6_workbook/</guid><pubDate>Sat, 30 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-6주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-6%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 6주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 6주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 May 2022 09:04:36 GMT</lastBuildDate><item><title><![CDATA[22년 4월 회고]]></title><description><![CDATA[2022년 4월 회고 일상 복귀🤹🏻    사실 휴학생이라 대면 수업, 이런 면에서 큰 변화는 못 느꼈지만.. UMC 첫 회식도 하고, 점점 예전의 일상 모습을 찾는 것 같아서 좋았다.…]]></description><link>https://www.jsh99.com/Diary/202204/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/202204/</guid><pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;2022년-4월-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2022%EB%85%84-4%EC%9B%94-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;2022년 4월 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2022년 4월 회고&lt;/h2&gt;
+&lt;br&gt; 
+&lt;h3 id=&quot;일상-복귀🤹&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%BC%EC%83%81-%EB%B3%B5%EA%B7%80%F0%9F%A4%B9&quot; aria-label=&quot;일상 복귀🤹 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;일상 복귀🤹🏻&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 633px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 146.66666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMCBAUB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAGPKUA9USS5zkDytiCP/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMSEyH/2gAIAQEAAQUCyU4YjboZkc2jQZlotZJ2gCLCtEeTpP/EABgRAAIDAAAAAAAAAAAAAAAAAAABEBIh/9oACAEDAQE/AbKcP//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/ASP/xAAeEAACAwABBQAAAAAAAAAAAAAAAQIRMTIQISJBUf/aAAgBAQAGPwKNbFlvj8PFKikzLOInpFeyprv0tGH/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhUWGBsf/aAAgBAQABPyFdUL6Qtq/t8iOSj0QXeRy8D2FA7OR1HG7+TKDaEOO9ZdF3sSxqSN1XT7P/2gAMAwEAAgADAAAAENPQwf/EABgRAAMBAQAAAAAAAAAAAAAAAAABERBB/9oACAEDAQE/EHQt6NV4/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERgf/aAAgBAgEBPxCoYJkZ/8QAHRABAAMAAgMBAAAAAAAAAAAAAQARITFRQWGhsf/aAAgBAQABPxBGFJA8GIQDazMC/wBPwj4ESgNPmRVYO+W3kfGdkpI2acCeNuNrJZFKhZDuGQYGjLDAv3jvuLEsWuh3kAtABLvIszqPeqWq+Z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;UMC first party&quot;
+        title=&quot;UMC first party&quot;
+        src=&quot;/static/0512da86afb87d1251df73570abef6be/054c0/UMC_party.jpg&quot;
+        srcset=&quot;/static/0512da86afb87d1251df73570abef6be/4ec73/UMC_party.jpg 180w,
+/static/0512da86afb87d1251df73570abef6be/158ba/UMC_party.jpg 360w,
+/static/0512da86afb87d1251df73570abef6be/054c0/UMC_party.jpg 633w&quot;
+        sizes=&quot;(max-width: 633px) 100vw, 633px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;사실 휴학생이라 대면 수업, 이런 면에서 큰 변화는 못 느꼈지만.. UMC 첫 회식도 하고, 점점 예전의 일상 모습을 찾는 것 같아서 좋았다.&lt;br&gt;
+2년 동안 거의 모든 스터디를 비대면으로 하면서 느끼는 아쉬움이 컸었는데, 앞으로 사람들과 대면으로 함께 공부할 수 있다는 생각에 기대된다.&lt;br&gt;
+나는 누가 시키지 않으면 공부 동기 부여가 잘 안 되는 사람이라, 스터디처럼 주기적으로 강제적인 부분이 있어야 공부를 하는 편인데 특히 대면일 때가 공부 강도가 더 높은 것 같다.&lt;br&gt;
+비대면이라고 대충한다는 의미는 아니지만 그래도 만나서 스터디를 진행할 때 내가 더 제대로 공부하는 느낌이라고 할까,,&lt;br&gt;
+그래서 2년만의 일상 복귀는 나한테 너무 반가운 소식!! 앞으로 회식도 더 자주 하면 좋겠다ㅎㅎㅎ 즐거웠습니다, UMC 회식💗&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;자료구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;자료구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자료구조🌲&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 21.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAtElEQVQY042P3Q7CIAxGdz33IzIYgwEbODe3mHjh+7/aZ4cxMcYLL05IW3raZtIEuLhgmDaoPqDmCoejRMFadO4MJnvktUBJcUn5kn3ToqA8E336n0UbEMYVMbywNEBLA0OMVJuGCK9datjlP6EaV56EEzJL1jjfMW8PaDdDW4rjTPILlusNzp8hhKbNO+L9fqJRnRRaWsTHFRlXDpqaXFggOoe8atK5O0KPqBvz18m8tUn6BBWTZuIzzA9LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;data structure&quot;
+        title=&quot;data structure&quot;
+        src=&quot;/static/3a261f243b9f79fe505552e6980881ea/37523/data_structure.png&quot;
+        srcset=&quot;/static/3a261f243b9f79fe505552e6980881ea/e9ff0/data_structure.png 180w,
+/static/3a261f243b9f79fe505552e6980881ea/f21e7/data_structure.png 360w,
+/static/3a261f243b9f79fe505552e6980881ea/37523/data_structure.png 720w,
+/static/3a261f243b9f79fe505552e6980881ea/302a4/data_structure.png 1080w,
+/static/3a261f243b9f79fe505552e6980881ea/07a9c/data_structure.png 1440w,
+/static/3a261f243b9f79fe505552e6980881ea/74d4a/data_structure.png 2422w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;알고리즘을 최대한 하루에 하나씩 꾸준히 풀고 있지만, 자료구조는 많이 약하다고 느꼈다.&lt;br&gt;
+트리나 탐색 알고리즘을 풀 때마다 막히는 것이 항상 답답하고 스트레스였다.😔&lt;br&gt;
+그렇다고 평생 피할 수도 없는 일, 이제는 맞닥뜨리고 부숴나가야지 라고 &lt;del&gt;드디어&lt;/del&gt; 마음 먹었다.&lt;br&gt;
+2학년 전공 수업으로 배운 과목이지만, 기억이 나지 않으니ㅎㅎㅎ 차근차근 쉬운 알고리즘부터 풀어나가면서 정복해보려고 한다.&lt;br&gt;
+최근 트리 문제를 풀었을 때 막혔던 적이 있는데, 충분한 시간 동안 고민해본 후에도 풀이가 생각나지 않아 다른 사람의 코드를 보며 공부하는 시간을 가졌다.&lt;br&gt;
+다른 사람의 풀이를 참고하며 하나의 방법과 알고리즘을 배워가는 것이 공부가 된다는 걸 느낀 좋은 실패 경험이었다.&lt;br&gt;
+앞으로 자료구조도 하나씩 다 정복해야겠다!!🏋🏻‍♀️&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;코딩의-소중함🧸&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%94%A9%EC%9D%98-%EC%86%8C%EC%A4%91%ED%95%A8%F0%9F%A7%B8&quot; aria-label=&quot;코딩의 소중함🧸 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코딩의 소중함🧸&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 548px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAADLUlEQVQ4y22TaU9TQRSG+2P8QKIx0cQtRk30g19UIm7RRIxbqnHBSEQUSQFRrJW2hFqWaqQgxUTAmoogUVCpQt3QKojgAihRrBRLV1rax3uni8Q4yeSeuffMc9/zzhkF0TBBr4eCgkL0ej1XTCZuWCzk5p4iJ+ekiC319SiVB2lubESlKmDP3v3U19Vx+MhRkWcoL8fvcSOzFERCzIQCDH8aYqDvLc7eVyJ+2PGAbnsXfc7XTIx/50P/O96/czL65RPfRr6Idz1PnzA00C+tPxOdDiCzFLFwUAQSHnnotFq0paVYm5vQ6XQUF59DrVZzv/0eemldVVmJueYa5ZKq29ZbYg+xiGDILEUykOdMyC82Gi8bRfnmmhqqq6qoNZt5/LATU3U1lw0GAZVLbm25I0CyuqQwAUxCiQRJ/JKYXEIsLGIxE3lCTTTM3xFLwVLApEI5jgR9CQsgGPDz6+c44fB0qrSZkE/Y4xoboaXWwKDzhVjHEioVs2Hx5Bm8nknaLVJZ+XswZWVQdWIntlojkxMuoWg64OWqOo/Komw0xzITKgN/PUz6IA/flAfT6X2UbEjj/OaF6DOXo9+3msJ1aWiU6eKEZUWOzjZMl4poMF4U+6KS/ymFcViUvlcOtNm70KSn0aA5xODz6ww6apkYaaPlWj6lm+ZxausKOu42M/Z1lMID2ySL/MLT1KHEzY/gcf0gb+96SrYs4ML2pYw6b0gJDpjokGTbmRy+S4n0XrNtIVlbV3Hu0A50qmyhTu6OWLJt5NploNft4qxyI6rNi+jrqib0/R7DrxsIjLUyPtCE/1sbL9sNqHat4fjauZiVqyjesRLn8+54yanGnuXfG8dTys7slr5KJzdlx/35Do9sZdLTBl67lPEW0/mDVOxeyfVj66jIXILVXJHyMNE2wYTcOPRFTydd1ovYbxbhHW3hx/tG3B+bedaqw2rKQbN9EeqM+WStnsOZ9AX09z77R2HCzPjh+MVHc6mKvIzF2CxahnqbqCvP4+TGZZTlZ2G7qqWh4hLG4lx6Olrj7Rn+56bMhiZbyO0aZ9rvw+f5TcjvZcrt4n9D9HHyFknzDyCV88nvqgJ5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;greedy person&quot;
+        title=&quot;greedy person&quot;
+        src=&quot;/static/714e2ed09aecfaaf33e8fd798d772e1b/a58fe/greedy_person.png&quot;
+        srcset=&quot;/static/714e2ed09aecfaaf33e8fd798d772e1b/e9ff0/greedy_person.png 180w,
+/static/714e2ed09aecfaaf33e8fd798d772e1b/f21e7/greedy_person.png 360w,
+/static/714e2ed09aecfaaf33e8fd798d772e1b/a58fe/greedy_person.png 548w&quot;
+        sizes=&quot;(max-width: 548px) 100vw, 548px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;🏞 이미지 출처 : https://sortinghat.myroutine.kr/r/ENFP&lt;/center&gt;&lt;br&gt;  
+&lt;p&gt;정처기 공부를 하면서 개발 공부를 할 수 있는 시간이 비교적 많이 줄었다.&lt;br&gt;
+나도 코딩하면서 개발 공부 하고 싶은데, 책 펴놓고 암기만 하려니 어지간히 답답한 게 아니었다.&lt;br&gt;
+그래도 일주일만 있으면 실기가 끝나니, 얼른 정처기를 벗어던지고 싶다.&lt;br&gt;
+하지만 한 번에 합격해야 내가 하고 싶어하는 개발 공부를 할 수 있다는 점ㅎㅎ&lt;br&gt;
+그러니 앞으로 일주일 간은 빡세게 정처기 공부를 해서 다시는 만날 일이 없도록 해야겠다..&lt;br&gt;
+나는 리액트도 하고 싶고, 타입스크립트도 하고 싶고, 아직 해보고 싶은 개발 공부가 많단 말이다.😠&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;블로그🧚&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%94%EB%A1%9C%EA%B7%B8%F0%9F%A7%9A&quot; aria-label=&quot;블로그🧚 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;블로그🧚&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 118.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAACPklEQVQ4y6WVh67iQAxF5/8/DxAt9N5bIAQS8L7j7EV56K20y45kPPF4PC7XJlyvV9tsNrbdbm21WtnlcrFPV5IkFna7nTUaDYuiyFqtlnW7XVsul/4AD81mMyf09M3D6/XaObrz+dyNscLxeLRer2eTycT5YDBw4xiG2Is6nY7zfr//krHHEe49Hg8Lt9vN4jj2F9hnWeYcut/v/g1P0/Qly/PcefmcVMEDAvKIQQjhp8s9PBwOHgouw8mLvHz3tuwphCPaI8fzQPKbzabnot1uez7gEDmE1+t11+EMDlFI5DpDFwcClqnefr83CnQ+n+10OjmRWzhRcKZzCBnn0sdbD5kfCHf/Zj2fT6f3vYoTeGU0Gtl0OrXhcOiefrow7kUhfhUFLAJeHmA/Ho9tsVg452Fx7XECPYjiBOLHAAeAm+JgXDIZ5IxH4MjUBHQJd9D/lkPl4mMM/gZ7AMz0KV6oHz8HthUh434Udb4aHaMFDICDYAGntQQRON844NCKz5bEG3tmSVEUgEmjN5tfU6ddgLdSqVitVnMCvAIyegJ0tVp1ebVas363ZY/saoG49WK54QGqWq1MyNRq5TZMU1o1L4ZDeZLwTZGEq38ZDDmtRzsJh0UuI/dOBoUA7emod5nkDmwMgiMBFdLwFGDL4IXQh3MHRyCGjE9sqoQAQ4wudQkElMqjHnjpr4Az5BgSOQ7/F9BahOzjqzwc4ITHwZ8mS5l+0nkZVI/CCZMQCJPpA+lfkJC5A0dPHMCzfgE6pisvc44KhQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blog posting&quot;
+        title=&quot;blog posting&quot;
+        src=&quot;/static/48344c153edd5d50c58f2b5b89244ddf/37523/blog_posting.png&quot;
+        srcset=&quot;/static/48344c153edd5d50c58f2b5b89244ddf/e9ff0/blog_posting.png 180w,
+/static/48344c153edd5d50c58f2b5b89244ddf/f21e7/blog_posting.png 360w,
+/static/48344c153edd5d50c58f2b5b89244ddf/37523/blog_posting.png 720w,
+/static/48344c153edd5d50c58f2b5b89244ddf/302a4/blog_posting.png 1080w,
+/static/48344c153edd5d50c58f2b5b89244ddf/07a9c/blog_posting.png 1440w,
+/static/48344c153edd5d50c58f2b5b89244ddf/236d7/blog_posting.png 1486w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;4월 챌린지를 통해 이틀에 한 번 포스팅을 하면서 꾸준하게 블로그를 할 수 있었다.&lt;br&gt;
+매주 UMC에서 스터디한 워크북을 포스팅했고, 포스팅을 꾸준히 하는 것도 챌린지를 통해 만들게 된 습관이다. (좋은 습관을 얻게 해준 UMC에게 감사를 찡긋😉)&lt;br&gt;
+공부한 내용을 정리해서 포스팅 하는 일이 사실 쉽지는 않았고, 큰 맘 먹고 해야 되는 일처럼 느껴졌는데 챌린지를 통해 생각보다 할만하다는 걸 느끼게 됐다!&lt;br&gt;
+대단한 내용이 아니더라도, 내가 공부하고 배운 것들을 복습하며 정리하는 것 자체만으로도 충분하다는 것을 알게 되었다.&lt;br&gt;
+앞으로도 블로그를 열심히 운영하겠다는 다짐을 하며 4월 회고를 마친다ㅎㅎ🌿&lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC 6주차 워크북]]></title><description><![CDATA[UMC 6주차 워크북 Local Storage 로그인 정보와 같이 계속 유지되어야 하는 데이터를 저장하기 위해 를 사용한다. 말 그대로 로컬 환경의 저장 공간에 정보를 저정하는 것이다. 개발자 도구를 통해 Application - Local…]]></description><link>https://www.jsh99.com/UMC/W6_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W6_workbook/</guid><pubDate>Sat, 30 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-6주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-6%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 6주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 6주차 워크북&lt;/h2&gt;
 &lt;br&gt;
 &lt;h2 id=&quot;local-storage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-storage&quot; aria-label=&quot;local storage permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Local Storage&lt;/h2&gt;
 &lt;p&gt;로그인 정보와 같이 계속 유지되어야 하는 데이터를 저장하기 위해 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Local Storage&lt;/code&gt;&lt;/strong&gt;를 사용한다. 말 그대로 로컬 환경의 저장 공간에 정보를 저정하는 것이다. 개발자 도구를 통해 Application - Local Storage를 누르면 해당 페이지에서 로컬 스토리지에 저장되고 있는 정보 목록을 확인할 수 있고, &lt;strong&gt;Key - Value&lt;/strong&gt; 형태로 저장된다.  &lt;/p&gt;
