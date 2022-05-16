@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 May 2022 12:09:11 GMT</lastBuildDate><item><title><![CDATA[UMC 7주차 워크북]]></title><description><![CDATA[UMC…]]></description><link>https://www.jsh99.com/UMC/W7_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W7_workbook/</guid><pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-7주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-7%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 7주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 7주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 May 2022 12:18:53 GMT</lastBuildDate><item><title><![CDATA[UMC 7주차 워크북]]></title><description><![CDATA[UMC…]]></description><link>https://www.jsh99.com/UMC/W7_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W7_workbook/</guid><pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-7주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-7%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 7주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 7주차 워크북&lt;/h2&gt;
 &lt;br&gt;
 &lt;h2 id=&quot;동기--비동기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%99%EA%B8%B0--%EB%B9%84%EB%8F%99%EA%B8%B0&quot; aria-label=&quot;동기  비동기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;동기 &amp;#x26; 비동기&lt;/h2&gt;
 &lt;ul&gt;
@@ -108,8 +108,6 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;  
-&lt;p&gt;다음과 같이 코드를 작성하면 원하는대로 포스트 아이디와 댓글들이 출력되지만, 콜백이 중첩되어 가독성이 떨어진다. 이를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;콜백지옥&lt;/code&gt;&lt;/strong&gt;이라고 한다. 콜백지옥이 있으면 유지보수 및 수정이 어려워지기 때문에, 이를 해결하기 위한 방법으로 &lt;code class=&quot;language-text&quot;&gt;promise&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;async&amp;amp;await&lt;/code&gt;이 있다.  &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
@@ -120,8 +118,8 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;callback hell&quot;
-        title=&quot;callback hell&quot;
+        alt=&quot;callback hell code&quot;
+        title=&quot;callback hell code&quot;
         src=&quot;/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/37523/callback_hell.png&quot;
         srcset=&quot;/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/e9ff0/callback_hell.png 180w,
 /static/80eaf8d5c480ca7a88f6d2fabcd4ab63/f21e7/callback_hell.png 360w,
@@ -134,7 +132,32 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;
-&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;p&gt;다음과 같이 코드를 작성하면 원하는대로 포스트 아이디와 댓글들이 출력되지만, 콜백이 중첩되어 가독성이 떨어진다. 이를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;콜백지옥&lt;/code&gt;&lt;/strong&gt;이라고 한다. &lt;strong&gt;콜백지옥&lt;/strong&gt;이 있으면 가독성이 좋지 않고 유지보수 및 수정이 어려워지기 때문에, 이를 해결하기 위한 방법으로 &lt;code class=&quot;language-text&quot;&gt;promise&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;async&amp;amp;await&lt;/code&gt;이 있다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcklEQVQoz5WTy07CQBiFeWRXvoBx4cI3MPEFNC7UmLgykhhBhSoYTGlL6SUNdlouA/Yy0x6nBSslxchp/swlk68n55+ppWmKzcqUJslyjeU636s4u1m1bUDGIpDRJyzdxnQ2BeP892e7AnN34ovDGMT2YCoWbMvBbE7BE76yi90criv+iuGaBOqbBlu3QOkMMY9LZ7YCM02Ii7Hn5/NEuC3A8wiGMkJP0tB/7cMjPoIgEHEwpCvHJSBWwPrJIc4O9oSrQQHNyosZ7jyGo48AQ9WF1pUh9wdwiV+4XAMunTiGgtPjfUj316A+KXWcsgSdSYSL4Rg9RYPU6qEt6XDdWR5qCZiJDGW8Ptzg9uocUv2ygP1oIbLTtQE6AvTyJMNxJuCcV2eYA9UuwsU0n3vqewEKwwCmaaHZ6KDdUmCYHsKIVd7PWlV388zESCmFqih4fmyg2ZShaSNEMfvzom90OSnAkXDliU4bugFdQIMg+teL+QasvFFV3tyGiQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;callback hell img&quot;
+        title=&quot;callback hell img&quot;
+        src=&quot;/static/7571f40c994eb2f852bfaf62b849e877/37523/callback_hell_img.png&quot;
+        srcset=&quot;/static/7571f40c994eb2f852bfaf62b849e877/e9ff0/callback_hell_img.png 180w,
+/static/7571f40c994eb2f852bfaf62b849e877/f21e7/callback_hell_img.png 360w,
+/static/7571f40c994eb2f852bfaf62b849e877/37523/callback_hell_img.png 720w,
+/static/7571f40c994eb2f852bfaf62b849e877/302a4/callback_hell_img.png 1080w,
+/static/7571f40c994eb2f852bfaf62b849e877/9685e/callback_hell_img.png 1336w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;콜백지옥 예시 이미지&lt;/center&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;  
 &lt;h3 id=&quot;promise&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#promise&quot; aria-label=&quot;promise permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Promise&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pending&lt;/code&gt; : 비동기 작업 진행 중&lt;/li&gt;

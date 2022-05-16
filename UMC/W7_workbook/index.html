@@ -209,8 +209,6 @@ console<span class="token punctuation">.</span><span class="token function">log<
       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">)</span></code></pre></div>
-<br>  
-<p>다음과 같이 코드를 작성하면 원하는대로 포스트 아이디와 댓글들이 출력되지만, 콜백이 중첩되어 가독성이 떨어진다. 이를 <strong><code class="language-text">콜백지옥</code></strong>이라고 한다. 콜백지옥이 있으면 유지보수 및 수정이 어려워지기 때문에, 이를 해결하기 위한 방법으로 <code class="language-text">promise</code>와 <code class="language-text">async&amp;await</code>이 있다.  </p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
@@ -221,8 +219,8 @@ console<span class="token punctuation">.</span><span class="token function">log<
   ></span>
   <img
         class="gatsby-resp-image-image"
-        alt="callback hell"
-        title="callback hell"
+        alt="callback hell code"
+        title="callback hell code"
         src="/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/37523/callback_hell.png"
         srcset="/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/e9ff0/callback_hell.png 180w,
 /static/80eaf8d5c480ca7a88f6d2fabcd4ab63/f21e7/callback_hell.png 360w,
@@ -235,7 +233,32 @@ console<span class="token punctuation">.</span><span class="token function">log<
         loading="lazy"
       />
     </span>
-<br><br><br>  </p>
+<br>  </p>
+<p>다음과 같이 코드를 작성하면 원하는대로 포스트 아이디와 댓글들이 출력되지만, 콜백이 중첩되어 가독성이 떨어진다. 이를 <strong><code class="language-text">콜백지옥</code></strong>이라고 한다. <strong>콜백지옥</strong>이 있으면 가독성이 좋지 않고 유지보수 및 수정이 어려워지기 때문에, 이를 해결하기 위한 방법으로 <code class="language-text">promise</code>와 <code class="language-text">async&amp;await</code>이 있다.  </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 55.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcklEQVQoz5WTy07CQBiFeWRXvoBx4cI3MPEFNC7UmLgykhhBhSoYTGlL6SUNdlouA/Yy0x6nBSslxchp/swlk68n55+ppWmKzcqUJslyjeU636s4u1m1bUDGIpDRJyzdxnQ2BeP892e7AnN34ovDGMT2YCoWbMvBbE7BE76yi90criv+iuGaBOqbBlu3QOkMMY9LZ7YCM02Ii7Hn5/NEuC3A8wiGMkJP0tB/7cMjPoIgEHEwpCvHJSBWwPrJIc4O9oSrQQHNyosZ7jyGo48AQ9WF1pUh9wdwiV+4XAMunTiGgtPjfUj316A+KXWcsgSdSYSL4Rg9RYPU6qEt6XDdWR5qCZiJDGW8Ptzg9uocUv2ygP1oIbLTtQE6AvTyJMNxJuCcV2eYA9UuwsU0n3vqewEKwwCmaaHZ6KDdUmCYHsKIVd7PWlV388zESCmFqih4fmyg2ZShaSNEMfvzom90OSnAkXDliU4bugFdQIMg+teL+QasvFFV3tyGiQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="callback hell img"
+        title="callback hell img"
+        src="/static/7571f40c994eb2f852bfaf62b849e877/37523/callback_hell_img.png"
+        srcset="/static/7571f40c994eb2f852bfaf62b849e877/e9ff0/callback_hell_img.png 180w,
+/static/7571f40c994eb2f852bfaf62b849e877/f21e7/callback_hell_img.png 360w,
+/static/7571f40c994eb2f852bfaf62b849e877/37523/callback_hell_img.png 720w,
+/static/7571f40c994eb2f852bfaf62b849e877/302a4/callback_hell_img.png 1080w,
+/static/7571f40c994eb2f852bfaf62b849e877/9685e/callback_hell_img.png 1336w"
+        sizes="(max-width: 720px) 100vw, 720px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<center>콜백지옥 예시 이미지</center><br><br><br>  
 <h3 id="promise" style="position:relative;"><a href="#promise" aria-label="promise permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Promise</h3>
 <ul>
 <li><code class="language-text">pending</code> : 비동기 작업 진행 중</li>
