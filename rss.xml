@@ -1,4 +1,223 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 May 2022 09:04:36 GMT</lastBuildDate><item><title><![CDATA[22년 4월 회고]]></title><description><![CDATA[2022년 4월 회고 일상 복귀🤹🏻    사실 휴학생이라 대면 수업, 이런 면에서 큰 변화는 못 느꼈지만.. UMC 첫 회식도 하고, 점점 예전의 일상 모습을 찾는 것 같아서 좋았다.…]]></description><link>https://www.jsh99.com/Diary/202204/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/202204/</guid><pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;2022년-4월-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2022%EB%85%84-4%EC%9B%94-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;2022년 4월 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2022년 4월 회고&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 May 2022 12:09:11 GMT</lastBuildDate><item><title><![CDATA[UMC 7주차 워크북]]></title><description><![CDATA[UMC…]]></description><link>https://www.jsh99.com/UMC/W7_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W7_workbook/</guid><pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-7주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-7%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 7주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 7주차 워크북&lt;/h2&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;동기--비동기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%99%EA%B8%B0--%EB%B9%84%EB%8F%99%EA%B8%B0&quot; aria-label=&quot;동기  비동기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;동기 &amp;#x26; 비동기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;동기(synchronous)&lt;/code&gt;&lt;/strong&gt; : 순서대로 일을 처리하는 방식&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;비동기(asynchronous)&lt;/code&gt;&lt;/strong&gt; : 순서대로 일을 처리 하지 않고 빨리 처리할 수 있는 것들을 먼저 처리하는 방식  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;4&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;5&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;6&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;7&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;8&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;9&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 73.88888888888889%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACLUlEQVQ4y4VTR3LbQBBkWQw+yQe7LIoAETcgLUBEBtNFSWWffff//9GeXYAQKVHlw9QgzPR27/RM/v6xkaQFZvPPuLu7w3Q6NTGbzcaYz+f07xO+fvuOuj3C9Tju778gLxrsDk9w3MD0LhYLTHzfg1Ipqk0EFjJwFiPkHCtrjeXSwvLRxgPlh+H5kYKJFPbaozqJIJRYOwFWK4d6HExWlo8sjXE8lHg5tTjsOxx2DbquJAbV2OC4oYmV5UIVLfxAwA85HI/Rd2ZYu/Q8sR0fIZMoCLQoEsSxRCQVRJQQmCAm/hiGCQGmqoYXcIRCwvP5eJiOiWX72BQKhy4HYxGEyCBiLalv7oGuATPVGECfCcPsHWBVZng+1eiaEk21RUWZ0+kBydJFZ7BXwIEhJ8C3DHVxFEkCy3H6WaFrS2ybGi1llW+MpPeAzRvJrL9Lc4ckTfAYcRQbYE6nhmFCDcIAWLZn8rXknmHAXwHdM6CW3NYFTseKpp0hVxXyjSJQTsV94U2GBCRibbFocAHrJesXITjaRuHXc4P9tsKuO9um/EDywPDWUGwqimSCSiWQUtKkBUViGv4v+XIovR+N5LrM8XQskZBdsrRERjbyB7kfSja26c18xVAXyUigoSn/fmmN5P2WpO9rMnp1U7I2tt4UJiOT+y3pY5Tc5AmEFGbKnKe0VtcevGVsL9CTDcfDdEwsKizyFD+2Ba1dQrIpq8ys4+X96RUdAfNmYH7xf4h/Qn6oEo0QeAQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;setTime&quot;
+        title=&quot;setTime&quot;
+        src=&quot;/static/227958a840d15ca38a5602c6544473c8/37523/setTime_.png&quot;
+        srcset=&quot;/static/227958a840d15ca38a5602c6544473c8/e9ff0/setTime_.png 180w,
+/static/227958a840d15ca38a5602c6544473c8/f21e7/setTime_.png 360w,
+/static/227958a840d15ca38a5602c6544473c8/37523/setTime_.png 720w,
+/static/227958a840d15ca38a5602c6544473c8/302a4/setTime_.png 1080w,
+/static/227958a840d15ca38a5602c6544473c8/05fb0/setTime_.png 1138w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;p&gt;  자바스크립트는 &lt;code class=&quot;language-text&quot;&gt;동기적 언어&lt;/code&gt;이지만, 비동기적으로 처리하기 위해 사용할 수 있는 함수가 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt;&lt;/strong&gt;이다. 1, 3, 4, 6, 8, 10은 &lt;strong&gt;동기적&lt;/strong&gt;으로 먼저 처리되고, 5, 2, 9, 7은 동기적으로 처리가 된 후에 설정된 시간이 작은 것부터 순차적으로 &lt;strong&gt;비동기적&lt;/strong&gt;으로 처리된다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt;&lt;/strong&gt; : 만료된 후 함수나 지정한 코드 조각을 실행하는 타이머를 설정한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;function&lt;/code&gt; : 타이머가 만료된 뒤 실행할 function&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; : 함수 대신 문자열을 지정하는 대체 구문&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;delay&lt;/code&gt;(optional) : 주어진 함수 또는 코드를 실행하기 전에 기다릴 밀리초 단위 시간&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;arg1, ..., argN&lt;/code&gt;(optional) : function에 전달할 추가 매개변수  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; timeoutID &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; delay&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; arg1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; arg2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; timeoutID &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; delay&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; timeoutID &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;code&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; delay&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;callback-콜백함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#callback-%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98&quot; aria-label=&quot;callback 콜백함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Callback (콜백함수)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;콜백함수&lt;/code&gt;&lt;/strong&gt; : 함수 안에 인자로 들어가는 함수 (비동기적으로 사용될 수도 있고, 동기적으로 사용될 수도 있다.)  &lt;/p&gt;
+&lt;p&gt;콜백함수를 사용하는 대표적인 이유는, 동기와 비동기를 함께 썼을 때 순서를 보장할 수 있기 때문이다. 콜백을 중첩해서 원하는 순서대로 실행하도록 코드를 짤 수도 있다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB7ElEQVQoz41S2W7bMBAUEsNPRQH3iGWdFE9JlCnJkmXXRfLQ//+n6ZJOXAdoij4MSHu1M7PciX69OHz6vEUURVitVnh8fPiDh1fQ3delbuCGMzabb4jjBNN8Cdh8+Rq+Wa/XiNy+hW00JM+QFQxZqZAzhaLyMAElN8h9LWfISwEuauySDF0/oO16uuf4/hTjabtDVNAH+37EMJ3QkbqbnjFOZ0hlwVULLttwStUQKQ8YDmckWYHWOQhFoqUEqzRKMhFVpF4wjbSQQd0LFNSUpAWS5A05uSiQZizU3bBQPQ+EXBpyzm9ikZAKTWOgtSIFg0p6ZxbSdIR9gKp7mIaauQ5N/XjCNk6JqEKWVdfzFeRQ4XR0eL6MuPw4Ylou2JODflygjAsjC03k2tJY6kYY71K6C3r36uYuOExJwc8+zifMywmOiNx4hqXH9iPewzvwIwfCOA0Eb85uhIwJtG2NZRlxnA+Yj55wQmv7a8Od+keE7xwKoTAT0cvB4Od0CKNxpaCNRUli7xv+g7AS1y0XWQnGeBgtSRlttaRo3I9chfP2hh8Sckkb1lCKwq1qCi1tmhbl/5NSQ9BvQdGoaBJBdZ83H5vrUv5CKCk242DRuxZdRxGhuNR1g6G3sLZBQ7Gp2w7GtqibjsjrfxL+BsA1T+3hdOZdAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;callback function&quot;
+        title=&quot;callback function&quot;
+        src=&quot;/static/663859a708229f69713332f851bb598e/37523/callback.png&quot;
+        srcset=&quot;/static/663859a708229f69713332f851bb598e/e9ff0/callback.png 180w,
+/static/663859a708229f69713332f851bb598e/f21e7/callback.png 360w,
+/static/663859a708229f69713332f851bb598e/37523/callback.png 720w,
+/static/663859a708229f69713332f851bb598e/302a4/callback.png 1080w,
+/static/663859a708229f69713332f851bb598e/62a6a/callback.png 1122w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;p&gt;콜백이 대표적으로 쓰이는 곳은 &lt;strong&gt;데이터 통신&lt;/strong&gt;이다. 블로그 포스트의 아이디 값을 입력하면, 해당 댓글들을 출력해주는 기능을 만들어보자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 호출&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;getPost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; 
+    postNum&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;postId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Post&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; postId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;getComments&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        postId&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Comments:&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;p&gt;다음과 같이 코드를 작성하면 원하는대로 포스트 아이디와 댓글들이 출력되지만, 콜백이 중첩되어 가독성이 떨어진다. 이를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;콜백지옥&lt;/code&gt;&lt;/strong&gt;이라고 한다. 콜백지옥이 있으면 유지보수 및 수정이 어려워지기 때문에, 이를 해결하기 위한 방법으로 &lt;code class=&quot;language-text&quot;&gt;promise&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;async&amp;amp;await&lt;/code&gt;이 있다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABYklEQVQoz22SzXKDMAyEObeB9NCkbRoM2PgPTIBmpsn7v9hWsgNNpj0sDJb0aSWT7fYf2BY58uIFBWmzyZPyYlVOenreoGo0DgcB6wdIafBMZ3m+/VWxRTZNA67Xb2gTIFsHUbeoSKWQf/R5rPG6e4fUBj4EqNZD6S6+pfJUp5E1UuNymTFNIwENGuUo6HAsa1LzIFEp7N8O4JrWdDGvbszakHMyfnRhQh9GCmpymILcjQERJhKwFAlYVg2GM9WcBprMkQkdxXUR2A8j5q8zun6Edh1qqaPTBbh0L+8cdlRjXIDx4TbZHbDVFtY6etMYuo8g3tcKWxwykC6RHfa0It/z2GkSUasElMrGpXLy4mQBrTDB3+mML41rfDjF23b9QPt0UMYmoNIe4zzDU1Dbgcaxj85WYGrWmp5GtAjzSHvnm7bJ4c1QFvd0N97qUjT/AtmAot/Ldl10pZ1Hy+sil5zzA2hm+GtNHX56AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;callback hell&quot;
+        title=&quot;callback hell&quot;
+        src=&quot;/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/37523/callback_hell.png&quot;
+        srcset=&quot;/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/e9ff0/callback_hell.png 180w,
+/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/f21e7/callback_hell.png 360w,
+/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/37523/callback_hell.png 720w,
+/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/302a4/callback_hell.png 1080w,
+/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/07a9c/callback_hell.png 1440w,
+/static/80eaf8d5c480ca7a88f6d2fabcd4ab63/497e9/callback_hell.png 2064w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;promise&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#promise&quot; aria-label=&quot;promise permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Promise&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pending&lt;/code&gt; : 비동기 작업 진행 중&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fulfilled&lt;/code&gt; : 비동기 작업이 성공적으로 끝난 상태&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;rejected&lt;/code&gt; : 비동기 작업이 실패로 끝난 상태  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;resolve&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reject&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;token comment&quot;&gt;// resolve : 성공했을 때 실행할 함수&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// reject : 실패했을 때 실행할 함수&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;p&gt;콜백지옥을 해결하기 위해 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;promise&lt;/code&gt;&lt;/strong&gt;를 사용하여 함수를 호출하면 코드가 훨씬 간결해진다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 호출&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;getPost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postNum&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;postId&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Post:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; postId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getComments&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Comments:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABUklEQVQoz5WS3Y6CMBCFuRc06LIiCJS2tIWCGPRi4/u/19lpiW6T/Un24mSS0n5z5gzRfemQZUfs9ynSNMVmk5BixMn2pYTkzg6HDKxVKMoKl/lOb94QxwmS7Y7u7HyNipLjtsx4PD6w3BaIzkCoEXUjUFUcVf2lc9XiVNQ45gWMteh0DyEHejOAyx6Ma0QNkzCmxzAMGEeqdkJnLmgYARuOmr4/Yc+an86QykEMuDB0Luice0XOiTETtL1BmRHz1MMOE+y8QPeT7+yahsDs/YR+mjDfFzJgyaGmqTSaViJaL7beTTjea8wze8FCh50evEtJ47ZCeZgzF4Wdf1II8rVeHWoX0XWGprgYwRjvKJ4A+JvChq6W5DjPSwKOtBiKimJyi+RS+dy/OfwL7mBuEWXZQPWUNTlULjsCOXfuzr+AhQPRAlnb+UVIbdaqDP0Z6+ifJXP3nMVMmKoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;promise&quot;
+        title=&quot;promise&quot;
+        src=&quot;/static/f4d9d8179b7aa785fe05012546a17f19/37523/promise.png&quot;
+        srcset=&quot;/static/f4d9d8179b7aa785fe05012546a17f19/e9ff0/promise.png 180w,
+/static/f4d9d8179b7aa785fe05012546a17f19/f21e7/promise.png 360w,
+/static/f4d9d8179b7aa785fe05012546a17f19/37523/promise.png 720w,
+/static/f4d9d8179b7aa785fe05012546a17f19/302a4/promise.png 1080w,
+/static/f4d9d8179b7aa785fe05012546a17f19/07a9c/promise.png 1440w,
+/static/f4d9d8179b7aa785fe05012546a17f19/a878e/promise.png 2048w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;async--await&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#async--await&quot; aria-label=&quot;async  await permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Async &amp;#x26; Await&lt;/h3&gt;
+&lt;p&gt;promise와 같은데 조금 더 직관적인 방법으로 async와 await이 있다. &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;async &amp;amp; await&lt;/code&gt;&lt;/strong&gt;은 &lt;strong&gt;비동기적인 것들을 동기적으로 느끼게 해준다&lt;/strong&gt;.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 호출&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getResult&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; postId_result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getPost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postNum&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; comments_result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getComments&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postId_result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Post:&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; postId_result&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Comments:&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; comments_result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  
+  &lt;span class=&quot;token function&quot;&gt;getResult&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABM0lEQVQoz3WRyXKDMBBEudvYxBcwO2gXm4OpUJX//6/OSODlEB9eSYN6WqMmWBeGr0uMMAxxOp2JCMfjCQfHIaR9SOsRUXRBVXNkeYWuv+F8jqhn02992z5I0ha3yeJnXTHMv5jmFfd5wnIfsSzfkHoAkx3qRuKaFh6hDLjQELpDwxRabjxOExRlC60VrO2p0YKRUJJQUpO2rjb0vUcrLMqKIUkymH6EMh0YmWV5A+dRlMyv3lApCcYFHdZPUkf2qvOiobpCTIZ2GD3KWHCl0XDpzx3BQ+zYbvqMyy+55tDdQK+g6bnyuVb1Nl1ekuG7kTcu/2HXOMM4TtGNk0e7mISiHMVrwof4o9nOU1PUULbbJ5SoGo6SJnz0B05Q7FN8NtvO3fMY/RzT9x5B+bkM27cM/wDAxtvOd7g48gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;async &amp;amp; await&quot;
+        title=&quot;async &amp;amp; await&quot;
+        src=&quot;/static/3ff0d8b67a14b0f07538750da5f4b0f5/37523/async_await.png&quot;
+        srcset=&quot;/static/3ff0d8b67a14b0f07538750da5f4b0f5/e9ff0/async_await.png 180w,
+/static/3ff0d8b67a14b0f07538750da5f4b0f5/f21e7/async_await.png 360w,
+/static/3ff0d8b67a14b0f07538750da5f4b0f5/37523/async_await.png 720w,
+/static/3ff0d8b67a14b0f07538750da5f4b0f5/302a4/async_await.png 1080w,
+/static/3ff0d8b67a14b0f07538750da5f4b0f5/07a9c/async_await.png 1440w,
+/static/3ff0d8b67a14b0f07538750da5f4b0f5/49853/async_await.png 2224w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;    &lt;/p&gt;
+&lt;p&gt;⁉️ &lt;strong&gt;Promise&lt;/strong&gt; VS &lt;strong&gt;async &amp;#x26; await&lt;/strong&gt;&lt;br&gt;
+→ &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;에러 헨들링&lt;/code&gt;&lt;/strong&gt; : 오류가 발생하더라도, 사이트가 멈추는 게 아니라 오류를 다루는 코드로 넘어간 후 다음 코드를 실행하는 것  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Promise&lt;/strong&gt;를 활용할 시에는 &lt;code class=&quot;language-text&quot;&gt;.catch()&lt;/code&gt;문을 통해 &lt;strong&gt;에러 핸들링&lt;/strong&gt;을 하고, &lt;strong&gt;async/await&lt;/strong&gt;은 &lt;code class=&quot;language-text&quot;&gt;try-catch()&lt;/code&gt;문을 활용하여 에러 핸들링을 한다.  &lt;strong&gt;async/await&lt;/strong&gt;은 promise와 다르게 then, catch를 추가적으로 사용하지 않아도 하나의 catch로도 에러 핸들링을 할 수 있어 유리하다.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Promise&lt;/strong&gt;는 &lt;code class=&quot;language-text&quot;&gt;.then() 지옥&lt;/code&gt;의 가능성이 있기 때문에 코드가 길어질수록 &lt;strong&gt;async/await&lt;/strong&gt;를 활용하는 것이 가독성이 좋다. &lt;strong&gt;async/await&lt;/strong&gt;은 비동기 코드를 동기 코드처럼 읽히게 해주어 코드 흐름을 이해 하기 쉬우며, 에러 발생 위치를 쉽게 알 수 있다.  &lt;/p&gt;
+&lt;p&gt;👉 참고 : &lt;a href=&quot;https://velog.io/@pilyeooong/Promise%EC%99%80-asyncawait-%EC%B0%A8%EC%9D%B4%EC%A0%90&quot;&gt;https://velog.io/@pilyeooong/Promise와-asyncawait-차이점&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[22년 4월 회고]]></title><description><![CDATA[2022년 4월 회고 일상 복귀🤹🏻    사실 휴학생이라 대면 수업, 이런 면에서 큰 변화는 못 느꼈지만.. UMC 첫 회식도 하고, 점점 예전의 일상 모습을 찾는 것 같아서 좋았다.…]]></description><link>https://www.jsh99.com/Diary/202204/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/202204/</guid><pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;2022년-4월-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2022%EB%85%84-4%EC%9B%94-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;2022년 4월 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2022년 4월 회고&lt;/h2&gt;
 &lt;br&gt; 
 &lt;h3 id=&quot;일상-복귀🤹&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%BC%EC%83%81-%EB%B3%B5%EA%B7%80%F0%9F%A4%B9&quot; aria-label=&quot;일상 복귀🤹 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;일상 복귀🤹🏻&lt;/h3&gt;
 &lt;p&gt;&lt;span
