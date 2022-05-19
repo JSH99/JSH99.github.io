@@ -1,4 +1,392 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 May 2022 12:27:35 GMT</lastBuildDate><item><title><![CDATA[UMC 8주차 워크북]]></title><description><![CDATA[UMC 8주차 워크북 HTTP  = HyperText Transfer Protocol →  프론트와 서버 간의 데이터 통신 방법 중 하나    = HyperText Transfer Protocol Secure → HTTP + 보안     URL…]]></description><link>https://www.jsh99.com/UMC/W8_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W8_workbook/</guid><pubDate>Tue, 17 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-8주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-8%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 8주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 8주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 May 2022 17:29:32 GMT</lastBuildDate><item><title><![CDATA[UMC 9주차 워크북]]></title><description><![CDATA[UMC 9주차 워크북 라우팅(Routing) 이란 URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET, POST 등)인 특정 엔드포인트에 대한 클라이언트 요청에 애플리케이션이 응답하는 방법을 결정하는 것을 말한다. 👉 https…]]></description><link>https://www.jsh99.com/UMC/W9_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W9_workbook/</guid><pubDate>Fri, 20 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-9주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-9%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 9주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 9주차 워크북&lt;/h2&gt;
+&lt;br&gt; 
+&lt;h3 id=&quot;라우팅routing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%9D%BC%EC%9A%B0%ED%8C%85routing&quot; aria-label=&quot;라우팅routing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;라우팅(Routing)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;라우팅&lt;/code&gt;이란 URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET, POST 등)인 특정 엔드포인트에 대한 클라이언트 요청에 애플리케이션이 응답하는 방법을 결정하는 것을 말한다.&lt;br&gt;
+👉 &lt;a href=&quot;https://expressjs.com/ko/starter/basic-routing.html&quot;&gt;https://expressjs.com/ko/starter/basic-routing.html&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;crud&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#crud&quot; aria-label=&quot;crud permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CRUD&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;CRUD&lt;/code&gt;는 데이터 처리 기능 4가지를 의미한다. HTTP 요청 메서드와 연결하면 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create(생성)&lt;/strong&gt; ⇒ &lt;code class=&quot;language-text&quot;&gt;post&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read(조회)&lt;/strong&gt; ⇒ &lt;code class=&quot;language-text&quot;&gt;get&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update(갱신)&lt;/strong&gt; ⇒ &lt;code class=&quot;language-text&quot;&gt;put&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete(삭제)&lt;/strong&gt; ⇒ &lt;code class=&quot;language-text&quot;&gt;delete&lt;/code&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;http-상태-코드http-status-codes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EC%83%81%ED%83%9C-%EC%BD%94%EB%93%9Chttp-status-codes&quot; aria-label=&quot;http 상태 코드http status codes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 상태 코드(http status codes)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;HTTP 상태 코드&lt;/code&gt;는 클라이언트가 보낸 HTTP 요청에 대한 서버의 응답 코드로, 상태 코드에 따라 요청의 성공/실패 여부를 판단한다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1xx &lt;code class=&quot;language-text&quot;&gt;Informational&lt;/code&gt;&lt;/strong&gt; : 요청을 받았으며 프로세스를 계속한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2xx &lt;code class=&quot;language-text&quot;&gt;Success&lt;/code&gt;&lt;/strong&gt; : 요청을 성공적으로 받았으며 인식했고 수용했다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3xx &lt;code class=&quot;language-text&quot;&gt;Redirection&lt;/code&gt;&lt;/strong&gt; : 요청 완료를 위해 추가 작업 조치가 필요하다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4xx &lt;code class=&quot;language-text&quot;&gt;Client Error&lt;/code&gt;&lt;/strong&gt; : 요청 문법이 잘못되었거나 요청을 처리할 수 없다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5xx &lt;code class=&quot;language-text&quot;&gt;Server Error&lt;/code&gt;&lt;/strong&gt; : 서버가 명백히 유효한 요청에 대해 충족을 실패했다.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;👉 &lt;a href=&quot;https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C&quot;&gt;https://ko.wikipedia.org/wiki/HTTP_상태_코드&lt;/a&gt;&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 139.44444444444443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEA0lEQVRIx3VVa08bVxDl//+EqqnS5EM/FEOD2lSRDIFKlKAmIiGCBGOv9333YRtj8Hr9gNMzY+7itVtLI3t97z33zJwzs1vT6RTFeIyiKKqYTCYbURQlY/K/++RZsLbGBHPCEK2Og06njZubG5RlCfn/OQqY2EG7fQnP89HtduH7Pu7v73VdwEajkcZWQfR37S7OI4M4CJBlGYbDoYLa26fTGbrtHfhuE2naV6BVdpaA/L81JvpJkOA6HyBPU/T7A12op1Yi9veQmSP0ekO99Pb2tgYoZxRQDnSCb2g537i5p3Ww7MqS8cTQ7ewgCg4QRSlcppwkie7dYFhMxmhevcDX4C/08xtMyuWG1ZTLcorQ20MSHSLN+kiMUUBhKfuE1N3dnQZTvsdh9yWusg9ITQ+DQV8XpMBWSQF02w1E/j6MySmMC9d1EVJMEVGYrjH8EZfxMQzTMSYm6IC17OumJctpVcMsG5CdUeFkTfasiUKGnZf4npwgT/pUMdENtj5LhqJyQ2soDANaRi5c9eKzKGR4cP2TMozDFDEZrptaAP3ub1x/v6wh65fSEatuqNWwef0DvqfHTKmnDKV+1v1LFlN4zg6MANKHWZbqHivemsoF2slH+MkVYppbFh4eHjCfz6tYLB7gO7s0/ntN2fc9ZfnfKbM/T48jnJ95VK6DODYrYhQaorJHHwpgSlGiKKwArW8rQOnTP974+Polp7ETbky14HUfSg13NeUk6WkfR1HEy2P9tj2/rCEB370NCZghzw1rc1erX1XDzq8wQRMJaxiy5wVIfChtaOv3BDjBn797OP9MheOAoHnlfpu2PMfmlGBfmMVAQSQEwGYhv6uU3+4FZNgj2DLlzWkzRXB+getPn9Flh8ilctgqrDOVBCrAs099uM6QHZJzc08BRd3ZbKYxXywQNhpI9veRcy1iqtbYNpPKh5KS751yeJ5xwHb550jB5FYbs/kC3s4uogNOGxra97wqi00f0tjd1iuk8QcYKih9Ol5/JfBA9IbT5vAQOYeBTBvpd7tes82ErXd9+ZqT5G/4gVFAoV6rIdN2trcRNpuIKYYw9BiGwBuAwtB3fkGW/MO2GtA29UksA7YkoDBMj460huI/6eXVfq8xbF2+4iQ5QUCGcnPN2MKAgO5TDS1DKYvtkg2GTutnzkLOQw4HaSuxhfjMDtmCB8LtBgxTTviaMGQorSchl9dULooxJ/VHTl6XhR5WE9v6T26fUfXBxQVGjoNbronCMv7tkH18fFR7CWt9Lz/i+SOWEWZWaTmo6Ug7Po36EUFl9AuI/SzoVdmvgPP5TG+REEC5WdK2qYsAYpWUKdq2E0ABkTM1QPvWt0W1k8M+27C9ar/X99ms/gWLs0EFSuFb4gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;http status code&quot;
+        title=&quot;http status code&quot;
+        src=&quot;/static/037040834f0d88bc686d28de6c131d62/8c557/http_status_codes.png&quot;
+        srcset=&quot;/static/037040834f0d88bc686d28de6c131d62/e9ff0/http_status_codes.png 180w,
+/static/037040834f0d88bc686d28de6c131d62/f21e7/http_status_codes.png 360w,
+/static/037040834f0d88bc686d28de6c131d62/8c557/http_status_codes.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 요청 success&lt;/span&gt;
+res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 요청 error&lt;/span&gt;
+res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;요청한 userId를 찾을 수 없습니다&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;http-요청-메서드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EC%9A%94%EC%B2%AD-%EB%A9%94%EC%84%9C%EB%93%9C&quot; aria-label=&quot;http 요청 메서드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 요청 메서드&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GET&lt;/strong&gt;&lt;br&gt;
+→ 기존의 데이터에 접근해서 사용하는 메서드&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;req&lt;/code&gt; : 사용자가 보낸 요청(request)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;res&lt;/code&gt; : 보내줄 응답 값(response)  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hello World!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;token comment&quot;&gt;// 사용자가 요청한 주소가 &apos;/&apos;일 때 우리는 응답으로 &apos;Hello Wolrd!&apos;를 줄게!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 502px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+UlEQVQY042Q6WqEQBCE5/2fyV8qIQRB4mzUaDxmDxWvGI1OxKMyDnFJFgLb8NHFMFRXN+Gco65rjOMo6fse8zyjKEt0XYtT+QUa1vDPH1cOYQ6X1Xg9vsOJqyss5yBN08BxHGzGwzCgKAppaJomkjSDl03w3wLk2QXHOAS1TDw9PsA+WHihz2BxAM+1JVgnkLZtsSwL1nWVbLV3rDPKhsOKO9inTzjnXvQe7mUQWvCjXaG3vv0hQSAmeB6iKEKapmCMIUkS+L4vEvPNVQycZeqd6UZPv94IpRSKokDTNGmiqioMw4Cu6/IMfxLfUaSqKrnyf7Wf4l6+AQDnxvx78LwoAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api get methode&quot;
+        title=&quot;api get methode&quot;
+        src=&quot;/static/beb5edbb634328aeaad395176b5f56f7/eea79/api_get.png&quot;
+        srcset=&quot;/static/beb5edbb634328aeaad395176b5f56f7/e9ff0/api_get.png 180w,
+/static/beb5edbb634328aeaad395176b5f56f7/f21e7/api_get.png 360w,
+/static/beb5edbb634328aeaad395176b5f56f7/eea79/api_get.png 502w&quot;
+        sizes=&quot;(max-width: 502px) 100vw, 502px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;동적으로 사용되는 주소&lt;/strong&gt;는 앞에 &lt;code class=&quot;language-text&quot;&gt;콜론&lt;/code&gt;을 붙여준다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// user 정보 출력&lt;/span&gt;
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/users/:userId&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;userId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;요청한 userId를 찾을 수 없습니다&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// userId 값에 따라 주소가 동적으로 바뀐다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 11.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAXUlEQVQI112MSwrAIAxEe/9D+unGWFIR/G5kqgFL6eIxecOQI4SAUgqYGUppQRsDa084R/DeT655u5/T60QkMN84YoxoraHWKo9778g5S7f7lSklYW2+vvZ7M8bAA3krl8MoVo7IAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api get success&quot;
+        title=&quot;api get success&quot;
+        src=&quot;/static/1daad01eea4a708b2fb2c7e7f221a7a0/37523/api_get_success.png&quot;
+        srcset=&quot;/static/1daad01eea4a708b2fb2c7e7f221a7a0/e9ff0/api_get_success.png 180w,
+/static/1daad01eea4a708b2fb2c7e7f221a7a0/f21e7/api_get_success.png 360w,
+/static/1daad01eea4a708b2fb2c7e7f221a7a0/37523/api_get_success.png 720w,
+/static/1daad01eea4a708b2fb2c7e7f221a7a0/302a4/api_get_success.png 1080w,
+/static/1daad01eea4a708b2fb2c7e7f221a7a0/07a9c/api_get_success.png 1440w,
+/static/1daad01eea4a708b2fb2c7e7f221a7a0/ddf4f/api_get_success.png 1624w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAa0lEQVQI152LSwrEIBQEvf/5NPoCGRRxVmZA8O+iRyTbQEhDUYumWAgBYwyklHCePxDt2Da5LKWCUoTj+MC578RdvocJIWCthdYanPMVExGMMSilIOeMWht6749g3vsZ1BXHGNFam9R1vtkfXIPkYEfc3WIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api get error&quot;
+        title=&quot;api get error&quot;
+        src=&quot;/static/59bbd2f7d026f4b9f41cc8bba6e6542a/37523/api_get_error.png&quot;
+        srcset=&quot;/static/59bbd2f7d026f4b9f41cc8bba6e6542a/e9ff0/api_get_error.png 180w,
+/static/59bbd2f7d026f4b9f41cc8bba6e6542a/f21e7/api_get_error.png 360w,
+/static/59bbd2f7d026f4b9f41cc8bba6e6542a/37523/api_get_error.png 720w,
+/static/59bbd2f7d026f4b9f41cc8bba6e6542a/302a4/api_get_error.png 1080w,
+/static/59bbd2f7d026f4b9f41cc8bba6e6542a/e8e04/api_get_error.png 1270w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt;&lt;br&gt;
+→ 기존 데이터에 새로운 데이터를 추가하는 메서드&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;req.body&lt;/code&gt; : 요청 본문에 제출된 key-value 형태의 데이터 포함. JSON과 같은 데이터를 받을 때 사용한다.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 새로운 user 정보 배열에 추가 &lt;/span&gt;
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/users&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; newUser &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;body&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;newUser&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;user에 관한 정보를 입력해주세요&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;newUser&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;user를 추가하기 위해 필요한 정보를 모두 입력해주세요&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      id&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; users&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+      &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;newUser&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;users&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2klEQVQ4y5VSTc7TMBT0xbgah2DDXdiw4A6sWIC+DxTStEkcx3/PzjDPbdqCRCmWRrbk53njeWNyzogxNizLAhGBrm3bHmKaJozjiPZeKobTjNPsYA6HA+Z5bmR936PruobheMS6rnDO/RXL4pCDw7tPDm/ez3j7YYXx3jd1WhBCOBd7Elk2WS28D9c7rdMmKUXUWlFKwVYLXqeCj18SPncCo4VK6lh4Pp9VWX7HzSOCqrzcWTZxPmL2VU25fl9XyqXBCLtosRA5ZaxRWuerj1SyP1RVVfc//Kx1gxCFMLkoM4m+v8LRwx+Dw0vvcLQcVC5PDWiHCjGFXQO9EUXwKJyyp8o15FbQVD0JTYjBw7V7tOGpxVqzq1BlpRCcmnZSX+7qrl5qbZaMROie+canSu/5rlSY08+uhXR1K6xb4AJ35lKjEaMOKrFZvpGzUeRdEN5LImGGDYWe8yxKyHgooWc07DBg4fk4WhynBafJIjBSmcTb3XDuHLl+oRZp6k2Uy5SZPeHjEs/TXXxuudpjcW++2qTW3HC7MyGpH9KmnBjqIOpRufNv+y+YNaoPpQV7+fYVp2HCy8GhH31T+dsXHw74kkOfpOWwTZmkhUPQL7sgl2D/W9VOqF/+BV3Tlg6Wn0qUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api post&quot;
+        title=&quot;api post&quot;
+        src=&quot;/static/dd60c5d1b2ace2924644b0a27fdc85ea/37523/api_post.png&quot;
+        srcset=&quot;/static/dd60c5d1b2ace2924644b0a27fdc85ea/e9ff0/api_post.png 180w,
+/static/dd60c5d1b2ace2924644b0a27fdc85ea/f21e7/api_post.png 360w,
+/static/dd60c5d1b2ace2924644b0a27fdc85ea/37523/api_post.png 720w,
+/static/dd60c5d1b2ace2924644b0a27fdc85ea/302a4/api_post.png 1080w,
+/static/dd60c5d1b2ace2924644b0a27fdc85ea/07a9c/api_post.png 1440w,
+/static/dd60c5d1b2ace2924644b0a27fdc85ea/b88bf/api_post.png 1702w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PUT&lt;/strong&gt;&lt;br&gt;
+→ 기존의 데이터를 수정하는 메서드  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// user 데이터 수정&lt;/span&gt;
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/users/:userId&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;findIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;userId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;요청한 id를 찾을 수 없습니다.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  users&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;users&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;body
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;users&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABtklEQVQ4y61Uy3LUMBD01+WX+JUccucLuOfElVNOXFNsjPFaT+vtTo+cdSChQgXQVteopFGrNdProZSCGCNyzjDGwFqLy9jkt72GjGVZOuQc0JC9gbcGwzzPncg5h3EccTqdehzH753ce39Aci5zy7nhfg4O1589rm40PnwioWyGEJ6TnYdxFtZoKLtg5Z4QS45gXVeszKu1Ul3BVgvuHgo+fgm4/Row9EQmCeHaD+xKjFpglxnRu+MyiQLlK2q7lGUfjQtywVBbQ2ANA4lKSggpIxKyXmvrSl7j1/VCpNIoKGJobUNkYRPVVcaYuUn8rhl/gjR4uHTtfwxRexD22G/q4R8Inwr7nqe1rXXsc6LtsT9Zn2d2ztIKKyw7GhJtYuivnJi4F7+155rKmhMnJNonh46zKxh1xppIOI0PmKZptwOdr7XmP0BBaYNFqe7ByAvfVN1aF5DokoFq2XYqodxCUkGin5TL8LG8oxTo9hkiDycho2Uyn5KKmPbvuiLlGMTIWepEUnd/D3XW+DavmFSAD7yotMMFb+HocqSiLKpImPmRSPJBCBk/dIT2qXfwZ8KX4yXhI9/GlykYcOvvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api put&quot;
+        title=&quot;api put&quot;
+        src=&quot;/static/f26163b92f7b8e0c16e0573ffe0ef62c/37523/api_put.png&quot;
+        srcset=&quot;/static/f26163b92f7b8e0c16e0573ffe0ef62c/e9ff0/api_put.png 180w,
+/static/f26163b92f7b8e0c16e0573ffe0ef62c/f21e7/api_put.png 360w,
+/static/f26163b92f7b8e0c16e0573ffe0ef62c/37523/api_put.png 720w,
+/static/f26163b92f7b8e0c16e0573ffe0ef62c/302a4/api_put.png 1080w,
+/static/f26163b92f7b8e0c16e0573ffe0ef62c/07a9c/api_put.png 1440w,
+/static/f26163b92f7b8e0c16e0573ffe0ef62c/569c6/api_put.png 1674w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DELETE&lt;/strong&gt;&lt;br&gt;
+→ 기존의 데이터를 삭제하는 메서드  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// user 데이터 삭제&lt;/span&gt;
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/users/:userId&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;findIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;userId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;요청한 id를 찾을 수 없습니다.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;splice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;users&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.88888888888889%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB1klEQVQ4y5VUSXLbMBDEV/2QHPOLvCCnXH3wA3zOC1zeSkUSpECsA4CdGbCozZJLQdVI4AzR6J4eSZVSQEQt5nlGzhn3rGmaMI4jEp8DFiBbZDdB7XY7aK1hrYXsu65D3/Xo+x7OOYQQ4L3/EnL53hiU6PDnr8fDb4MfjzPUOAxwDGa4KCE362nkl/cNUA5KXvbbs3yLopgSlpzw/JLw88nh13OAsuOAmQ8TS12WBbVW1KW2vYS0RELy27Pst7WcNWKBIsos1x0AtuCPxiQxi/bqlucl7KR/luuyci6saIYeuYdym9x6CSghB6/VJBdiONRqy6046paLG5tTdqcsby0V2DGRlWJESBFUqLkotx3BzkF98HDJIxCfoYDJF3Qm8/kK9fH60kZFnJS+yCgMg17HYr9v4xSdPWt+M6pK1BaUK2xgUuyHinRkVJqTFVtfZchXV8sdktfeqizNrPzAsiMzcjFDct+trwYe8wxYVpcY0H+8Y9IGb72DNhE+5qvuXxp3WlMkv2WWlhmQuF+FGx5SwWhTY3s5g7em4QDoEzWJmV1Os4G9JvmbUblk3ACbZAZ072/Qg8Gn9k2yDXTG4C6GgYQRO8puZ5ZM8m/CLKf/kLzVxOV/PRDmnQW50QcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api delete&quot;
+        title=&quot;api delete&quot;
+        src=&quot;/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/37523/api_delete.png&quot;
+        srcset=&quot;/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/e9ff0/api_delete.png 180w,
+/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/f21e7/api_delete.png 360w,
+/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/37523/api_delete.png 720w,
+/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/302a4/api_delete.png 1080w,
+/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/07a9c/api_delete.png 1440w,
+/static/7d5d28e6b4d5a771dd42d8ae5ea76e12/aaf7f/api_delete.png 1668w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PATCH&lt;/strong&gt;&lt;br&gt;
+→ 데이터의 일부만 수정하는 메서드&lt;br&gt;
+&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⁉️ &lt;strong&gt;PUT&lt;/strong&gt; vs &lt;strong&gt;PATCH&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;PUT&lt;/code&gt;: 리소스의 &lt;strong&gt;모든 것&lt;/strong&gt;을 업데이트 한다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;PATCH&lt;/code&gt;: 리소스의 &lt;strong&gt;일부&lt;/strong&gt;를 업데이트 한다.&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;member&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;홍길동&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;age&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gender&lt;/td&gt;
+&lt;td&gt;M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;#x3C;리소스&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PUT&lt;/strong&gt; : 보내지지 않은 값은 &lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt; 값이 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token constant&quot;&gt;PUT&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;members&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;포디&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;member&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;포디&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;age&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gender&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;  
+&lt;p&gt;&lt;strong&gt;PATCH&lt;/strong&gt; : 요청에 포함되어 있는 부분만 변경된다. (기존 데이터 유지)  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token constant&quot;&gt;PATCH&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;members&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;포디&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;member&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;포디&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;age&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gender&lt;/td&gt;
+&lt;td&gt;M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;👉 &lt;a href=&quot;https://programmer93.tistory.com/39&quot;&gt;https://programmer93.tistory.com/39&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;-keyword&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-keyword&quot; aria-label=&quot; keyword permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🔑 KEYWORD&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Routing&lt;/code&gt;&lt;/strong&gt; : 네트워크 안에서 데이터를 최적의 경로를 선택하는 과정을 라우팅이라고 한다. 웹 애플리케이션에서 라우팅은 &lt;strong&gt;사용자가 요청한 URL에 따라 알맞는 페이지를 보여주는 것&lt;/strong&gt;을 의미한다.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;API&lt;/code&gt;&lt;/strong&gt; : Application Programming Interfaces 약자로, 응용프로그래밍 인터페이스를 의미한다. &lt;strong&gt;복잡한 기능을 쉽게 개발할 수 있도록 프로그래밍 언어로 코드를 제공하는 것&lt;/strong&gt;으로, 애플리케이션과 기기가 원활하게 통신할 수 있도록 해준다.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Node.js&lt;/code&gt;&lt;/strong&gt; : Chrome의 V8엔진을 이용하여 javascript로 서버를 구축하고, &lt;strong&gt;서버에서 JavaScript가 작동되도록 해주는 런타임 환경&lt;/strong&gt;이다.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Web Server&lt;/code&gt;&lt;/strong&gt; :  &lt;strong&gt;HTTP 또는 HTTPS를 통해 웹 브라우저에서 요청하는 HTML 문서나 오브젝트(이미지 파일 등)을 전송해주는 서비스 프로그램&lt;/strong&gt;이다. 브라우저가 웹 서버에서 불려진 파일을 필요로 할때, 브라우저는 HTTP를 통해 파일을 요청한다. 요청이 올바른 웹 서버(하드웨어)에 도달하였을 때, HTTP 서버는 요청된 문서를 HTTP를 이용해 보내준다.&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 300px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwklEQVQoz42R2QrCMBBFY12RInXDpbYVfaq7+OIC/oQggv//H94ppxB8auAkw2SWO4lzzh3EBXai7qqttjiJI5jdsoutF2QXVzESfTGA0h6LIbYJmIgp50zsHQEPcRNr8SWoKTqiCxa3EksmSUQqFggwf24FI/GkoDnfIqZjgroGDYwacRlCPuJFfqHQtoD5z+JOsRRiRirHG3vFegiKaGzv6DYkZkhuV/yUkA+15nPeP/QvckZyjOWf/6v0B15u4fsBynYNKkb7pEAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;web server&quot;
+        title=&quot;web server&quot;
+        src=&quot;/static/f0f859a564653084b7a21394cb0a05fc/5a46d/web_server.png&quot;
+        srcset=&quot;/static/f0f859a564653084b7a21394cb0a05fc/e9ff0/web_server.png 180w,
+/static/f0f859a564653084b7a21394cb0a05fc/5a46d/web_server.png 300w&quot;
+        sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Learn/Common_questions/What_is_a_web_server&quot;&gt;https://developer.mozilla.org/ko/docs/Learn/Common_questions/What_is_a_web_server&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC 8주차 워크북]]></title><description><![CDATA[UMC 8주차 워크북 HTTP  = HyperText Transfer Protocol →  프론트와 서버 간의 데이터 통신 방법 중 하나    = HyperText Transfer Protocol Secure → HTTP + 보안     URL…]]></description><link>https://www.jsh99.com/UMC/W8_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W8_workbook/</guid><pubDate>Tue, 17 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-8주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-8%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 8주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 8주차 워크북&lt;/h2&gt;
 &lt;br&gt; 
 &lt;h3 id=&quot;http&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http&quot; aria-label=&quot;http permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;HTTP&lt;/code&gt;&lt;/strong&gt; = &lt;strong&gt;HyperText Transfer Protocol&lt;/strong&gt;&lt;br&gt;
