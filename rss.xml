@@ -1,4 +1,269 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 May 2022 17:29:32 GMT</lastBuildDate><item><title><![CDATA[UMC 9주차 워크북]]></title><description><![CDATA[UMC 9주차 워크북 라우팅(Routing) 이란 URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET, POST 등)인 특정 엔드포인트에 대한 클라이언트 요청에 애플리케이션이 응답하는 방법을 결정하는 것을 말한다. 👉 https…]]></description><link>https://www.jsh99.com/UMC/W9_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W9_workbook/</guid><pubDate>Fri, 20 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-9주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-9%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 9주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 9주차 워크북&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 May 2022 16:37:45 GMT</lastBuildDate><item><title><![CDATA[Javascript 원시값과 참조값]]></title><description><![CDATA[javascript 원시값과 참조값 자바스크립트 변수는 크게 두 가지 타입으로 분류할 수 있는데, 바로 과 이다.  원시 값(Primitive Type…]]></description><link>https://www.jsh99.com/JavaScript/primitive_reference/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/primitive_reference/</guid><pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;javascript-원시값과-참조값&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC-%EC%B0%B8%EC%A1%B0%EA%B0%92&quot; aria-label=&quot;javascript 원시값과 참조값 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript 원시값과 참조값&lt;/h1&gt;
+&lt;p&gt;자바스크립트 변수는 크게 두 가지 타입으로 분류할 수 있는데, 바로 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;원시 값&lt;/code&gt;&lt;/strong&gt;과 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;참조 값&lt;/code&gt;&lt;/strong&gt;이다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;원시-값primitive-type&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EC%8B%9C-%EA%B0%92primitive-type&quot; aria-label=&quot;원시 값primitive type permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원시 값(Primitive Type)&lt;/h2&gt;
+&lt;p&gt;원시 값은 단순한 &lt;strong&gt;데이터&lt;/strong&gt;이며, 모든 원시 값은 &lt;strong&gt;변경이 불가능&lt;/strong&gt;하다. 원시 값을 변수에 할당하면 변수에 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;실제 값&lt;/code&gt;&lt;/strong&gt;이 저장된다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;li&gt;Boolean&lt;/li&gt;
+&lt;li&gt;Null&lt;/li&gt;
+&lt;li&gt;Undefined&lt;/li&gt;
+&lt;li&gt;Biglnt&lt;/li&gt;
+&lt;li&gt;Symbol&lt;br&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; num &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+num &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 재할당&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;원시 값을 할당한 변수 &lt;code class=&quot;language-text&quot;&gt;num&lt;/code&gt;에 새로운 값 &lt;code class=&quot;language-text&quot;&gt;100&lt;/code&gt;을 재할당하면, 초기화했던 &lt;code class=&quot;language-text&quot;&gt;6&lt;/code&gt;이 저장된 메모리 안의 &lt;strong&gt;원시 값 자체를 수정하는 것이 아니라 새 메모리 공간에 재할당한 원시 값을 저장&lt;/strong&gt;한다. 변수 &lt;code class=&quot;language-text&quot;&gt;num&lt;/code&gt;의 메모리 주소는 재할당한 원시 값인 &lt;code class=&quot;language-text&quot;&gt;100&lt;/code&gt;이 저장된 &lt;code class=&quot;language-text&quot;&gt;주소b&lt;/code&gt;로 바뀐다.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;원시 값은 변경 불가능하므로 값을 재할당하면 새로운 메모리 공간을 확보하고 재할당한 값을 저장한 후, 변수가 참조하던 메모리 공간의 주소를 변경한다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe5NIFH/xAAYEAEBAAMAAAAAAAAAAAAAAAABABARMf/aAAgBAQABBQJmOWjH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhAAAgMBAQAAAAAAAAAAAAAAATEAEBEhUf/aAAgBAQABPyHWuEuleVZAIk43X//aAAwDAQACAAMAAAAQAM//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhEDFhUf/aAAgBAQABPxBl9c+R6Po1sSlW3diFFBqAI279PH//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;primitive value&quot;
+        title=&quot;primitive value&quot;
+        src=&quot;/static/3db7a4a2fd882dbd5bd137a31b5f84bf/80e3c/primitive.jpg&quot;
+        srcset=&quot;/static/3db7a4a2fd882dbd5bd137a31b5f84bf/4ec73/primitive.jpg 180w,
+/static/3db7a4a2fd882dbd5bd137a31b5f84bf/158ba/primitive.jpg 360w,
+/static/3db7a4a2fd882dbd5bd137a31b5f84bf/80e3c/primitive.jpg 720w,
+/static/3db7a4a2fd882dbd5bd137a31b5f84bf/47311/primitive.jpg 1080w,
+/static/3db7a4a2fd882dbd5bd137a31b5f84bf/644c5/primitive.jpg 1440w,
+/static/3db7a4a2fd882dbd5bd137a31b5f84bf/0ecaf/primitive.jpg 1767w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; num1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; num2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;num1 &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; num1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;원시 값은 &lt;strong&gt;실제 값 자체를 비교&lt;/strong&gt;하기 때문에 각각 다른 변수에 같은 값을 저정한 후 비교하면 두 값이 같다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuTcmwAGQf/8QAGBABAQADAAAAAAAAAAAAAAAAAQAQEiD/2gAIAQEAAQUCW2wkHP8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFRABAQAAAAAAAAAAAAAAAAAAIDH/2gAIAQEABj8CEP8A/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAERISAxQVGRsf/aAAgBAQABPyFy47JTfonJMtLLtmP/2gAMAwEAAgADAAAAEPjPAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExIEFxkf/aAAgBAQABPxBSg2C4BGCX1Z+ShdJ7AVAjJjcRKireuP8A/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;compare primitive value&quot;
+        title=&quot;compare primitive value&quot;
+        src=&quot;/static/adf2109a26e8160485576027537c89fc/80e3c/primitive_compare.jpg&quot;
+        srcset=&quot;/static/adf2109a26e8160485576027537c89fc/4ec73/primitive_compare.jpg 180w,
+/static/adf2109a26e8160485576027537c89fc/158ba/primitive_compare.jpg 360w,
+/static/adf2109a26e8160485576027537c89fc/80e3c/primitive_compare.jpg 720w,
+/static/adf2109a26e8160485576027537c89fc/47311/primitive_compare.jpg 1080w,
+/static/adf2109a26e8160485576027537c89fc/8a29d/primitive_compare.jpg 1197w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;값에-의한-전달pass-by-value&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%92%EC%97%90-%EC%9D%98%ED%95%9C-%EC%A0%84%EB%8B%ACpass-by-value&quot; aria-label=&quot;값에 의한 전달pass by value permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;값에 의한 전달(Pass by Value)&lt;/h3&gt;
+&lt;p&gt;원시 값이 &lt;strong&gt;실제 값이 복사 되어 전달&lt;/strong&gt;되는 것을 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;값에 의한 전달&lt;/code&gt;&lt;/strong&gt;이라고 한다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; origin &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; copy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; origin&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;origin &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; copy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;새로운 변수 &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;에 원시 값이 저장된 다른 변수 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;를 할당하면, &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;에 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;의 &lt;strong&gt;실제 값 &lt;code class=&quot;language-text&quot;&gt;10&lt;/code&gt;이 복사&lt;/strong&gt;되어 전달된다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe7OglQ//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAERIP/aAAgBAQABBQJ0rFj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAEBAQEBAAAAAAAAAAAAAAABABExIf/aAAgBAQABPyFanAk5yQeyDHl//9oADAMBAAIAAwAAABBA3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAQEBAQEBAAAAAAAAAAAAAAERACFxMf/aAAgBAQABPxAkCB5uQvT6Gb3XvNEgZhAQQwBAhv/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;pass by value&quot;
+        title=&quot;pass by value&quot;
+        src=&quot;/static/2254342e301d3c92827ff4ef2f7728d6/80e3c/passbyValue.jpg&quot;
+        srcset=&quot;/static/2254342e301d3c92827ff4ef2f7728d6/4ec73/passbyValue.jpg 180w,
+/static/2254342e301d3c92827ff4ef2f7728d6/158ba/passbyValue.jpg 360w,
+/static/2254342e301d3c92827ff4ef2f7728d6/80e3c/passbyValue.jpg 720w,
+/static/2254342e301d3c92827ff4ef2f7728d6/47311/passbyValue.jpg 1080w,
+/static/2254342e301d3c92827ff4ef2f7728d6/644c5/passbyValue.jpg 1440w,
+/static/2254342e301d3c92827ff4ef2f7728d6/b0c0e/passbyValue.jpg 1622w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;copy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;222&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 재할당&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;origin &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; copy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;의 메모리 공간은 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;과 다른 메모리 공간을 사용하기에, &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;의 값을 변경해도 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt; 변수에 영향을 주지 않는다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHcSiXiD//EABkQAQACAwAAAAAAAAAAAAAAAAEAEQIQIf/aAAgBAQABBQJYayOhcon/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAAxEAD/2gAIAQEABj8CKYn/xAAcEAEAAQQDAAAAAAAAAAAAAAABABARUWEhQYH/2gAIAQEAAT8hTKJE4faI3dNzUQxT/9oADAMBAAIAAwAAABArP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAECAQE/EEf/xAAfEAEAAgIABwAAAAAAAAAAAAABESEAMRBBUXGRweH/2gAIAQEAAT8QlgDM3X3DhEWLT64AnMG+jtko1Td8sABDxn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;pass by value reallocation&quot;
+        title=&quot;pass by value reallocation&quot;
+        src=&quot;/static/79d42d6aab3c591ec86d9bf8d349ef20/80e3c/passbyPrimitive_new.jpg&quot;
+        srcset=&quot;/static/79d42d6aab3c591ec86d9bf8d349ef20/4ec73/passbyPrimitive_new.jpg 180w,
+/static/79d42d6aab3c591ec86d9bf8d349ef20/158ba/passbyPrimitive_new.jpg 360w,
+/static/79d42d6aab3c591ec86d9bf8d349ef20/80e3c/passbyPrimitive_new.jpg 720w,
+/static/79d42d6aab3c591ec86d9bf8d349ef20/47311/passbyPrimitive_new.jpg 1080w,
+/static/79d42d6aab3c591ec86d9bf8d349ef20/572c8/passbyPrimitive_new.jpg 1276w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;참조-값reference-type&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0-%EA%B0%92reference-type&quot; aria-label=&quot;참조 값reference type permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조 값(Reference Type)&lt;/h2&gt;
+&lt;p&gt;참조값은 여러 값으로 구성되는 &lt;strong&gt;메모리에 저장된 객체&lt;/strong&gt;이며, &lt;strong&gt;변경이 가능&lt;/strong&gt;하다. 참조 값을 변수에 할당하면 변수에 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;참조 값&lt;/code&gt;&lt;/strong&gt;이 저장된다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Object (객체)&lt;/li&gt;
+&lt;li&gt;Array (배열)&lt;/li&gt;
+&lt;li&gt;Function (함수)&lt;br&gt;
+&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; me &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
+  name &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Fody&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+me&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Seohyeon&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;참조 값을 할당한 변수 &lt;code class=&quot;language-text&quot;&gt;me&lt;/code&gt;에 새로운 값 &lt;code class=&quot;language-text&quot;&gt;Seohyeon&lt;/code&gt;을 재할당하면, 초기화했던 &lt;code class=&quot;language-text&quot;&gt;Fody&lt;/code&gt;이 저장된 메모리 안의 &lt;strong&gt;참조 값이 변경되며 메모리 주소 &lt;code class=&quot;language-text&quot;&gt;주소b&lt;/code&gt;에는 영향을 주지 않는다.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;참조 값은 변경 가능하므로 값을 재할당하면 메모리 주소는 변하지 않고 참조 값 자체가 바뀐다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdstCLD/xAAYEAEAAwEAAAAAAAAAAAAAAAABABAREv/aAAgBAQABBQJXVcFmTmv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAbEAACAgMBAAAAAAAAAAAAAAAAARExIVGRYf/aAAgBAQABPyHYcIC8jiro0bIS8tz7QlFH/9oADAMBAAIAAwAAABADD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESExQVFhcdH/2gAIAQEAAT8QAgEHZ/ZwGw2hYg274MvbYh0gCIldOPSAaFE//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;reference value&quot;
+        title=&quot;reference value&quot;
+        src=&quot;/static/ecf23f280a65cbd65a03bc3dc92f1f09/80e3c/referenceValue.jpg&quot;
+        srcset=&quot;/static/ecf23f280a65cbd65a03bc3dc92f1f09/4ec73/referenceValue.jpg 180w,
+/static/ecf23f280a65cbd65a03bc3dc92f1f09/158ba/referenceValue.jpg 360w,
+/static/ecf23f280a65cbd65a03bc3dc92f1f09/80e3c/referenceValue.jpg 720w,
+/static/ecf23f280a65cbd65a03bc3dc92f1f09/47311/referenceValue.jpg 1080w,
+/static/ecf23f280a65cbd65a03bc3dc92f1f09/644c5/referenceValue.jpg 1440w,
+/static/ecf23f280a65cbd65a03bc3dc92f1f09/6408a/referenceValue.jpg 1626w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; obj1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	key &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;value&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; obj2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	key &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;value&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;obj1 &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; obj2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;참조 값은 값 자체가 아닌 &lt;strong&gt;참조 값을 저장하고 있는 메모리 주소를 비교&lt;/strong&gt;하기 때문에 각각 다른 변수에 같은 값을 저정한 후 비교하면 두 값이 다르다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 79.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAezaNFH/xAAYEAEAAwEAAAAAAAAAAAAAAAABAhARAP/aAAgBAQABBQJ3hakaxMr/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAAxEAD/2gAIAQEABj8CaYn/xAAcEAABBAMBAAAAAAAAAAAAAAABABARMSFRYdH/2gAIAQEAAT8hORgfFNNHjbQs6jf/2gAMAwEAAgADAAAAEJMP/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQMBAT8Qp//EABYRAAMAAAAAAAAAAAAAAAAAABARQf/aAAgBAgEBPxBUf//EAB4QAQADAAAHAAAAAAAAAAAAAAEAESEQMVFhocHh/9oACAEBAAE/EDFUDr6TYKgYfOwutq+0pEGNt+zQQkOXD//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;compare reference value&quot;
+        title=&quot;compare reference value&quot;
+        src=&quot;/static/3bea51f5cbe1fbfe9b117cb0bab2f45d/80e3c/reference_compare.jpg&quot;
+        srcset=&quot;/static/3bea51f5cbe1fbfe9b117cb0bab2f45d/4ec73/reference_compare.jpg 180w,
+/static/3bea51f5cbe1fbfe9b117cb0bab2f45d/158ba/reference_compare.jpg 360w,
+/static/3bea51f5cbe1fbfe9b117cb0bab2f45d/80e3c/reference_compare.jpg 720w,
+/static/3bea51f5cbe1fbfe9b117cb0bab2f45d/47311/reference_compare.jpg 1080w,
+/static/3bea51f5cbe1fbfe9b117cb0bab2f45d/c1291/reference_compare.jpg 1256w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;참조에-의한-전달pass-by-reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0%EC%97%90-%EC%9D%98%ED%95%9C-%EC%A0%84%EB%8B%ACpass-by-reference&quot; aria-label=&quot;참조에 의한 전달pass by reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조에 의한 전달(Pass by Reference)&lt;/h3&gt;
+&lt;p&gt;참조 값이 실제 값이 아닌 &lt;strong&gt;참조 값이 저장된 메모리 주소가 전달&lt;/strong&gt;되는 것을 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;참조에 의한 전달&lt;/code&gt;&lt;/strong&gt;이라고 한다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; origin &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	key &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;value&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; copy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; origin&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;origin &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; copy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;새로운 변수 &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;에 참조 값이 저장된 다른 변수 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;을 할당하면, &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;에 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;의 &lt;strong&gt;메모리 주소 값 &lt;code class=&quot;language-text&quot;&gt;주소b&lt;/code&gt;가 복사&lt;/strong&gt;되어 전달된다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHbi0FGD//EABcQAQEBAQAAAAAAAAAAAAAAAAEAEDH/2gAIAQEAAQUCWWOb/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGxABAAEFAQAAAAAAAAAAAAAAAQAQESExUZH/2gAIAQEAAT8hYdvkbG41yljkscp//9oADAMBAAIAAwAAABADz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAbEAEAAgIDAAAAAAAAAAAAAAABABExYSFRkf/aAAgBAQABPxBKeUBLZF8Fy49nMWbQuyKAIQ1AAoKJ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;pass by reference&quot;
+        title=&quot;pass by reference&quot;
+        src=&quot;/static/bc598f50a63ed6e8546d2cf91a966fd8/80e3c/passbyReference.jpg&quot;
+        srcset=&quot;/static/bc598f50a63ed6e8546d2cf91a966fd8/4ec73/passbyReference.jpg 180w,
+/static/bc598f50a63ed6e8546d2cf91a966fd8/158ba/passbyReference.jpg 360w,
+/static/bc598f50a63ed6e8546d2cf91a966fd8/80e3c/passbyReference.jpg 720w,
+/static/bc598f50a63ed6e8546d2cf91a966fd8/47311/passbyReference.jpg 1080w,
+/static/bc598f50a63ed6e8546d2cf91a966fd8/644c5/passbyReference.jpg 1440w,
+/static/bc598f50a63ed6e8546d2cf91a966fd8/8f8c6/passbyReference.jpg 1946w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;copy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;key &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;new&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 재할당&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;origin &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; copy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;의 메모리 공간은 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;과 같은 메모리 주소를 참조하고 있기 때문에, &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;의 값을 변경하면 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt; 값에 영향을 준다. &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;가 참조 값이 저장된 메모리 주소를 공유하고 있으므로, 두 변수 중 어느 하나의 값을 변경하더라도 두 변수의 값이 같이 바뀐다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 80%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB3FFi4kr/xAAYEAADAQEAAAAAAAAAAAAAAAAAAQIREP/aAAgBAQABBQJs00pCnn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAVEAEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAQAGPwJr/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIRCBMWGR/9oACAEBAAE/ISNIiAwmDubeS1HLhyh1j//aAAwDAQACAAMAAAAQ+O//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EI7TD//EABwQAAICAgMAAAAAAAAAAAAAAAERACEQgTFBkf/aAAgBAQABPxBMAhd1KtQW+REU9ekPZCkUHuHF4kdprH//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;pass by reference reallocation&quot;
+        title=&quot;pass by reference reallocation&quot;
+        src=&quot;/static/1ebfd9b4325369f9f6b0027eb49bdbac/80e3c/passbyReference_new.jpg&quot;
+        srcset=&quot;/static/1ebfd9b4325369f9f6b0027eb49bdbac/4ec73/passbyReference_new.jpg 180w,
+/static/1ebfd9b4325369f9f6b0027eb49bdbac/158ba/passbyReference_new.jpg 360w,
+/static/1ebfd9b4325369f9f6b0027eb49bdbac/80e3c/passbyReference_new.jpg 720w,
+/static/1ebfd9b4325369f9f6b0027eb49bdbac/47311/passbyReference_new.jpg 1080w,
+/static/1ebfd9b4325369f9f6b0027eb49bdbac/56b68/passbyReference_new.jpg 1252w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;👉 참고: &lt;a href=&quot;https://publizm.github.io/posts/javascript/Primitive_Reference&quot;&gt;https://publizm.github.io/posts/javascript/Primitive_Reference&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC 9주차 워크북]]></title><description><![CDATA[UMC 9주차 워크북 라우팅(Routing) 이란 URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET, POST 등)인 특정 엔드포인트에 대한 클라이언트 요청에 애플리케이션이 응답하는 방법을 결정하는 것을 말한다. 👉 https…]]></description><link>https://www.jsh99.com/UMC/W9_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W9_workbook/</guid><pubDate>Fri, 20 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-9주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-9%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 9주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 9주차 워크북&lt;/h2&gt;
 &lt;br&gt; 
 &lt;h3 id=&quot;라우팅routing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%9D%BC%EC%9A%B0%ED%8C%85routing&quot; aria-label=&quot;라우팅routing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;라우팅(Routing)&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;라우팅&lt;/code&gt;이란 URI(또는 경로) 및 특정한 HTTP 요청 메소드(GET, POST 등)인 특정 엔드포인트에 대한 클라이언트 요청에 애플리케이션이 응답하는 방법을 결정하는 것을 말한다.&lt;br&gt;
