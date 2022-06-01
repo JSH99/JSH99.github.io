@@ -1,4 +1,261 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 May 2022 16:37:45 GMT</lastBuildDate><item><title><![CDATA[Javascript 원시값과 참조값]]></title><description><![CDATA[javascript 원시값과 참조값 자바스크립트 변수는 크게 두 가지 타입으로 분류할 수 있는데, 바로 과 이다.  원시 값(Primitive Type…]]></description><link>https://www.jsh99.com/JavaScript/primitive_reference/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/primitive_reference/</guid><pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;javascript-원시값과-참조값&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC-%EC%B0%B8%EC%A1%B0%EA%B0%92&quot; aria-label=&quot;javascript 원시값과 참조값 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript 원시값과 참조값&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Jun 2022 13:55:53 GMT</lastBuildDate><item><title><![CDATA[UMC 10주차 워크북]]></title><description><![CDATA[UMC 10주차 워크북 서버와의 협업 협업
+    → 개발 ( 프론트엔드 + 백엔드 ) 협업 시 어떤 가 필요할지 회의 → 의견 취합, 적극 의견 제시 API…]]></description><link>https://www.jsh99.com/UMC/W10_workbook/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/W10_workbook/</guid><pubDate>Wed, 01 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-10주차-워크북&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-10%EC%A3%BC%EC%B0%A8-%EC%9B%8C%ED%81%AC%EB%B6%81&quot; aria-label=&quot;umc 10주차 워크북 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC 10주차 워크북&lt;/h2&gt;
+&lt;br&gt; 
+&lt;h3 id=&quot;서버와의-협업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B2%84%EC%99%80%EC%9D%98-%ED%98%91%EC%97%85&quot; aria-label=&quot;서버와의 협업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서버와의 협업&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;협업&lt;/strong&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd2AuD//xAAYEAACAwAAAAAAAAAAAAAAAAAAARARIf/aAAgBAQABBQJ2bH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAEAAwEAAAAAAAAAAAAAAAABABExQf/aAAgBAQABPyEcML61DJ//2gAMAwEAAgADAAAAEIAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFRQf/aAAgBAQABPxCwq50VqC7wcIEAtvZ//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;collaborate&quot;
+        title=&quot;collaborate&quot;
+        src=&quot;/static/1d0d2f9f52b437f3acc619caa1f41c21/80e3c/collaborate.jpg&quot;
+        srcset=&quot;/static/1d0d2f9f52b437f3acc619caa1f41c21/4ec73/collaborate.jpg 180w,
+/static/1d0d2f9f52b437f3acc619caa1f41c21/158ba/collaborate.jpg 360w,
+/static/1d0d2f9f52b437f3acc619caa1f41c21/80e3c/collaborate.jpg 720w,
+/static/1d0d2f9f52b437f3acc619caa1f41c21/47311/collaborate.jpg 1080w,
+/static/1d0d2f9f52b437f3acc619caa1f41c21/644c5/collaborate.jpg 1440w,
+/static/1d0d2f9f52b437f3acc619caa1f41c21/f2d2a/collaborate.jpg 2502w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;디자인 시안&lt;/code&gt; → 개발 ( 프론트엔드 + 백엔드 )&lt;/li&gt;
+&lt;li&gt;협업 시 어떤 &lt;code class=&quot;language-text&quot;&gt;데이터&lt;/code&gt;가 필요할지 회의 → 의견 취합, 적극 의견 제시&lt;/li&gt;
+&lt;li&gt;API 및 데이터 없이 프론트 개발을 시작해야 하는 경우 대부분 → 디자인 시안대로 &lt;code class=&quot;language-text&quot;&gt;퍼블리싱&lt;/code&gt;하는 것이 중요&lt;/li&gt;
+&lt;li&gt;API 명세서가 나올 때쯤 퍼블리싱 완료한 화면에 데이터 코드 작성  &lt;/li&gt;
+&lt;li&gt;경청 및 수용, 의견 적극 제시, 책임감, 존중, 소통, 믿음, 역지사지•••&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;퍼블리싱&lt;/strong&gt;&lt;br&gt;
+: HTML, CSS을 위주로 &lt;strong&gt;화면을 디자인대로 구현&lt;/strong&gt;하는 작업. 동적인 데이터가 들어가는 곳이라면 더미 데이터를 사용하여 구현.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;더미 데이터&lt;/strong&gt;&lt;br&gt;
+: &lt;strong&gt;가짜 데이터&lt;/strong&gt;. 간단하게 JSON 파일을 만들어서 최소한의 데이터를 만들어 놓은 것. 더미 데이터를 만들어 보는 과정을 통해 데이터에 대해 고민해보고, 백엔드와의 소통이 수월해질 수 있다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;figma&lt;/strong&gt;&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAC+ElEQVQozx2SW29UVRTHz0cx8YugMfHBB0g0MRolShQNRvGFRkqiPiBQJQEERCzoNKCIDzi0pV4LKklrLIGAWGdqp0Nn5lzm3GbO/Zw5M/Nz7dnJyj57Z5//+l+W1tF1TMtC73QwTBNTqtVu097ewtW3sDtbdPVHWJ02220dy49x/BDHduiaBm15myTJpNTSjFaLwLEZyyHxe7hRTGg0aFT28MX+p1g69jw/LVb49Z8GabdBd/Uym6vX2Wj+R8200YVAURREUUQcx2i+4xD1e5TjEZnZJW9Z0r3J8vGneXXnExzat5vzp46xsHyTfPM2F155jOnXdzFX+ZSpyjVqjzqMygFlWU5Yago1FnTVITEEsNnFs+ocfW0Hb7+wi8Nv7mT17CG+v7GAU/uTmZd3cGL3i8xNHeCtI2eoN5qUec5wOGQ0GglglJLl4IYielBCXuKIZ18e3MP7zz7J5X1vMLv3Xb45V6FntbmzvMj9S1VunP+KK/O/oOsGmdiUi+yRgGqFWWfthwpfVxdZefCAtc1tfMfi779uUT39OetTp7k2/SHfzl4kSnNsz8cOehPP1XLEfwWmlpKt2StXOPLc40y/9Ayzxz9g78k5DNvD9zzpLhNgGERJSJ5n9Ho9fEnXc13yLJO7AtsWQJGsghmPx2hm/S6XZt6jevgjqifPMXt1AbfnE/T7k8e+7xOFEaHyOQyhKCcAqlQI6o0jwbo9j2xQoIVJiuv3JelIUnaJa036UUhfRihRIEFILEAKTAVXChPFrhDjh4PBBFAxj6KAwVAkexs1Vi6c5eqJoyyd+Rj9xwUCAds2OpjSdSje+EVGkMg0pAmZnIOyIBwOkCzpKhWuyE6jia+at/6QpVMzfHLgHT47uJ/m9e8IpGN6+w75/E3K39co52+RNlpEMqfjxT8of1tj+PMKI9lt0xIlwk5YD1UonpifqFmMpXuakYovjueS1ZsU9/4lu19jcHedoG3gy8+FfKu7/J7sDzewJLQgCMSaQOYx43/aeU1LjHtjfAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;figma&quot;
+        title=&quot;figma&quot;
+        src=&quot;/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/37523/figma.png&quot;
+        srcset=&quot;/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/e9ff0/figma.png 180w,
+/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/f21e7/figma.png 360w,
+/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/37523/figma.png 720w,
+/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/302a4/figma.png 1080w,
+/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/07a9c/figma.png 1440w,
+/static/735a34cb0a217d54c5cc2cb2ee7c7e0b/c50e3/figma.png 2442w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;strong&gt;UI 디자인 툴&lt;/strong&gt;. 색상, 폰트 등 간략한 코드 및 정보 확인 가능(30% 정도 참고)&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;api 명세서&lt;/strong&gt;&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB+UlEQVQ4y32TTW/TQBCG/d96qkAqCpU4I/XAX6EoKkk5IW7wH5C4VwVTt0TiQOuQNDH+Wtvrz3wosf2ys6lNYoeuNPJqd/zMvDOzysfLE3y6eIXx7TUy1wWfjuGOhsgcC0ufYc4ccW7L/cJ3H4yBCZ/YNDAT97Ft1ndKd/AEXe0IEzYCrSAK4Xo+1mWJx5bHOdL5vHWunN908E57AcP9jSIvwXmAIAiQr9coBbTI840Veb0viwJMqHGF0b72Eaa8vjrA6bdDTBxdRghFhr7vYzabYbVaCVDRMgpEQS3LwroK/HCnfJn08VnvwfYMCYyiCJ7nwXEchGH4XyAXknVdl77bUGUUq/jFLhAlvAWk/WKx2Av0hArDMLBcLnczPNUO8EY9hMMnEshDLuVQdlmW7TjvAEVQ8mveK+eDDnrqMab2sAamaYqcir8Htl1DqnUL2P/xDGdqR2Q43QBFbah7cRzvhVVAUkBNocbtSO4J4Fv1uRybsoB0ZIxJ8GMZUn0paFOJ0h8Q8Bj35h3KfAOk+pAc+qmZQQX0hWTyS5JENq7u8tnNU3S/HsHy72vJlCEZNYW62MxCAkVAktyq4YefL/FeO8H4z514HYUcbIpcGY1P1aTmHJqmKWeQVg0cehpu7e9I0hgo/0neNmrS9rzRl14SdZq+dFed/wVYAiA3TpfGLQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api document&quot;
+        title=&quot;api document&quot;
+        src=&quot;/static/9dd10a8c3246d185f160ef30daf662d8/37523/api_document.png&quot;
+        srcset=&quot;/static/9dd10a8c3246d185f160ef30daf662d8/e9ff0/api_document.png 180w,
+/static/9dd10a8c3246d185f160ef30daf662d8/f21e7/api_document.png 360w,
+/static/9dd10a8c3246d185f160ef30daf662d8/37523/api_document.png 720w,
+/static/9dd10a8c3246d185f160ef30daf662d8/302a4/api_document.png 1080w,
+/static/9dd10a8c3246d185f160ef30daf662d8/07a9c/api_document.png 1440w,
+/static/9dd10a8c3246d185f160ef30daf662d8/78363/api_document.png 1522w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;strong&gt;api 내용을 구체화한 것을 문서화&lt;/strong&gt;한 것이다. api 이름, 파라미터, 메서드, 반환 값 등의 정보를 담고 있다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;postman&lt;/strong&gt;&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABwUlEQVQ4y4WSy3KeMAyFefC+VXfddpUXaBedZJFJy88dg28Y26dH/kNCmHZiRiPA0udjSdWyjlCzgl4W+hl6XYstSsFoDWct/ry8YOz7EuedQ8fY779W9BNz+g7TrUbbthiHAdU4jnAM2vcdxhhM0wRLyLZtCGFHThFBKzi9AmkDELH6DT+bAB8SgvfYvUNgvuRU9e1WlK1UJWDxApZ3z2DxhjDjAx6eNB5vGt4azEPDfYs97kjIkCWiKklu2wZN0xSQ2MIrLa/gaeJhakavHL58s/j6gypzQDfMzFNYRuYoj5QyLaGS61kmatYrhFBki8l/WTnfT0dRkej2kuh9xNA59LWBXbeyK7FF4QGSK4qJdPknAfKdYiz1XA0Pdx6RdXUuYuoTxi6xoVQX8x14NEASDy9A2fyXyUr01m1Y5sj6JlidwTOpkkAp+hl4725gQLxcGW9QlguKda5rjtIS7qXAq8IrUPwVdlaHAswwzNPacU65l94PrM6gK1CWjJGYNOJIEqA2Dr+fFbqWU9JwGkb7EXjYVaEMvkzAGSiPNGnmyPjNc7xkUsI78LArUCBHx8/A/60CPKs7Az/U7VTHz+wvwFb2R4aVwx0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;postman&quot;
+        title=&quot;postman&quot;
+        src=&quot;/static/ea4ead9dcdaea7f29073b71901b5a67d/37523/postman.png&quot;
+        srcset=&quot;/static/ea4ead9dcdaea7f29073b71901b5a67d/e9ff0/postman.png 180w,
+/static/ea4ead9dcdaea7f29073b71901b5a67d/f21e7/postman.png 360w,
+/static/ea4ead9dcdaea7f29073b71901b5a67d/37523/postman.png 720w,
+/static/ea4ead9dcdaea7f29073b71901b5a67d/302a4/postman.png 1080w,
+/static/ea4ead9dcdaea7f29073b71901b5a67d/07a9c/postman.png 1440w,
+/static/ea4ead9dcdaea7f29073b71901b5a67d/0c307/postman.png 2526w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;strong&gt;api 테스팅 툴&lt;/strong&gt;. api response를 바로 확인할 수 있고, 여러 개의 api를 관리할 수 있다. fetch 등 request 옵션을 선택하여 작성된 코드를 가져다 쓸 수 있다.
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;api-명세서-분석&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#api-%EB%AA%85%EC%84%B8%EC%84%9C-%EB%B6%84%EC%84%9D&quot; aria-label=&quot;api 명세서 분석 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;API 명세서 분석&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;api 명세서 구성&lt;/strong&gt;&lt;br&gt;
+: 각 api별 요청&amp;#x26;응답, 규정, 상태 코드
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 294px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 221.66666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api lists&quot;
+        title=&quot;api lists&quot;
+        src=&quot;/static/2917d972997773dab4696b8c87350978/04a86/api_lists.png&quot;
+        srcset=&quot;/static/2917d972997773dab4696b8c87350978/e9ff0/api_lists.png 180w,
+/static/2917d972997773dab4696b8c87350978/04a86/api_lists.png 294w&quot;
+        sizes=&quot;(max-width: 294px) 100vw, 294px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;요청(request)&lt;/strong&gt;&lt;br&gt;
+: 사용한 메서드, api URL, 파라미터 정보&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvElEQVQoz32S626bQBSEef9H6QP0R/urUqO0dtwkBLl2jO9gczWGZW+AmR4WV8Ku0pU+Zmf2aBeWY7GCwZ3O4fz4BX/vI05iBEGAKIrh+77Rzv8lDEMkSYJutG37D5bWCnmRoxQllJKQgkNwTipQlsxo5zs4LyFoXUmJj4YV02m2M8Xs3cWZcZRSgxNGVXX11YB+reDyhrwU0FUNa+WF+PTlEV9HM3x+sDF2E0zWJzyt0v8yGWhX/3MR45AUsE7xCd5yjzjNsN15WPlrxOcUXNCbCEkoo4zLG3+LQlFyMMJq6go13Z2WvEf11FqavFLCzNumQlOp3it5i+7rmoY+OUxzjKYbLAKGyXyHMc1n3hmLI8P7sTD5dJfi0XbxtomM7/IhC2Lmn5EWApYXJPg2dig8Y+Qs8fD8G7N9imVQwKVsFdKG2wjfn97wuthjSd495jd0tXMvQ3SiO4yorxz71fzy3XYN++UZSRRem+BinrUWiPY2ytPmmrd3dNKYdrKyLIPn+VBawz8csNlskaYptUBFfUl3RsoYQxRskWdhn1PtEE1I2kxQz1pddzdNg7quDd186If5fXbP5XLBHwdeQtky304OAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api request&quot;
+        title=&quot;api request&quot;
+        src=&quot;/static/51ec32e044f525f2d706830d911383d1/37523/api_request.png&quot;
+        srcset=&quot;/static/51ec32e044f525f2d706830d911383d1/e9ff0/api_request.png 180w,
+/static/51ec32e044f525f2d706830d911383d1/f21e7/api_request.png 360w,
+/static/51ec32e044f525f2d706830d911383d1/37523/api_request.png 720w,
+/static/51ec32e044f525f2d706830d911383d1/302a4/api_request.png 1080w,
+/static/51ec32e044f525f2d706830d911383d1/e8e04/api_request.png 1270w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+→ 로그인 api의 url은 ‘api/login’이고, post 메서드를 사용하여 새로운 데이터를 추가한다. 매개변수에는 api_key, username, password가 있으며 모두 string 타입의 값이다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;응답(response)&lt;/strong&gt;
+: 상태 코드, 예상 응답 값
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABbklEQVQoz5WQW2vcMBSE/f//TZ/ThxIIC71AaNLuLvXdWtuy67VlybIsyzuR1KRsaSBE8DHiSGc0OsE8z2gbClpX4CPDv+vyToCgPQ/4cHOH228H3IcVPn1+xMfdPb4eCuxJjx95h58vFOdX2Vse0t8gLUPQDQy7hz2iakBo+fIY4ntIEJY90lYgbgSSZvIa1+Pr0BG/SoZTOyCQs8SyTj7utmoYi1Yzzl2LiY+AYjCc4jL3eGvpRSFwM9zM5gtKKYhpgl4NpK073cxqH1JW9ZuGUs5/DC/PAzXGQEluo2pcNgOjFVatsSwaalng7l4jpfyvFkxCQLDBNi0QgoOSBD0t0FQFSLxHkcWIohjH4xFxHCPLMuR57jVN0797h7BeAWcMbRT57452n5cU9SBR1RRZXuB0OqEsS9/o1DW5x7VNfo2rcc4RiHFEkySY7Oz6vkdBStCOoa5rmyjyRok9J4TYpJFP1XWdb75mtD6OJ7ThrNMPOguNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api response&quot;
+        title=&quot;api response&quot;
+        src=&quot;/static/72b1b302e21eafa61feac68d2cdf5147/37523/api_response.png&quot;
+        srcset=&quot;/static/72b1b302e21eafa61feac68d2cdf5147/e9ff0/api_response.png 180w,
+/static/72b1b302e21eafa61feac68d2cdf5147/f21e7/api_response.png 360w,
+/static/72b1b302e21eafa61feac68d2cdf5147/37523/api_response.png 720w,
+/static/72b1b302e21eafa61feac68d2cdf5147/302a4/api_response.png 1080w,
+/static/72b1b302e21eafa61feac68d2cdf5147/8b70b/api_response.png 1266w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+→ 로그인 api가 성공했을 때(상태코드: 200) 예상 응답 값은 이렇고, 상태 코드별로 이런 오류일 때는 이러한 에러 메시지를 반환한다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;규정(convention)&lt;/strong&gt;&lt;br&gt;
+: 단어 정의 및 규칙/규정&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABQElEQVQoz4VQiW6CQBDl/79LsSgiEQskgoCA3LTKJai87kzSpEmTdpKX3dlj3iGVZYnL5YIwDFFVFaherxfjZ1E/z/O/kKZp4mGGYeB8PsN1XZxOJ6RpCrobhuHX8L9Kej6fSJIEsizDNE3oug5FUXi1LAuqqiIIAnYRxzHyPGeyb1CfZSnft20LidjJNn3UNE0M2mG307DdbuH7PiskpX3fM6gn3O93xjSOGAVoT+Kkx+OBuq7hOA7bdRwXnhcI2x6OxyOiKGIHcRxxJLSniOqiwnDt0H42GAUhkfJACpJkK+sN9nth86DC0Fcw9hrb3mzWWC5lLOUVFosFO1m9vYlzBfb7AZ5pI3R92JaNpmkgUZBd1+EsWNM0QVlkSJMYVVlwLlEUioxETsUHq6U3eVHids3RXjP0twKzUEbCqL4AcJoLe59UOVwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api convention&quot;
+        title=&quot;api convention&quot;
+        src=&quot;/static/69bb1212d738719dd48b69c619e2350d/37523/api_convention.png&quot;
+        srcset=&quot;/static/69bb1212d738719dd48b69c619e2350d/e9ff0/api_convention.png 180w,
+/static/69bb1212d738719dd48b69c619e2350d/f21e7/api_convention.png 360w,
+/static/69bb1212d738719dd48b69c619e2350d/37523/api_convention.png 720w,
+/static/69bb1212d738719dd48b69c619e2350d/302a4/api_convention.png 1080w,
+/static/69bb1212d738719dd48b69c619e2350d/21482/api_convention.png 1350w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;상태코드(status code)&lt;/strong&gt;&lt;br&gt;
+: HTTP 상태 코드 의미 설명&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACKklEQVQ4y5VU2Y7TQBD0/38OEhLiCRASLwsBJJaw69hJ7CS+7yO24xRdvWsTVoQFS6Xpmb5remzYto0gCGBZFoqiAL9xHBXn8xnTdylffjy/hLHdbjXgfr9HGIaI43gGz6MoUqRpqvtL/aQjTqeTJjDKpkAURhqMCt/31ZjZhmFA3/cKOkzyBOoJ6uYKy9DHRqpkpeu1/biucTgc0DQN/ufTgGNVIctzJAlb9JGrnOAgFBQiq6Hy+S+QgC/e3OD1hy94t7gX3OHl2xu8er/AZzvC102ChRWq/CysAGXdwvj04x6mE8B0Q3z8ZmJp73G3FRqCHE5Uwo2qeZ1kZ5YfdXGl9lXdwKiajM1jHHqEgYdjW2M8DTI7QrSsinHQs0nm+nTftY34SoVeTPJbVMLlerPB7e13HaE0zZTLNMv01jNZeUY5SVLZ57rGcSLzW+oM8xKNINyjbY+o61pvd7VagcPOdSMJdrsdTNPUJJR5zknwPE/1fBAcNxakAZsgxCC3yLmiEyugY9d1v43E5eshnsqttEsYmWRqjr8qZEbOI2XXdbUits7stPkTqCvL8iFgKk4aUEpmq8vlUlukAdvgXFJ+LiA51IClvM9ens9RgrIitsvnx7fL50gH0kEKroF6Bn0IKE6dHHDDgAQJ59Mj+ayQTkx4DdQz8dxyKweNHJAvtszb45+FATkuNGQF10D9zGEiN1tJsFI4cBxHg3AMplsjjzT+Gyauaf8TrYwQmEq0eoIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;api status code&quot;
+        title=&quot;api status code&quot;
+        src=&quot;/static/77463e502bf13cab3f2672bfa706953d/37523/api_statusCode.png&quot;
+        srcset=&quot;/static/77463e502bf13cab3f2672bfa706953d/e9ff0/api_statusCode.png 180w,
+/static/77463e502bf13cab3f2672bfa706953d/f21e7/api_statusCode.png 360w,
+/static/77463e502bf13cab3f2672bfa706953d/37523/api_statusCode.png 720w,
+/static/77463e502bf13cab3f2672bfa706953d/302a4/api_statusCode.png 1080w,
+/static/77463e502bf13cab3f2672bfa706953d/9239a/api_statusCode.png 1246w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+🛠분석자료 &lt;a href=&quot;https://rebugged.com/web-service-api-specification-doc-template/&quot;&gt;https://rebugged.com/web-service-api-specification-doc-template/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Javascript 원시값과 참조값]]></title><description><![CDATA[javascript 원시값과 참조값 자바스크립트 변수는 크게 두 가지 타입으로 분류할 수 있는데, 바로 과 이다.  원시 값(Primitive Type…]]></description><link>https://www.jsh99.com/JavaScript/primitive_reference/</link><guid isPermaLink="false">https://www.jsh99.com/JavaScript/primitive_reference/</guid><pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;javascript-원시값과-참조값&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC-%EC%B0%B8%EC%A1%B0%EA%B0%92&quot; aria-label=&quot;javascript 원시값과 참조값 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;javascript 원시값과 참조값&lt;/h1&gt;
 &lt;p&gt;자바스크립트 변수는 크게 두 가지 타입으로 분류할 수 있는데, 바로 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;원시 값&lt;/code&gt;&lt;/strong&gt;과 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;참조 값&lt;/code&gt;&lt;/strong&gt;이다.&lt;br&gt;
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&quot;원시-값primitive-type&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EC%8B%9C-%EA%B0%92primitive-type&quot; aria-label=&quot;원시 값primitive type permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원시 값(Primitive Type)&lt;/h2&gt;
