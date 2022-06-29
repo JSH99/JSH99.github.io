@@ -96,7 +96,7 @@ module.exports = {
         description:
           '수기 작성을 통한 물품 대여 진행의 불편함을 개선하고자 만든 웹 사이트. 목록 조회 및 검색을 통해 사용자가 대여 가능 물품을 대여하고, 관리자가 물품 등록&삭제 및 반납 처리를 한다.',
         techStack: ['react','node.js'],
-        thumbnailUrl: 'weborrow.png',
+        thumbnailUrl: '',
         links: {
           post: '',
           github: 'https://github.com/JSH99/we.borrow',
