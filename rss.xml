@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Jul 2022 14:11:28 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 로컬과 원격]]></title><description><![CDATA[Git & GitHub 실습 - 로컬 & 원격  Local & Remote  : 내 컴퓨터  : 다른 사람 컴퓨터
-
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Jul 2022 14:15:42 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 로컬과 원격]]></title><description><![CDATA[Git & GitHub 실습 - 로컬 & 원격  Local & Remote  : 내 컴퓨터  : 다른 사람 컴퓨터   
  local ➡️ remote github repository 생성
 github에서 새 리포지토리를 생성한다.
 
- git remote…]]></description><link>https://www.jsh99.com/Git/git_practice2/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice2/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---로컬--원격&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EB%A1%9C%EC%BB%AC--%EC%9B%90%EA%B2%A9&quot; aria-label=&quot;git  github 실습   로컬  원격 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 로컬 &amp;#x26; 원격&lt;/h2&gt;
+ git…]]></description><link>https://www.jsh99.com/Git/git_practice2/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice2/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---로컬--원격&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EB%A1%9C%EC%BB%AC--%EC%9B%90%EA%B2%A9&quot; aria-label=&quot;git  github 실습   로컬  원격 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 로컬 &amp;#x26; 원격&lt;/h2&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;local--remote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local--remote&quot; aria-label=&quot;local  remote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Local &amp;#x26; Remote&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Local&lt;/code&gt;&lt;/strong&gt; : 내 컴퓨터&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Remote&lt;/code&gt;&lt;/strong&gt; : 다른 사람 컴퓨터
-&lt;span
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Remote&lt;/code&gt;&lt;/strong&gt; : 다른 사람 컴퓨터  &lt;/p&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
     &gt;
@@ -33,7 +33,8 @@ github에서 새 리포지토리를 생성한다.
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;local-️-remote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-%EF%B8%8F-remote&quot; aria-label=&quot;local ️ remote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;local ➡️ remote&lt;/h3&gt;
 &lt;ol&gt;
@@ -119,8 +120,10 @@ github 리포지토리 mian 브랜치에 현재 커밋들을 넣는다. &lt;stro
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-&lt;span
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
     &gt;
@@ -145,8 +148,6 @@ github 리포지토리 mian 브랜치에 현재 커밋들을 넣는다. &lt;stro
       /&gt;
     &lt;/span&gt;
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h3 id=&quot;local-️-remote-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-%EF%B8%8F-remote-1&quot; aria-label=&quot;local ️ remote 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;local ⬅️ remote&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -205,8 +206,10 @@ github 리포지토리에서 모든 커밋들을 내 로컬로 가져온다.&lt;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-&lt;span
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
     &gt;
@@ -229,12 +232,10 @@ github 리포지토리에서 모든 커밋들을 내 로컬로 가져온다.&lt;
       /&gt;
     &lt;/span&gt;
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h3 id=&quot;gitignore&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitignore&quot; aria-label=&quot;gitignore permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;.gitignore&lt;/h3&gt;
 &lt;p&gt;올리고 싶지 않은 파일을 포함한 파일
-.gitignore.io 홈페이지 활용
-&lt;span
+.gitignore.io 홈페이지 활용  &lt;/p&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
     &gt;
