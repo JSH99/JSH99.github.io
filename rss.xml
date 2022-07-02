@@ -1,4 +1,288 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jun 2022 18:07:15 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 기초]]></title><description><![CDATA[Git & GitHub 실습 - 기초  Git 소스코드 관리에 특화된 버전 관리 프로그램 → 파일은 한 개로만 유지되면 좋겠는데 언제든지 특정버전으로 돌아가고 싶어!   형상 관리 = 버전 관리 = 구성 관리  Server & Client    ex…]]></description><link>https://www.jsh99.com/Git/git_practice/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---기초&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EA%B8%B0%EC%B4%88&quot; aria-label=&quot;git  github 실습   기초 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 기초&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Jul 2022 14:11:28 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 로컬과 원격]]></title><description><![CDATA[Git & GitHub 실습 - 로컬 & 원격  Local & Remote  : 내 컴퓨터  : 다른 사람 컴퓨터
+
+ local ➡️ remote github repository 생성
+github에서 새 리포지토리를 생성한다.
+
+ git remote…]]></description><link>https://www.jsh99.com/Git/git_practice2/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice2/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---로컬--원격&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EB%A1%9C%EC%BB%AC--%EC%9B%90%EA%B2%A9&quot; aria-label=&quot;git  github 실습   로컬  원격 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 로컬 &amp;#x26; 원격&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;local--remote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local--remote&quot; aria-label=&quot;local  remote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Local &amp;#x26; Remote&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Local&lt;/code&gt;&lt;/strong&gt; : 내 컴퓨터&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Remote&lt;/code&gt;&lt;/strong&gt; : 다른 사람 컴퓨터
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.222222222222214%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3LCAf//EABcQAQADAAAAAAAAAAAAAAAAAAABEUH/2gAIAQEAAQUC1Fv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAADAQEAAAAAAAAAAAAAAAAAASExkf/aAAgBAQABPyGl4Qi6z//aAAwDAQACAAMAAAAQgA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAAMBAAAAAAAAAAAAAAABEQAhUTH/2gAIAQEAAT8QGwE6rqZdz2axKkDlM//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Local &amp;amp; Remote&quot;
+        title=&quot;Local &amp;amp; Remote&quot;
+        src=&quot;/static/5f85c9c703fb0276a07e37f05a8a38f5/80e3c/local_remote.jpg&quot;
+        srcset=&quot;/static/5f85c9c703fb0276a07e37f05a8a38f5/4ec73/local_remote.jpg 180w,
+/static/5f85c9c703fb0276a07e37f05a8a38f5/158ba/local_remote.jpg 360w,
+/static/5f85c9c703fb0276a07e37f05a8a38f5/80e3c/local_remote.jpg 720w,
+/static/5f85c9c703fb0276a07e37f05a8a38f5/47311/local_remote.jpg 1080w,
+/static/5f85c9c703fb0276a07e37f05a8a38f5/644c5/local_remote.jpg 1440w,
+/static/5f85c9c703fb0276a07e37f05a8a38f5/d2757/local_remote.jpg 2701w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;local-️-remote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-%EF%B8%8F-remote&quot; aria-label=&quot;local ️ remote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;local ➡️ remote&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;github repository 생성&lt;/strong&gt;
+github에서 새 리포지토리를 생성한다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABU0lEQVQoz31S2U7DMBCMBC2UJs5RO06cOneTphfQVgIh/v+3hrUTKh6Ah9Gsx17v7tjOSmoU7Q7rskOqa2jivN7aNYsknhjH0hf/YNz3wtjCSdY1TpcP9IcL2t0Zw/MbjtdPdPtXKtAizirEqrQQaTHGpAmrVZBZDZ7k8ILYwgm4IpGSdAeud4jWAwLV2aosShCKDOZMINTIhJv2I751yKmqok6WXoQFwYxdNlvkzQCpCrimciipuhx5SnS/EcSTNu47Mitwul5weHlHVvZ2rIIuMzxfMNw/eBaPzL/5adhlgkAX+vEY+1OHJrEdjuTZGeVmbx9DVz2yYgOVt5YNdN3bro1mHo1XOcJqjbDIEDUaYZrZSx1jctOf7CFFicZgn7z79icUE/MxDnhKsQLjCTwuLZigmH6EGd/xVyly6sh0VtL3YeTD3dzFbBr1L8x+gbHjC4ijysm74RfrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;create repositoty&quot;
+        title=&quot;create repositoty&quot;
+        src=&quot;/static/a688f334fbf25179125722530a5d5f03/37523/create_repo.png&quot;
+        srcset=&quot;/static/a688f334fbf25179125722530a5d5f03/e9ff0/create_repo.png 180w,
+/static/a688f334fbf25179125722530a5d5f03/f21e7/create_repo.png 360w,
+/static/a688f334fbf25179125722530a5d5f03/37523/create_repo.png 720w,
+/static/a688f334fbf25179125722530a5d5f03/302a4/create_repo.png 1080w,
+/static/a688f334fbf25179125722530a5d5f03/07a9c/create_repo.png 1440w,
+/static/a688f334fbf25179125722530a5d5f03/a4f81/create_repo.png 1508w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;git remote add origin 리포지토리&lt;/strong&gt;
+리포지토리와 내 로컬 폴더를 연결한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin repository_address&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 2.7777777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAOklEQVQI1x2MyQkAQAgDtwEVRVB/9t9klvgIQw7yZgZmhqpCd59EBLsLd0dmXkZyExHn2ZGqeuQPuw/XOhjlb3s6ugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;remote add origin&quot;
+        title=&quot;remote add origin&quot;
+        src=&quot;/static/250030e906362b5ab0b15eb0986f6e6e/37523/add_remote.png&quot;
+        srcset=&quot;/static/250030e906362b5ab0b15eb0986f6e6e/e9ff0/add_remote.png 180w,
+/static/250030e906362b5ab0b15eb0986f6e6e/f21e7/add_remote.png 360w,
+/static/250030e906362b5ab0b15eb0986f6e6e/37523/add_remote.png 720w,
+/static/250030e906362b5ab0b15eb0986f6e6e/302a4/add_remote.png 1080w,
+/static/250030e906362b5ab0b15eb0986f6e6e/07a9c/add_remote.png 1440w,
+/static/250030e906362b5ab0b15eb0986f6e6e/6bfbb/add_remote.png 1514w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;git push origin main&lt;/strong&gt;
+github 리포지토리 mian 브랜치에 현재 커밋들을 넣는다. &lt;strong&gt;(로컬 → 서버)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA4ElEQVQoz4WR2WqGMBBGg7uC+76gou//jN/PmaIUStuLEGeSOTkzuuM4NAyD9n3Xfd+a51njONq+bZuKolBVVarrWmVZWvzkWHmev+dpmsqt62pJEl3X2SEFxDwGhIusOI7lnPt7AVmWxWywIn5yxOzTNOk8T7Vt+z+QAiyaplHf92bHjh32wLHlXhRFCoLgtU2SRL7vW+x53heQedEmEIqBf4dhyXwBAsaWGGO6AszIeOg15Kc8hXwDv67LCsixA+IMAayyLDPjHy0/c3su8xKXAdAKcKzJAwrD0Fr9bYYf+DikU/+dneAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git push&quot;
+        title=&quot;git push&quot;
+        src=&quot;/static/741632e1491fd13935a4141f13084915/37523/git_push.png&quot;
+        srcset=&quot;/static/741632e1491fd13935a4141f13084915/e9ff0/git_push.png 180w,
+/static/741632e1491fd13935a4141f13084915/f21e7/git_push.png 360w,
+/static/741632e1491fd13935a4141f13084915/37523/git_push.png 720w,
+/static/741632e1491fd13935a4141f13084915/078fe/git_push.png 934w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.88888888888889%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAArElEQVQY012P2w6EIAxEed6owQuiIHjBNbo+uP//c7MtRhP34aR02kwHsewHwvolDrhpgzIjajvFer7P/oK1tl/irps+8OFiJ/0N4aYVw7xDtT0K7SArG2Gjpgsoo2YglT2hWV53cZcptUfjAuywQNNBYcm1NgNeWYVE1kgJrqy1tMhmiVS3/kTFymH4eNV4iD5s5DzGQVY0N3zN+BkFpUlz/Zj9w78xFExRiB9CEmdQRntqfAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git pushed&quot;
+        title=&quot;git pushed&quot;
+        src=&quot;/static/f78c62649400054b19e0d992bd015ffb/37523/git_push2.png&quot;
+        srcset=&quot;/static/f78c62649400054b19e0d992bd015ffb/e9ff0/git_push2.png 180w,
+/static/f78c62649400054b19e0d992bd015ffb/f21e7/git_push2.png 360w,
+/static/f78c62649400054b19e0d992bd015ffb/37523/git_push2.png 720w,
+/static/f78c62649400054b19e0d992bd015ffb/302a4/git_push2.png 1080w,
+/static/f78c62649400054b19e0d992bd015ffb/07a9c/git_push2.png 1440w,
+/static/f78c62649400054b19e0d992bd015ffb/37c35/git_push2.png 1810w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;local-️-remote-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#local-%EF%B8%8F-remote-1&quot; aria-label=&quot;local ️ remote 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;local ⬅️ remote&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;git clone&lt;/strong&gt;
+github 리포지토리에서 모든 커밋들을 내 로컬로 가져온다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone repository_address&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAhUlEQVQY05WPywrEIBRDlUoXRatWqW/q//9khnRRupmBWRwCCTfkijEGeu+gklorrLXY9x3HcUBrDWPMDT3CnNCLMcI593jCe4/zPEFlSGUJw3VdIYT4D654L0wpoZSCOSdyzmitYds2LMsCpdTNz0Ie8yiEcBde1/UUcS1f5OI3UsqvhR95NFt+WyJHEAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git clone&quot;
+        title=&quot;git clone&quot;
+        src=&quot;/static/dcf87eb70f7f1a7fea04a249c511e2c1/37523/git_clone.png&quot;
+        srcset=&quot;/static/dcf87eb70f7f1a7fea04a249c511e2c1/e9ff0/git_clone.png 180w,
+/static/dcf87eb70f7f1a7fea04a249c511e2c1/f21e7/git_clone.png 360w,
+/static/dcf87eb70f7f1a7fea04a249c511e2c1/37523/git_clone.png 720w,
+/static/dcf87eb70f7f1a7fea04a249c511e2c1/302a4/git_clone.png 1080w,
+/static/dcf87eb70f7f1a7fea04a249c511e2c1/3d405/git_clone.png 1348w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;git pull origin main&lt;/strong&gt;
+서버에서 변경사항이 일어난 것을 로컬로 동기화한다. &lt;strong&gt;(서버 → 로컬)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABFUlEQVQoz52Q2W7CMBBF/ViVFsjiOHb2jYSEiAQkxP//2K3HLhWhLZX6cCx7ljvXw7KmRjtOqPezZkLTz1BZA1/m4Kr4FcqrbIe46JBWPbLmgChvwfwwhUxr/dhh6yvDxpMaBRGXEFFp7jb2iI3fNLjKwRweISla5HVvkm/bAO8OISCTCpF2y2Vm3ja+hOrXbgjSIWHmBjHSskOo3dikMM1URFNlUpu7FfwO9ZAQ/TCICjD6Iln1RGIa73F1jAY+xu8hUdLwtCi5NDtMq70RfFk5eiJfTLcrEE+51dDKGB3t4YRhumA4Xoz117W/bKKGZzjB144Z2W6HE7rxjHG+Qum9rTb8T1c/8ylI3/VCuy9y/D8xyweuN+K0QiHTgwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git pull&quot;
+        title=&quot;git pull&quot;
+        src=&quot;/static/c61972e27e115dd28f22b0b0e0a1689b/37523/git_pull.png&quot;
+        srcset=&quot;/static/c61972e27e115dd28f22b0b0e0a1689b/e9ff0/git_pull.png 180w,
+/static/c61972e27e115dd28f22b0b0e0a1689b/f21e7/git_pull.png 360w,
+/static/c61972e27e115dd28f22b0b0e0a1689b/37523/git_pull.png 720w,
+/static/c61972e27e115dd28f22b0b0e0a1689b/302a4/git_pull.png 1080w,
+/static/c61972e27e115dd28f22b0b0e0a1689b/07a9c/git_pull.png 1440w,
+/static/c61972e27e115dd28f22b0b0e0a1689b/913b9/git_pull.png 1822w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABIklEQVQoz42Sx27EMAxEjXXvvbd17P//RQaPgJxcvMmBlkSTM8ORrK7rZJ5nadtW1nWVfd9lHEeZpknPeZ5LVVV6TtNUwjDUXJIkEsex5ogsy8S2bbEAo7EoCjmOQ5Zl0SAPGf8A4wwQjZZlPQdqAKB42zbp+/4GRXVZlnKep+aN8rquxfM88X1fFUdR9ANIE0UoZAVgGAZpmkZB2ROAGEBUGlIjAgsgUIWMBgB7AAlGpZicATQeo85xHF1d11XvWMlZfGiEjQKYgiBQAoAZgwb2+AggBI8eIh8VAKDi/Dq1oaorVYRHFKIArwgIHwFRZm4S0Jfz+nyLfwW3yxjmFsu2FDdwJUuz+40Zlf8KHqe5FDw63sf9qK/rUiK8/d30aeRvAbXoQCUiAlAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git pulled&quot;
+        title=&quot;git pulled&quot;
+        src=&quot;/static/4ad05705bf9fac3ac870ddab53be70c4/37523/git_pull2.png&quot;
+        srcset=&quot;/static/4ad05705bf9fac3ac870ddab53be70c4/e9ff0/git_pull2.png 180w,
+/static/4ad05705bf9fac3ac870ddab53be70c4/f21e7/git_pull2.png 360w,
+/static/4ad05705bf9fac3ac870ddab53be70c4/37523/git_pull2.png 720w,
+/static/4ad05705bf9fac3ac870ddab53be70c4/f1901/git_pull2.png 942w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;gitignore&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitignore&quot; aria-label=&quot;gitignore permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;.gitignore&lt;/h3&gt;
+&lt;p&gt;올리고 싶지 않은 파일을 포함한 파일
+.gitignore.io 홈페이지 활용
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABW0lEQVQoz3VSPUsDQRBN4S/wT/h//E0WgmBpoZWdWIgKNnYKooVooWBjEYh6SS65u73N7u33c3bPS06JA483O8w8Zt/uAL0IISTWxiMvDdjCouIWXDhw6SAal3JPfbHHufBrLsagLxZSY8DlbYWT6wIPryLlR+c5jq9muLgp03nOPIaZwWii1wt2Yu12DsPPCuOcYZoX+MhKjL4qMC5Qc4l5SfVZhVnB0BgDGzyMd3DESbCv3op7KNVASglW14mlFOB8ASEEqqpO9Xj+G9GKtKHSHo12xC2MDQnWYclL0CKeoMi/w+kT9sf32M3ucFa8ra5ck/mMa/CFppxYmJZ/cqkcGuUTYq6Iy0Zj6+UAm8972Hjcwfb7aScY/cO/8KG9SnzRBCr4CKpF76S3aAh25eHSvR6QBgvWfpvo83hukOUaE2LrAtZF6DzsXrn/2pG7bWIe2f2g7Qlr574BmMy3BfZUvAoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gitignore&quot;
+        title=&quot;gitignore&quot;
+        src=&quot;/static/a677930530298f24216c32425187d998/37523/gitignore.png&quot;
+        srcset=&quot;/static/a677930530298f24216c32425187d998/e9ff0/gitignore.png 180w,
+/static/a677930530298f24216c32425187d998/f21e7/gitignore.png 360w,
+/static/a677930530298f24216c32425187d998/37523/gitignore.png 720w,
+/static/a677930530298f24216c32425187d998/302a4/gitignore.png 1080w,
+/static/a677930530298f24216c32425187d998/21482/gitignore.png 1350w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;pro설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pro%EC%84%A4%EC%A0%95&quot; aria-label=&quot;pro설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pro설정✨&lt;/h3&gt;
+&lt;p&gt;→ 다양한 혜택 제공, 대학생에게는 무료!
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 196px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACYElEQVQ4y2VTW08aQRTmoVFc7gvLZXeBBZabCCFsVSgGVDBtahPTJ2Ot0drIJdGgpWLbCKatbRMb+9CHJv21X2eO2a2Xhy/nzOzMd75zvlmbyxeC0xvEjMtPcVrwUnSLYdidIuU8Tjt8tMfP2503ueD2W3v8HI82nvgkBdFElmJ5vg4xqOKR3Y3cnEEX0rNllIwakbrY+VzRoFyJp6kYF2OS2gR3AEE5gePRBP3BCCdnE7za62LnbR/jy5/oDU7RORqie/Qer/f72D04xMX3a+z3Bjj5cEHr9ZebN8VYcSIMKQm6sLXXwdnkG86/XOHHrz8YjS+x/aaH0/OvGH76TERXv/8SycHhkBUb4ZgJ4HdMldSyxx+BFNEoRqIp1FeeYjAaI5UtQpI1xFN5hNUktnY7pDIQjiHE1jG2z8eh6bNweKQbQrN3B1PKc16Jq+aR5uMWyQQOnk8JHvrOYZrFozVD0x3TVR45HF7uYAQBKWnBH0jAL2nsWwBOH3sJvvBDl80Ffy6ZQoXl7Fm4vJDDc8hpbcTkxwzzhLiygIRaQ1ZrwSuqjFi6Q2bNkFepVJtotl+g2lhDSNahR5tQlRLqpW1Ui5sw8huEgt5CMJiFHmtA8PgtIouQ5sZarS8/w+JSG421dYRCGVKmazVs1D8SdtrXeF59h5bRpZaz2iopu63uPyEzQGUP26gtQ8+XaZ2JryARrUIKpln7BUTlMvLJVba3gFR0ia0rTKH4UKFZgbs8NcMcpF9QYgOXoSmLdDmpPqHZ8TnyqERKVrv3VdpuD9V0zPq/PT6CQBDv4L4ZJv4Bz8h1OjNulSYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git pro&quot;
+        title=&quot;git pro&quot;
+        src=&quot;/static/c1de6614cede485ed92876dd3c1b3cad/ad4c1/git_pro.png&quot;
+        srcset=&quot;/static/c1de6614cede485ed92876dd3c1b3cad/e9ff0/git_pro.png 180w,
+/static/c1de6614cede485ed92876dd3c1b3cad/ad4c1/git_pro.png 196w&quot;
+        sizes=&quot;(max-width: 196px) 100vw, 196px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;참고 강의&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EA%B9%83-%EA%B9%83%EB%A6%B0%EC%9D%B4%EC%BD%94%EC%8A%A4#&quot;&gt;https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EA%B9%83-%EA%B9%83%EB%A6%B0%EC%9D%B4%EC%BD%94%EC%8A%A4#&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git & GitHub 실습 - 기초]]></title><description><![CDATA[Git & GitHub 실습 - 기초  Git 소스코드 관리에 특화된 버전 관리 프로그램 → 파일은 한 개로만 유지되면 좋겠는데 언제든지 특정버전으로 돌아가고 싶어!   형상 관리 = 버전 관리 = 구성 관리  Server & Client    ex…]]></description><link>https://www.jsh99.com/Git/git_practice/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---기초&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EA%B8%B0%EC%B4%88&quot; aria-label=&quot;git  github 실습   기초 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 기초&lt;/h2&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;git&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git&quot; aria-label=&quot;git permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git&lt;/h3&gt;
 &lt;ul&gt;
