@@ -1,4 +1,249 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Jul 2022 14:15:42 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 로컬과 원격]]></title><description><![CDATA[Git & GitHub 실습 - 로컬 & 원격  Local & Remote  : 내 컴퓨터  : 다른 사람 컴퓨터   
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Jul 2022 14:09:52 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 브랜치와 협업]]></title><description><![CDATA[Git & GitHub 실습 - 브랜치 & 협업  branch 각자 브랜치에서 따로 개발한 후 merge(병합)하는 것이 더 편리하다. 이때 merge해달라는 요청이 pull request이다. PR을 수락하면 브랜치가 합쳐지면서 merge…]]></description><link>https://www.jsh99.com/Git/git_practice3/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice3/</guid><pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---브랜치--협업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EB%B8%8C%EB%9E%9C%EC%B9%98--%ED%98%91%EC%97%85&quot; aria-label=&quot;git  github 실습   브랜치  협업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 브랜치 &amp;#x26; 협업&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;branch&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#branch&quot; aria-label=&quot;branch permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;branch&lt;/h3&gt;
+&lt;p&gt;각자 브랜치에서 따로 개발한 후 merge(병합)하는 것이 더 편리하다. 이때 merge해달라는 요청이 pull request이다. PR을 수락하면 브랜치가 합쳐지면서 merge가 된다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABVUlEQVQoz31S20rDQBDNDwt9kOKDHyEKXh78AR+kPlaK2oooFLyUBim9pUlLk9lcmrTm0iR73KakF1scOOzZmdkzOzsr4Y9xzvfy/ywNIsSqBT4NIS0OLQHkPEviabZ2nQ4u6QwN6xOK1ceFeSr4F5yJg2u6QtV8wNDUcD4+wbtb3xRcI02XYr7r4019xREroKY/QdabODQP8GxUQYxwbBRxSzeikIIiFfDoViDttJy3IUSJKONJsI4n/mavwNSdQW7K4JHYximkCdVBoxos24VJCphWhqY00Gq1YVm28A3AhmUwowMaf4ON7kGGBs+bYawOoPV6mLjuqoYQfBFJFdiOB4v1hWBJCH6IN/Lg+yFI74LUEpjeEmgKfgdGKqazH9ijIQLbXg1wASmaJ4jm6apCEMY7U8x9obiV0e4hieZ7f0YmuO3kW9U2p575xbvyJN4bz/kvNZJglGFrwz4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch&quot;
+        title=&quot;git branch&quot;
+        src=&quot;/static/0dcbdc1c9cc757e6f9a165364e4eb8f9/0b533/git_branch.png&quot;
+        srcset=&quot;/static/0dcbdc1c9cc757e6f9a165364e4eb8f9/e9ff0/git_branch.png 180w,
+/static/0dcbdc1c9cc757e6f9a165364e4eb8f9/f21e7/git_branch.png 360w,
+/static/0dcbdc1c9cc757e6f9a165364e4eb8f9/0b533/git_branch.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;branch 목록&lt;/strong&gt;&lt;br&gt;
+현재 생성되어 있는 브랜치의 목록을 본다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 12.222222222222221%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAATklEQVQI15WIMQ7AIAwDkw6IIiWmIFiq/v+ZrpKtY4fT+SxzT/rjxAXCwbUWAbD3TjNLxhjZtVa6e37h1lrucHQg5Sy02yiHUOQ/qvrpFyNFK5L/VQFvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch&quot;
+        title=&quot;git branch&quot;
+        src=&quot;/static/12ba2357a47c11163fd96727d987fac7/37523/git_branch_.png&quot;
+        srcset=&quot;/static/12ba2357a47c11163fd96727d987fac7/e9ff0/git_branch_.png 180w,
+/static/12ba2357a47c11163fd96727d987fac7/f21e7/git_branch_.png 360w,
+/static/12ba2357a47c11163fd96727d987fac7/37523/git_branch_.png 720w,
+/static/12ba2357a47c11163fd96727d987fac7/ae694/git_branch_.png 850w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;branch 생성&lt;/strong&gt;&lt;br&gt;
+new_branch라는 새로운 브랜치를 만든다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch new_branch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 4.444444444444445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAOUlEQVQI1zWKwQkAQQjErgRFVEQf9t/kHA7sI4+EfN2NzCS7i6oi7k5mBveICMyMX0RAVenX33vtB+zZGR7Blw2HAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch new&quot;
+        title=&quot;git branch new&quot;
+        src=&quot;/static/cd283833f5e37db0fbabd86b9c8a5f4b/37523/git_branch_new.png&quot;
+        srcset=&quot;/static/cd283833f5e37db0fbabd86b9c8a5f4b/e9ff0/git_branch_new.png 180w,
+/static/cd283833f5e37db0fbabd86b9c8a5f4b/f21e7/git_branch_new.png 360w,
+/static/cd283833f5e37db0fbabd86b9c8a5f4b/37523/git_branch_new.png 720w,
+/static/cd283833f5e37db0fbabd86b9c8a5f4b/078fe/git_branch_new.png 934w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;branch 이동&lt;/strong&gt;&lt;br&gt;
+branch_name이라는 브랜치로 이동한다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout branch_name&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAkElEQVQY062NUQ6EIBBDZ40koqAY0QWiWf3g/kfspmO8gR+TR9u0SCkF27aBPI4DKSXs+45lWdRf1xUxRjjnMM+z+iEE1Q+ZM6OWXLIWz/PUoZwzaq3qsey91+u6DsMw6EDf96r5ttYqjTEQEcj1u3SZJf5CjuOoJZIeyeKTkY8mp2lC27b3YPNtIB+5xQv3B+wrWz8BBDRkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git checkout&quot;
+        title=&quot;git checkout&quot;
+        src=&quot;/static/88c3ed0e30a0b3db2beccdb7c8d79200/37523/git_checkout.png&quot;
+        srcset=&quot;/static/88c3ed0e30a0b3db2beccdb7c8d79200/e9ff0/git_checkout.png 180w,
+/static/88c3ed0e30a0b3db2beccdb7c8d79200/f21e7/git_checkout.png 360w,
+/static/88c3ed0e30a0b3db2beccdb7c8d79200/37523/git_checkout.png 720w,
+/static/88c3ed0e30a0b3db2beccdb7c8d79200/d9199/git_checkout.png 960w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;branch push&lt;/strong&gt;&lt;br&gt;
+특정 브랜치를 깃허브에 푸시한다. (로컬 ➡️ 깃허브)   &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin branch_name&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;branch pull&lt;/strong&gt;&lt;br&gt;
+브랜치를 깃허브에서 가져와서 최신화한다.  (깃허브 ➡️ 로컬)  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin branch_name&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;branch 병합&lt;/strong&gt;
+합쳐주고 싶은 브랜치를 선택하여 pull request를 통해 요청을 하고 충돌이 없다면 컨펌하여 merge할 수 있다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA9klEQVQY01XQy1KDMBQGYPblIpSQCwRISEoLgS66Ukd9BzeObn3/Z/g9pQuHxZeT5Mz8uUTu94Zy6sGEgbQjZO9R2zNEfyKe1g5cW2RM7lVqq8mR70SZoCYXKPWA2l0pbN6oYYUyAZrCtTlDtR6VooNlt7nPi0ojyflOFCcMaSshwoChCzBmRt9NcOMKd1kpcKTAE+rOI84YDmmJQ/YvfqoQ59Wjkug+5LqB/pgf3ifItxHMWlTSoBA9ct6h4HQ7ZTaltCgVof6RtztRnDIUtsX89Yzl5xXh+wXt54LmekHr6Ol+gXTE03e4gMbPEMNjTwwBrDE7fxpIhb4d0fYUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch merge&quot;
+        title=&quot;git branch merge&quot;
+        src=&quot;/static/d9949c9c998d72f6400fb4e2a38c2dfd/37523/git_merge1.png&quot;
+        srcset=&quot;/static/d9949c9c998d72f6400fb4e2a38c2dfd/e9ff0/git_merge1.png 180w,
+/static/d9949c9c998d72f6400fb4e2a38c2dfd/f21e7/git_merge1.png 360w,
+/static/d9949c9c998d72f6400fb4e2a38c2dfd/37523/git_merge1.png 720w,
+/static/d9949c9c998d72f6400fb4e2a38c2dfd/302a4/git_merge1.png 1080w,
+/static/d9949c9c998d72f6400fb4e2a38c2dfd/07a9c/git_merge1.png 1440w,
+/static/d9949c9c998d72f6400fb4e2a38c2dfd/95fa1/git_merge1.png 1816w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA5UlEQVQY042QzW6DMBCEnUJSBWPAMcbY/LhJoIhUUaL0UPXWHvoe7fs/xNR2pR4jDp9WWs3Ozi4ZzwMyrqGaPaS2qNtDqKYbQo9mJRIHXYDXEaEM8p2GdkbKPIGXBqyoQs13NdaPDPECgm6TgqRumOYl0kIiYQKreIuHOMEq2gaiNUXkhPECog0FYbyCrCysPaHrJrR2ApcNCp9Q6ADjCn7xEkiaV2iuE54/bxg+rujOM/r9DGNHCNWjrHtk7nQv9svv4g1pJtF+zXj5ecfp+w3q9YjjeEHdHdyTRXjFv1lxB/6X8BcCQZIMw2cyyQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch merge&quot;
+        title=&quot;git branch merge&quot;
+        src=&quot;/static/f46360d3314c6e57cd84f0796cb9c33f/37523/git_merge2.png&quot;
+        srcset=&quot;/static/f46360d3314c6e57cd84f0796cb9c33f/e9ff0/git_merge2.png 180w,
+/static/f46360d3314c6e57cd84f0796cb9c33f/f21e7/git_merge2.png 360w,
+/static/f46360d3314c6e57cd84f0796cb9c33f/37523/git_merge2.png 720w,
+/static/f46360d3314c6e57cd84f0796cb9c33f/302a4/git_merge2.png 1080w,
+/static/f46360d3314c6e57cd84f0796cb9c33f/07a9c/git_merge2.png 1440w,
+/static/f46360d3314c6e57cd84f0796cb9c33f/95fa1/git_merge2.png 1816w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 10%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeElEQVQI12WMSw6CMAAFOYGmikh/fEqhrcQEEk+gB/FcnnasxMSFi0lmMe8Vz8eLNNxpfcSHBTct+Lhu/mHMXknHTkj2B51RP4RClHbrw3xDmpGirhPVeUC3Ad0ETH/F9jOmjdgu0bgLZd19D9Uf4mhQdtq2p9y9Aa37NqU8u9HDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch merge&quot;
+        title=&quot;git branch merge&quot;
+        src=&quot;/static/049c6d0490af561472cb4e15b3094f3f/37523/git_merge3.png&quot;
+        srcset=&quot;/static/049c6d0490af561472cb4e15b3094f3f/e9ff0/git_merge3.png 180w,
+/static/049c6d0490af561472cb4e15b3094f3f/f21e7/git_merge3.png 360w,
+/static/049c6d0490af561472cb4e15b3094f3f/37523/git_merge3.png 720w,
+/static/049c6d0490af561472cb4e15b3094f3f/302a4/git_merge3.png 1080w,
+/static/049c6d0490af561472cb4e15b3094f3f/07a9c/git_merge3.png 1440w,
+/static/049c6d0490af561472cb4e15b3094f3f/95fa1/git_merge3.png 1816w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAzklEQVQI1z2Py07CYBSEuxUEkv69QG+25ZLSmjZoUMNFIDFxqSQQt65M3BI3PIGP4Mp3kCf8OPwhLr6cWcyZyRi94pr75YKsqridTpitnrmbrhiNZzzMnxgUN7h+ykVDcdlU1E+0LLmmYGlqZ+otG2Ocb/lc//Lx+sPL454ozehmJe0g1bhCJ+xid64w/SHKH4iORefYXoLjxTh+IqUJphNgTIp3dusDX29/bObfmG4gAb1/o3JDeYwlJEJFJVaY60AVVbTDvi5yvESvOHmPlOhXMAe+TqoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;git branch merge&quot;
+        title=&quot;git branch merge&quot;
+        src=&quot;/static/219024bfe2e1afabf05995ac64fe41a5/37523/git_merge4.png&quot;
+        srcset=&quot;/static/219024bfe2e1afabf05995ac64fe41a5/e9ff0/git_merge4.png 180w,
+/static/219024bfe2e1afabf05995ac64fe41a5/f21e7/git_merge4.png 360w,
+/static/219024bfe2e1afabf05995ac64fe41a5/37523/git_merge4.png 720w,
+/static/219024bfe2e1afabf05995ac64fe41a5/302a4/git_merge4.png 1080w,
+/static/219024bfe2e1afabf05995ac64fe41a5/99661/git_merge4.png 1098w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;협업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%98%91%EC%97%85&quot; aria-label=&quot;협업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;협업&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;branch&lt;/code&gt;&lt;/strong&gt;   &lt;/p&gt;
+&lt;p&gt;원본 리포지토리 클론 → 브랜치 생성 → 각자 브랜치에서 개발 → PR(요청) → Approve(동의) / Confirm(수락) → 브랜치 merge&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;fork&lt;/code&gt;&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;= 남의 리포지토리를 내 리포지토리에 그대로 복제하는 것&lt;br&gt;
+원본 리포지토리 포크 → 포크해온 내 리포지토리 클론 → 개발 →  PR(요청) → 원본 리토지토리 유저의 Confirm(수락) → merge&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;slack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#slack&quot; aria-label=&quot;slack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Slack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;업무 협업 메신저&lt;/strong&gt;, 개발 도구와 연동 가능  &lt;/li&gt;
+&lt;li&gt;깃허브의 commit, PR 등 변경사항 → slack 알림&lt;br&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;참고 강의&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EA%B9%83-%EA%B9%83%EB%A6%B0%EC%9D%B4%EC%BD%94%EC%8A%A4#&quot;&gt;https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EA%B9%83-%EA%B9%83%EB%A6%B0%EC%9D%B4%EC%BD%94%EC%8A%A4#&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git & GitHub 실습 - 로컬과 원격]]></title><description><![CDATA[Git & GitHub 실습 - 로컬 & 원격  Local & Remote  : 내 컴퓨터  : 다른 사람 컴퓨터   
  local ➡️ remote github repository 생성
 github에서 새 리포지토리를 생성한다.
 
