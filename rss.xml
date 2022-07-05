@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Jul 2022 14:19:10 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 실습 - 브랜치와 협업]]></title><description><![CDATA[Git & GitHub 실습 - 브랜치 & 협업  branch 각자 브랜치에서 따로 개발한 후 merge(병합)하는 것이 더 편리하다. 이때 merge해달라는 요청이 pull request이다. PR을 수락하면 브랜치가 합쳐지면서 merge…]]></description><link>https://www.jsh99.com/Git/git_practice3/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice3/</guid><pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---브랜치--협업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EB%B8%8C%EB%9E%9C%EC%B9%98--%ED%98%91%EC%97%85&quot; aria-label=&quot;git  github 실습   브랜치  협업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 브랜치 &amp;#x26; 협업&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Jul 2022 13:58:08 GMT</lastBuildDate><item><title><![CDATA[22년 6월 회고]]></title><description><![CDATA[2022년 6월 회고 정처기 실기 합격🎖    2022년 5월 7일 정보처리기사 실기 시험을 봤었다. 한 달 조금 넘는 시간 동안 총 1…]]></description><link>https://www.jsh99.com/Diary/202206/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/202206/</guid><pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;2022년-6월-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2022%EB%85%84-6%EC%9B%94-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;2022년 6월 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2022년 6월 회고&lt;/h2&gt;
+&lt;br&gt; 
+&lt;h3 id=&quot;정처기-실기-합격&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%B2%98%EA%B8%B0-%EC%8B%A4%EA%B8%B0-%ED%95%A9%EA%B2%A9&quot; aria-label=&quot;정처기 실기 합격 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정처기 실기 합격🎖&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3QUH/8QAFhABAQEAAAAAAAAAAAAAAAAAEQAQ/9oACAEBAAEFAiM//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/9oACAEBAAE/IbFZY//aAAwDAQACAAMAAAAQg8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAADAQEBAAAAAAAAAAAAAAAAARFRIYH/2gAIAQEAAT8QSR1+kXZ26RrP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;final pass&quot;
+        title=&quot;final pass&quot;
+        src=&quot;/static/adfeb12944cc796e04a0c8cf680c9295/80e3c/final_pass.jpg&quot;
+        srcset=&quot;/static/adfeb12944cc796e04a0c8cf680c9295/4ec73/final_pass.jpg 180w,
+/static/adfeb12944cc796e04a0c8cf680c9295/158ba/final_pass.jpg 360w,
+/static/adfeb12944cc796e04a0c8cf680c9295/80e3c/final_pass.jpg 720w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;2022년 5월 7일 정보처리기사 실기 시험을 봤었다.&lt;br&gt;
+한 달 조금 넘는 시간 동안 총 12과목을 공부해야 했고, 아는 내용이어도 서술형으로 풀어 쓰는 건 정말 쉽지가 않았다..&lt;br&gt;
+양이 많아서 어디서 나올지 예측이 안 돼서 너무 걱정이 됐던 실기 시험.😂&lt;br&gt;
+사실 시험지를 받자마자 1번부터 처음 보는 내용이라 아, 떨어졌구나..하며 시험을 봤고, 가답안으로 채점을 해보니 딱 10 문제를 틀린 상황이었다..ㅎㅎ&lt;br&gt;
+부분 점수가 있다는 이야기는 들었지만, 기준을 공개하지 않아 내가 붙은지 떨어진지 확신할 수 없는 상황이기에 결국 합격 발표까지 기다리는 수밖에 없었다.&lt;br&gt;
+무려 한 달 넘게 기다려 결과를 조회한 결과..! 합격했다!🎉 합격 기준인 60점에 간당간당한 점수였지만 그래도 필기·실기 둘 다 한 번에 합격한 게 어디인가..!!&lt;br&gt;
+나도 이제 정보처리기사 자격증 있는 사람이라고요.😎&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;리액트-스터디&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8A%A4%ED%84%B0%EB%94%94&quot; aria-label=&quot;리액트 스터디 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트 스터디🛫&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgklEQVQI132OyQ6DMBBDc+8yiUJWoEmhaQVCoj3w/5/mTui5HJ48GtmWRUwFlTKvyI9p5zm/YWPCiQwuyjH2L2dp2cfK3noLZToOZ8RhQSgb/PhBGFc0/cSG48JaILVDeWX4bkDjE0R9kvYg04PcfedqbiCbfkF5vK6qtgHKtNwT8AUDdEt0VvfYxAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;react study&quot;
+        title=&quot;react study&quot;
+        src=&quot;/static/4a953c4463094d87f90ae9b0b7a5d7a0/37523/react_study.png&quot;
+        srcset=&quot;/static/4a953c4463094d87f90ae9b0b7a5d7a0/e9ff0/react_study.png 180w,
+/static/4a953c4463094d87f90ae9b0b7a5d7a0/f21e7/react_study.png 360w,
+/static/4a953c4463094d87f90ae9b0b7a5d7a0/37523/react_study.png 720w,
+/static/4a953c4463094d87f90ae9b0b7a5d7a0/302a4/react_study.png 1080w,
+/static/4a953c4463094d87f90ae9b0b7a5d7a0/84f4d/react_study.png 1208w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;UMC 지부 내에서 여름방학 동안 리액트 스터디를 하게 되었다!&lt;br&gt;
+사실 작년에 리액트로 프로젝트를 해본 경험이 있었지만, 그때는 리액트가 뭔지도 잘 알지 못한 채로 맨땅에 헤딩했었기에… 제대로 공부하고 이해한 후에 잘 사용하고 싶어 스터디를 신청했다.&lt;br&gt;
+그때는 리액트의 최대 장점인 component를 잘 활용하지 못했고, 재사용성이나 효율성이 정말 0인 코드를 짰었기에 아쉬움이 많이 남았었다.🥲&lt;br&gt;
+그래서 처음부터 다시 공부하면서 베이스를 쌓고 꼭 제대로 다시 프로젝트를 하는 것이 목표이다!&lt;br&gt;
+앞으로 2달 동안 리액트를 열심히 부술 예정이다, 덤벼 리액트🥊&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;부스트캠프-불합격&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EB%B6%88%ED%95%A9%EA%B2%A9&quot; aria-label=&quot;부스트캠프 불합격 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;부스트캠프 불합격🍀&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAhklEQVQY032QyQoEIQxE+/8/0avg1u4irRczVECZZmCEIhWSPKOXlJKEEGSMoVIKK8bI8t7T8zz076y1XvFKKfGgc+7IWnsi6mMMFuDbzzl/YAxsrfHwfd8UQuCIPOdMtVaG4kJoe9Txgu8tz4ZKKdJaczNgAG0PwWMYX4JeAOF33nt/bfkBiNsyoy+s+noAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;boost camp&quot;
+        title=&quot;boost camp&quot;
+        src=&quot;/static/968a1e0c10c5ea043c59a06ef16f8525/37523/boostcamp.png&quot;
+        srcset=&quot;/static/968a1e0c10c5ea043c59a06ef16f8525/e9ff0/boostcamp.png 180w,
+/static/968a1e0c10c5ea043c59a06ef16f8525/f21e7/boostcamp.png 360w,
+/static/968a1e0c10c5ea043c59a06ef16f8525/37523/boostcamp.png 720w,
+/static/968a1e0c10c5ea043c59a06ef16f8525/f53a0/boostcamp.png 1062w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;작년부터 하고 싶었던 부스트캠프 웹모바일 코스 7시에 지원했다.&lt;br&gt;
+자소서와 서류를 열심히 작성했지만.. 결국 1차 코딩 테스트에서 불합격했다.&lt;br&gt;
+문제를 풀면서 부족함을 많이 느껴서 떨어질 것을 예상했지만, 하고 싶었던 부트캠프였던 만큼 아무렇지 않지는 않았다,,&lt;br&gt;
+누구는 한 달 공부하고 붙었다더라, 그냥 지원했는데 붙었다더라 이런 후기를 꽤 봤어서 그런지 내가 공부해왔던 기간들은 뭐였지 싶어 살짝쿵 현타가 왔다.🥲&lt;br&gt;
+어쨌든 내 공부가 부족했으니 떨어졌던 것일 테니 앞으로 알고리즘을 더더더더더 열심히 공부해야겠다고 다짐을 할 수 있었다.&lt;br&gt;
+며칠 간 부스트캠프를 준비하는 동안 밀렸던 블로그 포스팅도 하며 천천히 마음을 다잡았으니, 더 열심히 공부해서 내년에는 꼭 혼내줘야겠다.🤺&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git & GitHub 실습 - 브랜치와 협업]]></title><description><![CDATA[Git & GitHub 실습 - 브랜치 & 협업  branch 각자 브랜치에서 따로 개발한 후 merge(병합)하는 것이 더 편리하다. 이때 merge해달라는 요청이 pull request이다. PR을 수락하면 브랜치가 합쳐지면서 merge…]]></description><link>https://www.jsh99.com/Git/git_practice3/</link><guid isPermaLink="false">https://www.jsh99.com/Git/git_practice3/</guid><pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git--github-실습---브랜치--협업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git--github-%EC%8B%A4%EC%8A%B5---%EB%B8%8C%EB%9E%9C%EC%B9%98--%ED%98%91%EC%97%85&quot; aria-label=&quot;git  github 실습   브랜치  협업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git &amp;#x26; GitHub 실습 - 브랜치 &amp;#x26; 협업&lt;/h2&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;branch&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#branch&quot; aria-label=&quot;branch permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;branch&lt;/h3&gt;
 &lt;p&gt;각자 브랜치에서 따로 개발한 후 merge(병합)하는 것이 더 편리하다. 이때 merge해달라는 요청이 pull request이다. PR을 수락하면 브랜치가 합쳐지면서 merge가 된다.  &lt;/p&gt;
