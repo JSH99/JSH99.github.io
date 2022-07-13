@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 08 Jul 2022 17:15:02 GMT</lastBuildDate><item><title><![CDATA[UMC React Study 2주차]]></title><description><![CDATA[UMC React Study 2주차  🪝 Hooks Hook은 React 16.8에 새로 추가된 기능입니다. Hook은 class를 작성하지 않고도 state와 다른 React…]]></description><link>https://www.jsh99.com/UMC/React_W2/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/React_W2/</guid><pubDate>Sat, 09 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-react-study-2주차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-react-study-2%EC%A3%BC%EC%B0%A8&quot; aria-label=&quot;umc react study 2주차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC React Study 2주차&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 13 Jul 2022 14:42:41 GMT</lastBuildDate><item><title><![CDATA[UMC 2기 프로젝트 - 초기 설정]]></title><description><![CDATA[UMC 2기 프로젝트 ⚛초기 설정⚛  프로젝트 시작👨‍👩‍👧‍👦 UMC…]]></description><link>https://www.jsh99.com/UMC/MakeAnything_pre/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/MakeAnything_pre/</guid><pubDate>Wed, 13 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;umc-2기-프로젝트-초기-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-2%EA%B8%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;umc 2기 프로젝트 초기 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[UMC] 2기 프로젝트 ⚛초기 설정⚛&lt;/h1&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;프로젝트-시작&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91&quot; aria-label=&quot;프로젝트 시작 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로젝트 시작👨‍👩‍👧‍👦&lt;/h2&gt;
+&lt;p&gt;UMC 2기 팀 프로젝트가 시작되었다!&lt;br&gt;
+프로젝트 진행사항을 글로 남겨보는 경험이 도움이 된다는 말을 흘러가며 들어서 블로그에 주섬주섬 작성해본다,,&lt;br&gt;
+과연 프로젝트가 완성될 때까지 모든 단계를 꼼꼼하게 작성할 수 있을지는 모르겠지만 최대한 적어보려 한다.😂&lt;br&gt;
+우리 팀은 해커톤에 참여하지 않았지만, 해커톤을 시작으로 7월 1일부터 프로젝트가 시작되었다.&lt;br&gt;
+8월 20일까지 약 7주 동안의 시간이 주어졌다. 본격적인 개발이 시작된다면 아마 잠죽잠 모드가 예상된다···&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;팀-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%80-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot;팀 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;팀 소개🖨&lt;/h2&gt;
+&lt;p&gt;우리 팀 프로젝트 주제는 &lt;strong&gt;3D 모델링 리소스 중계 서비스&lt;/strong&gt;이다!&lt;br&gt;
+쉽게 말하면 3D 프린트를 할 수 있는 리소스를 사용자가 판매·구매하는 서비스이다.&lt;br&gt;
+팀은 디자이너 1명, 웹 프론트엔드 3명, 백엔드 2명으로 구성되어 있다.&lt;br&gt;
+프로젝트 경험은 부족하지만 내가 프론트엔드 리더를 맡게 되었고, 그만큼 열정적으로 개발할 것이다.🔥  &lt;/p&gt;
+&lt;p&gt;🛠 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;react&lt;/code&gt;&lt;/strong&gt; &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;spring-boot&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;초기-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;초기 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;초기 설정🐣&lt;/h2&gt;
+&lt;p&gt;생각보다 협업을 위해 초기에 설정해야 하는 부분들이 많았고, 구글링을 열심히 해가며 주섬주섬 해본 초기 세팅..&lt;br&gt;
+어려움을 겪었던 부분들을 다음에 협업할 때는 잘 해내고 싶어서 미리 해두면 좋은 것들을 정리해본다!&lt;br&gt;
+&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;레포지토리-생성-및-연동&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A0%88%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%97%B0%EB%8F%99&quot; aria-label=&quot;레포지토리 생성 및 연동 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;레포지토리 생성 및 연동&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+ElEQVQY041QSVLDMBDU+7nxEt7AgR+EqhCWQBJwOci29s2WmpGc4sAlTFWrNSVNz0yzwyfH7nWPl/0Bj9tndGcO7QImZaCthzQOUlso4wmusaDc+tjgQ8Qyr4gpggkqnKSGkgr9VwcxDJBKg4+iCdS372FqovVeub5VsZRmjCZh1yc8EY5jAgsxwjnfUKOUgpzLyoQlZ0xCIsSEnqZX2sBY15rV2HQFN/cZtw8Zd5sM1k8B25PCx9nRJJK6JpSL8DXUhnTS7+UCEhxNxDu3eOMOgvzBn6JrkUvGTFvMxHUbZpVqQoMO5EtACKsFdS1P+X8m/Z2YrPoBuc/Q7I+vYesAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;create repository&quot;
+        title=&quot;create repository&quot;
+        src=&quot;/static/3116677b3862c9d1c20dc0fd5d831fdd/37523/create_repo.png&quot;
+        srcset=&quot;/static/3116677b3862c9d1c20dc0fd5d831fdd/e9ff0/create_repo.png 180w,
+/static/3116677b3862c9d1c20dc0fd5d831fdd/f21e7/create_repo.png 360w,
+/static/3116677b3862c9d1c20dc0fd5d831fdd/37523/create_repo.png 720w,
+/static/3116677b3862c9d1c20dc0fd5d831fdd/302a4/create_repo.png 1080w,
+/static/3116677b3862c9d1c20dc0fd5d831fdd/07a9c/create_repo.png 1440w,
+/static/3116677b3862c9d1c20dc0fd5d831fdd/1a867/create_repo.png 1998w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;협업을 위해서 가장 먼저 해야 할 일은 역시 &lt;strong&gt;GitHub Repository를 생성&lt;/strong&gt;하는 것이다.&lt;br&gt;
+우리팀은 PM이 organization을 만들어둬서 organization 내에 새로운 레포지토리를 생성해주었다.&lt;br&gt;
+new repository를 생성한 후에 &lt;strong&gt;local과 remote를 연동&lt;/strong&gt;해준다.&lt;br&gt;
+연동 방법은 &lt;code class=&quot;language-text&quot;&gt;local&lt;/code&gt; → &lt;code class=&quot;language-text&quot;&gt;remote&lt;/code&gt; / &lt;code class=&quot;language-text&quot;&gt;remote&lt;/code&gt; → &lt;code class=&quot;language-text&quot;&gt;local&lt;/code&gt; 두 가지 다 가능한데, 자세한 설명은 다음 포스팅을 참고! (👉 &lt;a href=&quot;https://jsh99.github.io/Git/git_practice2/&quot;&gt;https://jsh99.github.io/Git/git_practice2/&lt;/a&gt;)&lt;br&gt;
+한 사람이 만들어놓은 remote repository를 다른 팀원들이 각자의 local로 clone 받아 개발하면 된다.&lt;br&gt;
+(GitHub으로 협업을 하는 방법은 여러 가지가 있으니 이 방법은 하나의 예시로써 참고하기를 바란다:&gt;)&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;리액트-프로젝트-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;리액트 프로젝트 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트 프로젝트 생성&lt;/h3&gt;
+&lt;p&gt;local과 remote를 연동했다면 local에서 &lt;strong&gt;react 프로젝트를 생성&lt;/strong&gt;해준다.&lt;br&gt;
+react 프로젝트를 생성하는 명령어는 다음과 같으며, react 프로젝트의 이름은 대문자로 시작할 수 없다.&lt;br&gt;
+프로젝트를 생성한 후에 사용하지 않는 불필요한 파일은 정리해주었다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# npx create-react-app PROJECT_NAME&lt;/span&gt;
+npx create-react-app front&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 8.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAWUlEQVQI1z3KSw7AIAgEUFyYmlTA+rv/TacotosXhgGqtWLOidYaVBVrH2Ps3Hv3XhTCAs6MUgpEZN8XZkYIAUTkUkrIOf/iFUE3OTFsitEz5fh+VtfM4/kFUTkskklpoWEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;create react project&quot;
+        title=&quot;create react project&quot;
+        src=&quot;/static/5ad1b55f8408d82e6121818c0b4e8c59/37523/create_react.png&quot;
+        srcset=&quot;/static/5ad1b55f8408d82e6121818c0b4e8c59/e9ff0/create_react.png 180w,
+/static/5ad1b55f8408d82e6121818c0b4e8c59/f21e7/create_react.png 360w,
+/static/5ad1b55f8408d82e6121818c0b4e8c59/37523/create_react.png 720w,
+/static/5ad1b55f8408d82e6121818c0b4e8c59/302a4/create_react.png 1080w,
+/static/5ad1b55f8408d82e6121818c0b4e8c59/b5a09/create_react.png 1360w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;gitignore-파일-작성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitignore-%ED%8C%8C%EC%9D%BC-%EC%9E%91%EC%84%B1&quot; aria-label=&quot;gitignore 파일 작성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;.gitignore 파일 작성&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABbUlEQVQoz3VSXU/CMBRd/Bf+Vh988dlf4ZvRkBhfRYM+GAlRiR+JIERANthatnZrt7U7tmMNaPAmJ21ue889Pbcemqiqym2hdIWi1Aab3Ha4u39XG55LuGR/kKF1TXH3xNDuJji7IrjoUFzeUpy3CQYTiZhrDKcSSu0gdGQu+TZieHhZIQgzjL85Oj2C4YRjPEsxmnLMAg4aCyypgDI1uoGr9/4+J00Z4phgGYaISASWUCTJCozFNea+j2AZQvB0pxWelW39smtZAzVsQ6Vhzjaoz0yuMohKiQ8RYSAJPiWF1OVaocw1FiTHly8wWxh/mARLCwRRBsbzZjgNCo20WBceTm/g3R9g//EYe90j9NL5mtCq4kIhSZUhUhDSwDTJTM6S5IbE3tFm8nb6uZVoOJ/5AidRHy36jlPyClKK3R66sMpXTNW+2EZ+aFSTApnU1q1/v9OvKW9P2xLyTNXKrEr3Avc37WRLY6aDq/sBosu18d8uTEsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;.gitignore&quot;
+        title=&quot;.gitignore&quot;
+        src=&quot;/static/f39427152563ac7b34cd935b9358ab45/37523/gitignore.png&quot;
+        srcset=&quot;/static/f39427152563ac7b34cd935b9358ab45/e9ff0/gitignore.png 180w,
+/static/f39427152563ac7b34cd935b9358ab45/f21e7/gitignore.png 360w,
+/static/f39427152563ac7b34cd935b9358ab45/37523/gitignore.png 720w,
+/static/f39427152563ac7b34cd935b9358ab45/302a4/gitignore.png 1080w,
+/static/f39427152563ac7b34cd935b9358ab45/1dbe8/gitignore.png 1374w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;.gitignore&lt;/strong&gt;은 커밋하지 않을 파일들을 적은 목록이다.&lt;br&gt;
+&lt;a href=&quot;https://gitignore.io/&quot;&gt;https://gitignore.io/&lt;/a&gt; 사이트를 이용하면 &lt;code class=&quot;language-text&quot;&gt;운영체제&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;개발 환경(IDE)&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;프로그래밍 언어&lt;/code&gt;를 작성하면 알아서 &lt;strong&gt;gitignore 파일을 생성&lt;/strong&gt;해준다.&lt;br&gt;
+사이트에서 생성된 목록을 복사해서 활용하면 쉽게 gitignore 파일을 작성할 수 있다.  &lt;/p&gt;
+&lt;p&gt;⚠️&lt;strong&gt;주의사항&lt;/strong&gt;: gitignore에 &lt;strong&gt;node_modules&lt;/strong&gt;를 포함했기 때문에, 라이브러리를 새로 설치하면 이 부분에 대한 소통이 필수라고 한다! 이런 부분들을 처음 알게 되었으니 조심하며 잘 소통해야 한다는 것을 배웠다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;팀원들과-정해야-하는-것들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%80%EC%9B%90%EB%93%A4%EA%B3%BC-%EC%A0%95%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EA%B2%83%EB%93%A4&quot; aria-label=&quot;팀원들과 정해야 하는 것들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;팀원들과 정해야 하는 것들&lt;/h3&gt;
+&lt;p&gt;오늘 세팅한 거 이외에도 앞으로 팀원들과 상의해서 정해야 하는 것들이 있다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;브랜치 네이밍 규칙&lt;/li&gt;
+&lt;li&gt;커밋 메세지 작성 규칙&lt;/li&gt;
+&lt;li&gt;이슈 작성 규칙&lt;/li&gt;
+&lt;li&gt;충돌 해결 방법  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;…등등 협업 시 필요한 사항에 대한 것은 다음 회의 때 이야기 나눌 예정이다.&lt;br&gt;
+혼자 개발할 때보다 신경 써야 하는 부분들이 훨씬 많지만, 그래도 역시 누군가와 함께 개발할 때가 가장 즐겁다😊  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC React Study 2주차]]></title><description><![CDATA[UMC React Study 2주차  🪝 Hooks Hook은 React 16.8에 새로 추가된 기능입니다. Hook은 class를 작성하지 않고도 state와 다른 React…]]></description><link>https://www.jsh99.com/UMC/React_W2/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/React_W2/</guid><pubDate>Sat, 09 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-react-study-2주차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-react-study-2%EC%A3%BC%EC%B0%A8&quot; aria-label=&quot;umc react study 2주차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC React Study 2주차&lt;/h2&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;🪝-hooks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%F0%9F%AA%9D-hooks&quot; aria-label=&quot;🪝 hooks permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🪝 Hooks&lt;/h3&gt;
 &lt;blockquote&gt;
