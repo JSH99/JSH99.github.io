@@ -18,12 +18,12 @@ categories: Git
   <br><br><br>
 
 ### local ➡️ remote
-1. **github repository 생성**
+1. **github repository 생성**  
    github에서 새 리포지토리를 생성한다.
    ![create repositoty](./img/create_repo.png)
    <br>
 
-2. **git remote add origin 리포지토리**
+2. **git remote add origin 리포지토리**  
    리포지토리와 내 로컬 폴더를 연결한다.
  ```bash
  git remote add origin repository_address
@@ -31,19 +31,18 @@ categories: Git
 ![remote add origin](./img/add_remote.png)
 <br>
 
-3. **git push origin main**
+3. **git push origin main**  
    github 리포지토리 mian 브랜치에 현재 커밋들을 넣는다. **(로컬 → 서버)**
  ```bash
  git push origin main
  ```
 ![git push](./img/git_push.png)  
-
 ![git pushed](./img/git_push2.png)
 <br><br><br>
 
 ### local ⬅️ remote
 
-1. **git clone**
+1. **git clone**  
    github 리포지토리에서 모든 커밋들을 내 로컬로 가져온다.
 ```bash
 git clone repository_address
@@ -51,13 +50,12 @@ git clone repository_address
 ![git clone](./img/git_clone.png)
 <br>
 
-2. **git pull origin main**
+2. **git pull origin main**  
    서버에서 변경사항이 일어난 것을 로컬로 동기화한다. **(서버 → 로컬)**
  ```bash
  git pull origin main
  ```
 ![git pull](./img/git_pull.png)  
-
 ![git pulled](./img/git_pull2.png)
 <br><br><br>
 
