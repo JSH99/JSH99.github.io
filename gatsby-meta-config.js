@@ -74,7 +74,7 @@ module.exports = {
 
     {
       date: '2022.07 ~',
-      activity: 'UMC 3기 운영진 (Node.js)',
+      activity: 'UMC 3기 파트장 (Node.js)',
       links: {
         post: '',
         github: '',
