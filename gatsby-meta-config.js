@@ -53,7 +53,7 @@ module.exports = {
       },
 
       {
-        date: '2022.03 ~',
+        date: '2022.03 ~ 2022.08',
         activity: 'UMC 2기 챌린저 (Web)',
         links: {
           post: '/UMC/UMC_pass/',
@@ -63,7 +63,7 @@ module.exports = {
       },
 
       {
-        date: '2022.07 ~ ',
+        date: '2022.07 ~ 2022.08',
         activity: 'MakeAnything 프로젝트',
         links: {
           post: 'https://ambitious-fruitadens-299.notion.site/MakeAnything-8b9086c9843840469d638be8758e7a87',
