@@ -71,16 +71,6 @@ module.exports = {
           demo: '',
         },
       },
-
-    {
-      date: '2022.07 ~',
-      activity: 'UMC 3기 파트장 (Node.js)',
-      links: {
-        post: '',
-        github: '',
-        demo: '',
-      },
-    },
   ],
 
     projects: [
