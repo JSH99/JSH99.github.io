@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 Oct 2022 08:33:18 GMT</lastBuildDate><item><title><![CDATA[UMC React Study 6주차]]></title><description><![CDATA[UMC React Study 6주차  🌐React Network 서버(Server) Server = Serve + -er…]]></description><link>https://www.jsh99.com/UMC/React_W6/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/React_W6/</guid><pubDate>Sat, 08 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-react-study-6주차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-react-study-6%EC%A3%BC%EC%B0%A8&quot; aria-label=&quot;umc react study 6주차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC React Study 6주차&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Oct 2022 06:41:59 GMT</lastBuildDate><item><title><![CDATA[UMC React Study 7주차]]></title><description><![CDATA[UMC React Study…]]></description><link>https://www.jsh99.com/UMC/React_W7/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/React_W7/</guid><pubDate>Tue, 11 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-react-study-7주차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-react-study-7%EC%A3%BC%EC%B0%A8&quot; aria-label=&quot;umc react study 7주차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC React Study 7주차&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;🤝리액트로-협업하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%F0%9F%A4%9D%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A1%9C-%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0&quot; aria-label=&quot;🤝리액트로 협업하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🤝리액트로 협업하기&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;회사에서 인수인계 받은 코드가 일반적이지 않고 이해하기 어렵다면?  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;동료 개발자가 내 코드를 이해하는데 너무 오랜 시간이 소요된다고 불편함을 토로하면?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;  
+&lt;p&gt;위와 같은 문제들을 회사에 가서 협업을 본격적으로 하기 시작하면서 많이 발생한다. 협업을 위해 &lt;strong&gt;코딩 컨벤션&lt;/strong&gt;에 익숙해지는 것이 중요하다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;코딩-컨벤션&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%94%A9-%EC%BB%A8%EB%B2%A4%EC%85%98&quot; aria-label=&quot;코딩 컨벤션 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코딩 컨벤션&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;코딩 컨벤션&lt;/strong&gt;(Coding Conventions)은 협업 시 유지보수 및 가독성, 코드 이해를 위해 지켜지는 개발자들 사이의 &lt;strong&gt;규칙&lt;/strong&gt;을 의미한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;  
+&lt;p&gt;코딩 컨벤션은 규칙이기 때문에 지키지 않는다고 에러가 발생하지는 않는다. 팀 혹은 회사마다 각기 다양한 코딩 컨벤션들을 볼 수 있다.  &lt;/p&gt;
+&lt;p&gt;☘️ &lt;a href=&quot;https://github.com/banksalad/styleguide/tree/master/web&quot;&gt;뱅크샐러드 웹 코딩 컨벤션&lt;/a&gt;&lt;br&gt;
+☘️ &lt;a href=&quot;https://velog.io/@dell_mond/Coding-Style-Guide-%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%A0%A4%EB%8A%94-%EC%A7%80%EA%B8%88-%EC%9A%B0%EB%A6%AC%EA%B0%80-%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EA%B1%B4-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C&quot;&gt;카카오 개발자의 팀 코딩 컨벤션에 대한 고찰&lt;/a&gt;&lt;br&gt;
+☘️ &lt;a href=&quot;https://3-stack.tistory.com/53&quot;&gt;리액트 코딩 컨벤션 예시&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;소셜-로그인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8&quot; aria-label=&quot;소셜 로그인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;소셜 로그인&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 696px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.55555555555555%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACNElEQVR42nVTPW/TUBTNT0AMzAFVCDHAysAv6ITEUFgisbAhpAp14gewlAGJIQOIhaUr6lIpqijQCjVJg5smtZ3EDk6cxI7z4fgzsXO4z07TGMqVnu/zve8e33vOc2o+nwOYgzm2T64QCDRKtOlMhxb5QL/iXFzPLMUe8csikjAPjrCO9mEa0te74D6n4dUfUzxc5FdrYuDURYchOdv14dg2ZrMpRiMTE7MHt/YIQu4Wil/uY+/9GoZnGxgNdYzHY0ypxnI8eJ67hF4Czsip+gC6pkFRFIgNCZOJidATgdkpNVVF6JfhOvUITJYakLp9dPoDGEZMw8rIyXENow/FsKEbQ2jaEI57mZO6FkRRQN8wMOgZibpo5DCM+WjKMl5svsLzl5vIZrPLQyxrRlSYcF0bYTCF7/tRblfYwX5jFzvlj9DtbtxhEATR5ufRIa7fe4BrD9ex8eTp4iMS5JaKsiCBP6+C53moqopmswnLtvCh+BYVrYRPJ+8g9MtJwEI+j/TtO7hxcw2ZTCaKdYnTtjaA2voNmUAYUKvVIsFGkcBvvm9h+8drbO09gzwUV0UhhemL3w4OsJ/LgeO45chMeZnokEiEer0O0zSXObFXBdfJoyAfwfHtS1H+Z3+L9U+cXOjR/ZuuiMI2juuiJCo4Ps4jT6OfUoe9bkxyeMVfwUwZTcGT2sWTAn5xJQiCEAOyEWq1GiqVMwryEfECfw6R9hrdSc/zEl1d+JC4tywrWuxeMs/sD6ujeOLMxePYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Social Login&quot;
+        title=&quot;Social Login&quot;
+        src=&quot;/static/f51b9d37acbe331b19aa0bb621229f8c/82158/social_login.png&quot;
+        srcset=&quot;/static/f51b9d37acbe331b19aa0bb621229f8c/e9ff0/social_login.png 180w,
+/static/f51b9d37acbe331b19aa0bb621229f8c/f21e7/social_login.png 360w,
+/static/f51b9d37acbe331b19aa0bb621229f8c/82158/social_login.png 696w&quot;
+        sizes=&quot;(max-width: 696px) 100vw, 696px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;FE&lt;/code&gt;&lt;/strong&gt; : 인증코드 요청 및 받기&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;FE&lt;/code&gt;&lt;/strong&gt; : 카카오 서버로부터 받은 인증 코드를 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;BE&lt;/code&gt;&lt;/strong&gt;로 전달&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;BE&lt;/code&gt;&lt;/strong&gt; : 인증 코드로 토큰 요청 및 받기&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;BE&lt;/code&gt;&lt;/strong&gt; : 카카오 서버로부터 받은 토큰으로 앱 자체 토큰(JWT) 재발행하여 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;FE&lt;/code&gt;&lt;/strong&gt;로 전달&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;FE&lt;/code&gt;&lt;/strong&gt; : JWT에 따라 회원가입/로그인 여부 판별 후 페이지 전환&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;이미지-업로드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C&quot; aria-label=&quot;이미지 업로드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지 업로드&lt;/h3&gt;
+&lt;p&gt;프론트엔드에서 AWS S3, Firebase Storage 등 스토리지에 이미지 파일을 업로드하면, 스토리지 서비스는 &lt;strong&gt;URL&lt;/strong&gt;을 리턴해준다. 해당 URL을 서버 API를 통해 전달해주면, 서버는 DB에 저장하는 구조이다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABlElEQVR42m1Si46jMAzk/3/xtCqFAn1AEiiQBAKzY3P0dqWLZPkRZzx2nH1drijKCvu+f2Tbtl/+GftfPKX0EbnPXs8nmrpGWZaoqgq3201F/DzP1S6KgndHjtgSO3ObplFbtDEGmet7dJ2hYzEMA5xz6KmttSpONBMH5on0zlIc44a5FnFZsK7pI9lG2ueRgA8Ry7LiRxDsBUgLNe01Is4joh9pe+zbv9wkLae0qSPzCCHg/R6xECTFiGTuSLbCFnrGEoLE+Mg4dmV7xDCzDt+MMyLvdIazD2jZkmObnra0O04TtBCBdpcrM89iMh4BbDmi56sjWQ9Ptp1xsCyykkgmM7jVDQR49p6JrWq5fPDRlRugRQlyuZYKbKzDqzVYyDAIIH0hoYBS8TwCVN8fqrdtZ/tvfkCvg287y8J3PpyVjQBKywL65ytH3TyOltPf3ZIzMTkvuBLNHRraWWxdjmpig/vIfRuGniwt53zMcJw85tkfgPKzMi8BFvs9TspQfFnWNXiVdEoUf6ZMakuOFBdSK+1vtXYFb3XQCosAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;AWS S3&quot;
+        title=&quot;AWS S3&quot;
+        src=&quot;/static/37365570abcbd703c19a856effcf2bd1/37523/aws_s3.png&quot;
+        srcset=&quot;/static/37365570abcbd703c19a856effcf2bd1/e9ff0/aws_s3.png 180w,
+/static/37365570abcbd703c19a856effcf2bd1/f21e7/aws_s3.png 360w,
+/static/37365570abcbd703c19a856effcf2bd1/37523/aws_s3.png 720w,
+/static/37365570abcbd703c19a856effcf2bd1/302a4/aws_s3.png 1080w,
+/static/37365570abcbd703c19a856effcf2bd1/07a9c/aws_s3.png 1440w,
+/static/37365570abcbd703c19a856effcf2bd1/7f7f8/aws_s3.png 2396w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;페이징-처리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%B2%98%EB%A6%AC&quot; aria-label=&quot;페이징 처리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;페이징 처리&lt;/h3&gt;
+&lt;h3 id=&quot;fe&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fe&quot; aria-label=&quot;fe permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🔵FE&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;무한 스크롤&lt;/strong&gt;(Infinite Scroll)은 로드해야 할 목록이 많은 페이지에서 사용자의 편의성과 &lt;strong&gt;클라이언트&lt;/strong&gt;의 부담을 덜어주기 위한 아이템이다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;어떤 요소가 화면에 노출되었는지를 감지하는 &lt;strong&gt;Intersection Observer API&lt;/strong&gt;를 이용하여 무한 스크롤을 만들 수 있다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAC4jAAAuIwF4pT92AAABTklEQVR42qWRzWrCQBSFfY8+Yfd9k658hW5Ko5BW7EKThXRVkFh0EgOZmfwnVpwQUTLtaYbamAah9BDC3OF+nDvn9j7+oV6rllJmWRZFURzH+Pu+r86qLMvyElxVVZIkqjsMQ9M0LctK0xQkyqIoOmBZSx0Mw9A0Tdf10Wik13qqNRgMMIjqaTurq+12C2Y4HI7HY9gatSbT6cQwHjTNdd0OWAgB7Hg8cs4xXrPjpP1+n+e5etoPjD4whBBExRgLguAMlnK2zu/m6YJv4oDLzsBUN2w9z4MJZhHFl0qxu75fXN2+9k07dEm2eUeWh8PhLDA1DG4dx1mtVuRb9nLZn5KbZ6a9LOmapFlu27baWcee1XqDk3w+e2OPVjx3eBqFVSOLDhj9eDlvCHXEKaPeToh2YC0YtpRS1hCtP2QhaviSM/aBSJJfwiWCvAT/SZ9+yhTeHZXsOwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Intersection Observer&quot;
+        title=&quot;Intersection Observer&quot;
+        src=&quot;/static/a15723c000e00f2e3340f1e09ee6a323/37523/intersection_observer.png&quot;
+        srcset=&quot;/static/a15723c000e00f2e3340f1e09ee6a323/e9ff0/intersection_observer.png 180w,
+/static/a15723c000e00f2e3340f1e09ee6a323/f21e7/intersection_observer.png 360w,
+/static/a15723c000e00f2e3340f1e09ee6a323/37523/intersection_observer.png 720w,
+/static/a15723c000e00f2e3340f1e09ee6a323/46e51/intersection_observer.png 1003w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;설치&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; react-intersection-observer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;  
+&lt;h3 id=&quot;be&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#be&quot; aria-label=&quot;be permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🔴BE&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;페이지네이션&lt;/strong&gt;(Pagenation)은 &lt;strong&gt;서버&lt;/strong&gt;에서 클라이언트로 값을 전달할 때 일정 기준으로 분할하여 전달하는 것을 의미한다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;무한 스크롤은 페이지네이션을 통해 구현된 것이며, 페이지네이션 방식은 크게 두 가지가 있다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Offset Pagenation&lt;/li&gt;
+&lt;li&gt;Cursor Pagenation&lt;br&gt;
+&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;references&lt;/strong&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://data-jj.tistory.com/53&quot;&gt;https://data-jj.tistory.com/53&lt;/a&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://codegear.tistory.com/8?category=968415&quot;&gt;https://codegear.tistory.com/8?category=968415&lt;/a&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://www.npmjs.com/package/react-intersection-observer&quot;&gt;https://www.npmjs.com/package/react-intersection-observer&lt;/a&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://velog.io/@jce1407/React-%EB%AC%B4%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-with-Intersection-Observer&quot;&gt;https://velog.io/@jce1407/React-%EB%AC%B4%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-with-Intersection-Observer&lt;/a&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://github.com/researchgate/react-intersection-observer&quot;&gt;https://github.com/researchgate/react-intersection-observer&lt;/a&gt;&lt;br&gt;
+👉 &lt;a href=&quot;https://tape22.tistory.com/13&quot;&gt;https://tape22.tistory.com/13&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[UMC React Study 6주차]]></title><description><![CDATA[UMC React Study 6주차  🌐React Network 서버(Server) Server = Serve + -er…]]></description><link>https://www.jsh99.com/UMC/React_W6/</link><guid isPermaLink="false">https://www.jsh99.com/UMC/React_W6/</guid><pubDate>Sat, 08 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;umc-react-study-6주차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#umc-react-study-6%EC%A3%BC%EC%B0%A8&quot; aria-label=&quot;umc react study 6주차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UMC React Study 6주차&lt;/h2&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&quot;react-network&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react-network&quot; aria-label=&quot;react network permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌐React Network&lt;/h2&gt;
 &lt;h3 id=&quot;서버server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B2%84server&quot; aria-label=&quot;서버server permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서버(Server)&lt;/h3&gt;
