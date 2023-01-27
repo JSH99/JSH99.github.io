@@ -71,6 +71,27 @@ module.exports = {
           demo: '',
         },
       },
+
+      {
+        date: '2022.07 ~ 2023.02',
+        activity: 'UMC 3기 파트장 (Node.js)',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
+
+      {
+        date: '2023.01 ~ ',
+        activity: 'BetterMe 프로젝트',
+        links: {
+          post: '',
+          github: 'https://github.com/BetterMeUMC',
+          demo: '',
+        },
+      },
+
   ],
 
     projects: [
