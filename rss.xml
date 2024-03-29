@@ -1,134 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Mar 2024 07:35:26 GMT</lastBuildDate><item><title><![CDATA[CS 컴퓨터구조 - 컴퓨터 구조 기초]]></title><description><![CDATA[컴퓨터 구조 기초  폰 노이만 구조 정의  오늘날의 컴퓨터는 대부분 를 따른다. 폰 노이만 구조는 크게 CPU - Memory - Program로 구성된다. CPU…]]></description><link>https://www.jsh99.com/CS/ComputerArchitecture/computer_architecture_basics/</link><guid isPermaLink="false">https://www.jsh99.com/CS/ComputerArchitecture/computer_architecture_basics/</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;컴퓨터-구조-기초&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0-%EA%B8%B0%EC%B4%88&quot; aria-label=&quot;컴퓨터 구조 기초 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴퓨터 구조 기초&lt;/h1&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;폰-노이만-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8F%B0-%EB%85%B8%EC%9D%B4%EB%A7%8C-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;폰 노이만 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;폰 노이만 구조&lt;/h2&gt;
-&lt;h3 id=&quot;정의&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9D%98&quot; aria-label=&quot;정의 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정의&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaklEQVR42oWQXU+DMBSG+f8/xXlhjFOvpolxSogXG5nZBwwyxoDS7wKFAc6zoWYumj1Jm6Z9T897XmP3G601QiiO4yRJMMYJSqIoStOUUtq27YnYgPVxoHtTSkElY5wS5iycNMVKZXgPqev6Rwx8FR8DxXtdUxdl5q1cmfHvS9w0zWlnXeexWIbU3XBX6HTfAjM4m15/OO2bfh9lfpGVUbTRhRYlWjMnJG4s/bLODa6RtbodjHvPzpXPxuAZI4xkMMfWLLZmyKRFVOQ6CALw77HRw3tvYPfe1vdQaGybSmqiKiY0ARdSSs5kQOaPk8vh7GZgX4TM0XmFcQq2i62S5V4Me91sT2cWUjDKaBa76chN7CW2QZdnBQTeBXYmbUIIRC2YdBauoGBEAJzz82mDqG12TMfT5HWyfoGZSRZ293937ug+Y4zqvIQ5Te/2aXJt+Xcwf1vv/rV9TFVVkFnnUynJD6bVge73Yz4BqENuyi0ZzvgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Von Neumann architecture&quot;
-        title=&quot;Von Neumann architecture&quot;
-        src=&quot;/static/37c3a54e78ede83609d415ad0883a791/37523/von_neumann.png&quot;
-        srcset=&quot;/static/37c3a54e78ede83609d415ad0883a791/e9ff0/von_neumann.png 180w,
-/static/37c3a54e78ede83609d415ad0883a791/f21e7/von_neumann.png 360w,
-/static/37c3a54e78ede83609d415ad0883a791/37523/von_neumann.png 720w,
-/static/37c3a54e78ede83609d415ad0883a791/302a4/von_neumann.png 1080w,
-/static/37c3a54e78ede83609d415ad0883a791/21b4d/von_neumann.png 1280w&quot;
-        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;오늘날의 컴퓨터는 대부분 &lt;code class=&quot;language-text&quot;&gt;폰 노이만 구조&lt;/code&gt;를 따른다. 폰 노이만 구조는 크게 &lt;strong&gt;CPU&lt;/strong&gt; - &lt;strong&gt;Memory&lt;/strong&gt; - &lt;strong&gt;Program&lt;/strong&gt;로 구성된다. CPU와 메모리를 분히라여 명령어를 따로 저장하는 프로그램 내장 방식이다.&lt;br&gt;
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;정의-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9D%98-1&quot; aria-label=&quot;정의 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정의&lt;/h3&gt;
-&lt;h3 id=&quot;code-classlanguage-text명령어-실행-사이클code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%8B%A4%ED%96%89-%EC%82%AC%EC%9D%B4%ED%81%B4code&quot; aria-label=&quot;code classlanguage text명령어 실행 사이클code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;명령어 실행 사이클&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;명령어 가져오기 (IF, Instruction Fetch)&lt;/strong&gt;&lt;br&gt;
-: 기억장치로부터 명령어를 가져온다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;명령어 해석 (ID, Instruction Decode)&lt;/strong&gt;&lt;br&gt;
-: 앞서 가져온 명령어가 어떤 명령어인지 해석을 진행한다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;피연산자 인출(OF,Operands Fetch)&lt;/strong&gt;&lt;br&gt;
-: 명령의 실행에 필요한 정보를 기억장치에 접근해 가져온다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;명령어 실행 (EX, Instruction Execution)&lt;/strong&gt;&lt;br&gt;
-: 앞서 가져온 연산자와 데이터를 가지고 연산을 수행하고 저장한다.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;인터럽트 체크&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;👉🏻 &lt;strong&gt;작업을 수행하던 중 인터럽트가 발생했을 때의 처리과정&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;컴퓨터는 수행하던 일을 중지하고 현재 상태 (CPU 내부의 레지스터 값 등)를 보관한다.&lt;/li&gt;
-&lt;li&gt;발생한 인터럽트를 처리하기 위해 인터럽트 서비스 루틴(ISR)을 수행한다.&lt;/li&gt;
-&lt;li&gt;인터럽트가 처리되면 저장했던 이전 작업의 상태를 복구시켜 수행을 재개한다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[CS 컴퓨터구조 - 컴퓨터의 구성]]></title><description><![CDATA[컴퓨터의 구성    : 기계적 장치 중앙처리장치(CPU…]]></description><link>https://www.jsh99.com/CS/ComputerArchitecture/computer_configuration/</link><guid isPermaLink="false">https://www.jsh99.com/CS/ComputerArchitecture/computer_configuration/</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;컴퓨터의-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;컴퓨터의 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴퓨터의 구성&lt;/h1&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 49.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVR42lVR266cMAzk/z9uH6pK3WV1aJd7AiE3EieEQIdKrUpkrJhoPDN2IawXluR6xXLlgDwZYtL2QuvVe+eUUlprIso5a7kwxoQQ8zwXaqXjOOjPiXHznmKIiwsoOjb9bDrO2ass67pWUsaUakPlV/V+l13XFdqFlFKMUUpZVZW1dhiGZ1Vb5/mi8BoCTdMENu/9cZ7bcaZ9BwQqCqFXCHDOIV/tFQjkpP3IeDtyS/E8z7br0BECz/8OyqKfxOPxQAEKYwwuaClp64fx+/MF5bDXNs2vfvyYuKZ8wf7ii0kZdAUSgkGLiwaztE3bwbD1F3Pf98PQ+5TnsN/A/zzDWFmW1ppmYN8a7ijAs3EB/jjnML2GKMKdWblr2tiHNJbh00ratZIYffq0/acblkVgkBgHWyT32w2MPSsXrA/MUq3JUbQuYOdcyHac8Z+crbmYFqmMmSjdwHvOac/7ninlpwyIH5KeKiBeOr51/LLby6RlyyJmcff8GzmBN6j2NpJ7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;computer configuration&quot;
-        title=&quot;computer configuration&quot;
-        src=&quot;/static/126044481891e55bfad9e3f3b2d8113d/37523/configuration.png&quot;
-        srcset=&quot;/static/126044481891e55bfad9e3f3b2d8113d/e9ff0/configuration.png 180w,
-/static/126044481891e55bfad9e3f3b2d8113d/f21e7/configuration.png 360w,
-/static/126044481891e55bfad9e3f3b2d8113d/37523/configuration.png 720w,
-/static/126044481891e55bfad9e3f3b2d8113d/2c5fd/configuration.png 1006w&quot;
-        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;br&gt;
-&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;code-classlanguage-text하드웨어code--기계적-장치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4code--%EA%B8%B0%EA%B3%84%EC%A0%81-%EC%9E%A5%EC%B9%98&quot; aria-label=&quot;code classlanguage text하드웨어code  기계적 장치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;하드웨어&lt;/code&gt; : 기계적 장치&lt;/h2&gt;
-&lt;h3 id=&quot;중앙처리장치cpu&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98cpu&quot; aria-label=&quot;중앙처리장치cpu permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;중앙처리장치(CPU)&lt;/h3&gt;
-&lt;p&gt;: 컴퓨터 시스템 전체를 제어하는 장치로서, 입력장치에서 데이터를 입력 받아 처리한 후 출력장치와 기억장치로 데이터를 전달&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;연산장치(ALU)&lt;/code&gt;: 산술 연산(사칙연산)과 논리연산(참과 거짓 판단)을 수행하는 장치&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;제어장치&lt;/code&gt;: CPU 내부에서 일어나는 모든 작업 통제 및 관리&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;레지스터&lt;/code&gt;: 연산 중간 값, 명령어 등 일시적으로 저장하는 임시 기억 장치&lt;br&gt;
-&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;기억장치memory&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EC%96%B5%EC%9E%A5%EC%B9%98memory&quot; aria-label=&quot;기억장치memory permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기억장치(Memory)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;주기억장치(내부 기억장치)&lt;/code&gt;: 컴퓨터 시스템에서 수행되는 프로그램과 수행에 필요한 데이터를 기억하는 장치&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;RAM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;보조기억장치(외부 기억장치)&lt;/code&gt;: 반영구적으로 데이터를 저장하고 보존할 수 있는 장치&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;하드 디스크, 플로피 디스크, CD-ROM, DVD
-&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;입출력장치io&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%85%EC%B6%9C%EB%A0%A5%EC%9E%A5%EC%B9%98io&quot; aria-label=&quot;입출력장치io permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;입출력장치(I/O)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;입력장치&lt;/code&gt;: 컴퓨터에서 처리할 데이터와 정보를 외부에서 입력해주는 역할&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;마우스, 키보드, 마이크&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;출력장치&lt;/code&gt;: 컴퓨터 내부에서 처리된 결과를 사용자에게 전달해주는 역할&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;프린트, 스피커, 모니터
-&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;code-classlanguage-text소프트웨어code--하드웨어의-동작을-제시하고-지시하는-프로그램&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4code--%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9D%84-%EC%A0%9C%EC%8B%9C%ED%95%98%EA%B3%A0-%EC%A7%80%EC%8B%9C%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&quot; aria-label=&quot;code classlanguage text소프트웨어code  하드웨어의 동작을 제시하고 지시하는 프로그램 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;소프트웨어&lt;/code&gt; : 하드웨어의 동작을 제시하고 지시하는 프로그램&lt;/h2&gt;
-&lt;h3 id=&quot;시스템-소프트웨어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4&quot; aria-label=&quot;시스템 소프트웨어 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시스템 소프트웨어&lt;/h3&gt;
-&lt;p&gt;: 사용자가 컴퓨터를 효율적으로 사용하기 위해 여러 컴퓨터 시스템에서 공통적으로 필요한 프로그램&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;운영체제&lt;/li&gt;
-&lt;li&gt;컴파일러
-&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;응용-소프트웨어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%91%EC%9A%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4&quot; aria-label=&quot;응용 소프트웨어 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;응용 소프트웨어&lt;/h3&gt;
-&lt;p&gt;: 응용 분야에서 특정 목적을 위해 사용하는 프로그램&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Power Point → 발표 자료를 만들 때&lt;/li&gt;
-&lt;li&gt;Chrome → 인터넷 검색을 할 때&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[Web] CSS - position]]></title><description><![CDATA[position  정의  CSS  속성은 문서 상에 요소를 배치하는 방법을 지정한다.  속성 값 static 기본 값. 요소를 일반적인 문서 흐름에 따라 배치하며, top, right, bottom, left, z-index…]]></description><link>https://www.jsh99.com/Web/CSS/position/</link><guid isPermaLink="false">https://www.jsh99.com/Web/CSS/position/</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;position&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#position&quot; aria-label=&quot;position permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;position&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JSH99.github.io]]></title><description><![CDATA[SSEO's Gatsby]]></description><link>https://www.jsh99.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Mar 2024 07:48:35 GMT</lastBuildDate><item><title><![CDATA[[Web] CSS - position]]></title><description><![CDATA[position  정의  CSS  속성은 문서 상에 요소를 배치하는 방법을 지정한다.  속성 값 static 기본 값. 요소를 일반적인 문서 흐름에 따라 배치하며, top, right, bottom, left, z-index…]]></description><link>https://www.jsh99.com/Web/CSS/position/</link><guid isPermaLink="false">https://www.jsh99.com/Web/CSS/position/</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;position&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#position&quot; aria-label=&quot;position permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;position&lt;/h1&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&quot;정의&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9D%98&quot; aria-label=&quot;정의 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정의&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -358,7 +228,137 @@ CSS &lt;code class=&quot;language-text&quot;&gt;position&lt;/code&gt; 속성�
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;references&lt;/strong&gt;&lt;br&gt;
 👉 &lt;a href=&quot;https://sass-lang.com/documentation/&quot;&gt;https://sass-lang.com/documentation/&lt;/a&gt;&lt;br&gt;
-👉 &lt;a href=&quot;https://cocoon1787.tistory.com/843&quot;&gt;https://cocoon1787.tistory.com/843&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우아한테크코스 프론트엔드 5기 프리코스 회고]]></title><description><![CDATA[우아한테크코스 프론트엔드 5기 프리코스 회고 우여곡절 많았던 우테코 5기 프리코스 회고를 적어본다..! 1차 코테에서 광탈했던 4기와 다르게 이번 5기는 프리코스를 지원자 모두가 참여할 수 있었기에,…]]></description><link>https://www.jsh99.com/Diary/woowacourse_pre_5th/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/woowacourse_pre_5th/</guid><pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;우아한테크코스-프론트엔드-5기-프리코스-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-5%EA%B8%B0-%ED%94%84%EB%A6%AC%EC%BD%94%EC%8A%A4-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;우아한테크코스 프론트엔드 5기 프리코스 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;우아한테크코스 프론트엔드 5기 프리코스 회고&lt;/h2&gt;
+👉 &lt;a href=&quot;https://cocoon1787.tistory.com/843&quot;&gt;https://cocoon1787.tistory.com/843&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[CS] 컴퓨터구조 - 컴퓨터의 구성]]></title><description><![CDATA[컴퓨터의 구성    : 기계적 장치 중앙처리장치(CPU…]]></description><link>https://www.jsh99.com/CS/ComputerArchitecture/computer_configuration/</link><guid isPermaLink="false">https://www.jsh99.com/CS/ComputerArchitecture/computer_configuration/</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;컴퓨터의-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;컴퓨터의 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴퓨터의 구성&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVR42lVR266cMAzk/z9uH6pK3WV1aJd7AiE3EieEQIdKrUpkrJhoPDN2IawXluR6xXLlgDwZYtL2QuvVe+eUUlprIso5a7kwxoQQ8zwXaqXjOOjPiXHznmKIiwsoOjb9bDrO2ass67pWUsaUakPlV/V+l13XFdqFlFKMUUpZVZW1dhiGZ1Vb5/mi8BoCTdMENu/9cZ7bcaZ9BwQqCqFXCHDOIV/tFQjkpP3IeDtyS/E8z7br0BECz/8OyqKfxOPxQAEKYwwuaClp64fx+/MF5bDXNs2vfvyYuKZ8wf7ii0kZdAUSgkGLiwaztE3bwbD1F3Pf98PQ+5TnsN/A/zzDWFmW1ppmYN8a7ijAs3EB/jjnML2GKMKdWblr2tiHNJbh00ratZIYffq0/acblkVgkBgHWyT32w2MPSsXrA/MUq3JUbQuYOdcyHac8Z+crbmYFqmMmSjdwHvOac/7ninlpwyIH5KeKiBeOr51/LLby6RlyyJmcff8GzmBN6j2NpJ7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;computer configuration&quot;
+        title=&quot;computer configuration&quot;
+        src=&quot;/static/126044481891e55bfad9e3f3b2d8113d/37523/configuration.png&quot;
+        srcset=&quot;/static/126044481891e55bfad9e3f3b2d8113d/e9ff0/configuration.png 180w,
+/static/126044481891e55bfad9e3f3b2d8113d/f21e7/configuration.png 360w,
+/static/126044481891e55bfad9e3f3b2d8113d/37523/configuration.png 720w,
+/static/126044481891e55bfad9e3f3b2d8113d/2c5fd/configuration.png 1006w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;code-classlanguage-text하드웨어code--기계적-장치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4code--%EA%B8%B0%EA%B3%84%EC%A0%81-%EC%9E%A5%EC%B9%98&quot; aria-label=&quot;code classlanguage text하드웨어code  기계적 장치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;하드웨어&lt;/code&gt; : 기계적 장치&lt;/h2&gt;
+&lt;h3 id=&quot;중앙처리장치cpu&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98cpu&quot; aria-label=&quot;중앙처리장치cpu permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;중앙처리장치(CPU)&lt;/h3&gt;
+&lt;p&gt;: 컴퓨터 시스템 전체를 제어하는 장치로서, 입력장치에서 데이터를 입력 받아 처리한 후 출력장치와 기억장치로 데이터를 전달&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;연산장치(ALU)&lt;/code&gt;: 산술 연산(사칙연산)과 논리연산(참과 거짓 판단)을 수행하는 장치&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;제어장치&lt;/code&gt;: CPU 내부에서 일어나는 모든 작업 통제 및 관리&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;레지스터&lt;/code&gt;: 연산 중간 값, 명령어 등 일시적으로 저장하는 임시 기억 장치&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;기억장치memory&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EC%96%B5%EC%9E%A5%EC%B9%98memory&quot; aria-label=&quot;기억장치memory permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기억장치(Memory)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;주기억장치(내부 기억장치)&lt;/code&gt;: 컴퓨터 시스템에서 수행되는 프로그램과 수행에 필요한 데이터를 기억하는 장치&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RAM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;보조기억장치(외부 기억장치)&lt;/code&gt;: 반영구적으로 데이터를 저장하고 보존할 수 있는 장치&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;하드 디스크, 플로피 디스크, CD-ROM, DVD
+&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;입출력장치io&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%85%EC%B6%9C%EB%A0%A5%EC%9E%A5%EC%B9%98io&quot; aria-label=&quot;입출력장치io permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;입출력장치(I/O)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;입력장치&lt;/code&gt;: 컴퓨터에서 처리할 데이터와 정보를 외부에서 입력해주는 역할&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;마우스, 키보드, 마이크&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;출력장치&lt;/code&gt;: 컴퓨터 내부에서 처리된 결과를 사용자에게 전달해주는 역할&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프린트, 스피커, 모니터
+&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;code-classlanguage-text소프트웨어code--하드웨어의-동작을-제시하고-지시하는-프로그램&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4code--%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%EC%9D%98-%EB%8F%99%EC%9E%91%EC%9D%84-%EC%A0%9C%EC%8B%9C%ED%95%98%EA%B3%A0-%EC%A7%80%EC%8B%9C%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&quot; aria-label=&quot;code classlanguage text소프트웨어code  하드웨어의 동작을 제시하고 지시하는 프로그램 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;소프트웨어&lt;/code&gt; : 하드웨어의 동작을 제시하고 지시하는 프로그램&lt;/h2&gt;
+&lt;h3 id=&quot;시스템-소프트웨어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4&quot; aria-label=&quot;시스템 소프트웨어 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시스템 소프트웨어&lt;/h3&gt;
+&lt;p&gt;: 사용자가 컴퓨터를 효율적으로 사용하기 위해 여러 컴퓨터 시스템에서 공통적으로 필요한 프로그램&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;운영체제&lt;/li&gt;
+&lt;li&gt;컴파일러
+&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;응용-소프트웨어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%91%EC%9A%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4&quot; aria-label=&quot;응용 소프트웨어 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;응용 소프트웨어&lt;/h3&gt;
+&lt;p&gt;: 응용 분야에서 특정 목적을 위해 사용하는 프로그램&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Power Point → 발표 자료를 만들 때&lt;/li&gt;
+&lt;li&gt;Chrome → 인터넷 검색을 할 때&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[CS] 컴퓨터구조 - 컴퓨터 구조 기초]]></title><description><![CDATA[컴퓨터 구조 기초  폰 노이만 구조 정의  오늘날의 컴퓨터는 대부분 를 따른다. 폰 노이만 구조는 크게 CPU - Memory - Program로 구성된다. CPU…]]></description><link>https://www.jsh99.com/CS/ComputerArchitecture/computer_architecture_basics/</link><guid isPermaLink="false">https://www.jsh99.com/CS/ComputerArchitecture/computer_architecture_basics/</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;컴퓨터-구조-기초&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0-%EA%B8%B0%EC%B4%88&quot; aria-label=&quot;컴퓨터 구조 기초 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴퓨터 구조 기초&lt;/h1&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;폰-노이만-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8F%B0-%EB%85%B8%EC%9D%B4%EB%A7%8C-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;폰 노이만 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;폰 노이만 구조&lt;/h2&gt;
+&lt;h3 id=&quot;정의&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9D%98&quot; aria-label=&quot;정의 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정의&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaklEQVR42oWQXU+DMBSG+f8/xXlhjFOvpolxSogXG5nZBwwyxoDS7wKFAc6zoWYumj1Jm6Z9T897XmP3G601QiiO4yRJMMYJSqIoStOUUtq27YnYgPVxoHtTSkElY5wS5iycNMVKZXgPqev6Rwx8FR8DxXtdUxdl5q1cmfHvS9w0zWlnXeexWIbU3XBX6HTfAjM4m15/OO2bfh9lfpGVUbTRhRYlWjMnJG4s/bLODa6RtbodjHvPzpXPxuAZI4xkMMfWLLZmyKRFVOQ6CALw77HRw3tvYPfe1vdQaGybSmqiKiY0ARdSSs5kQOaPk8vh7GZgX4TM0XmFcQq2i62S5V4Me91sT2cWUjDKaBa76chN7CW2QZdnBQTeBXYmbUIIRC2YdBauoGBEAJzz82mDqG12TMfT5HWyfoGZSRZ293937ug+Y4zqvIQ5Te/2aXJt+Xcwf1vv/rV9TFVVkFnnUynJD6bVge73Yz4BqENuyi0ZzvgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Von Neumann architecture&quot;
+        title=&quot;Von Neumann architecture&quot;
+        src=&quot;/static/37c3a54e78ede83609d415ad0883a791/37523/von_neumann.png&quot;
+        srcset=&quot;/static/37c3a54e78ede83609d415ad0883a791/e9ff0/von_neumann.png 180w,
+/static/37c3a54e78ede83609d415ad0883a791/f21e7/von_neumann.png 360w,
+/static/37c3a54e78ede83609d415ad0883a791/37523/von_neumann.png 720w,
+/static/37c3a54e78ede83609d415ad0883a791/302a4/von_neumann.png 1080w,
+/static/37c3a54e78ede83609d415ad0883a791/21b4d/von_neumann.png 1280w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;오늘날의 컴퓨터는 대부분 &lt;code class=&quot;language-text&quot;&gt;폰 노이만 구조&lt;/code&gt;를 따른다. 폰 노이만 구조는 크게 &lt;strong&gt;CPU&lt;/strong&gt; - &lt;strong&gt;Memory&lt;/strong&gt; - &lt;strong&gt;Program&lt;/strong&gt;로 구성된다. CPU와 메모리를 분히라여 명령어를 따로 저장하는 프로그램 내장 방식이다.&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;정의-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9D%98-1&quot; aria-label=&quot;정의 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정의&lt;/h3&gt;
+&lt;h3 id=&quot;code-classlanguage-text명령어-실행-사이클code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%8B%A4%ED%96%89-%EC%82%AC%EC%9D%B4%ED%81%B4code&quot; aria-label=&quot;code classlanguage text명령어 실행 사이클code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;명령어 실행 사이클&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;명령어 가져오기 (IF, Instruction Fetch)&lt;/strong&gt;&lt;br&gt;
+: 기억장치로부터 명령어를 가져온다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;명령어 해석 (ID, Instruction Decode)&lt;/strong&gt;&lt;br&gt;
+: 앞서 가져온 명령어가 어떤 명령어인지 해석을 진행한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;피연산자 인출(OF,Operands Fetch)&lt;/strong&gt;&lt;br&gt;
+: 명령의 실행에 필요한 정보를 기억장치에 접근해 가져온다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;명령어 실행 (EX, Instruction Execution)&lt;/strong&gt;&lt;br&gt;
+: 앞서 가져온 연산자와 데이터를 가지고 연산을 수행하고 저장한다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;인터럽트 체크&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;👉🏻 &lt;strong&gt;작업을 수행하던 중 인터럽트가 발생했을 때의 처리과정&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;컴퓨터는 수행하던 일을 중지하고 현재 상태 (CPU 내부의 레지스터 값 등)를 보관한다.&lt;/li&gt;
+&lt;li&gt;발생한 인터럽트를 처리하기 위해 인터럽트 서비스 루틴(ISR)을 수행한다.&lt;/li&gt;
+&lt;li&gt;인터럽트가 처리되면 저장했던 이전 작업의 상태를 복구시켜 수행을 재개한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[우아한테크코스 프론트엔드 5기 프리코스 회고]]></title><description><![CDATA[우아한테크코스 프론트엔드 5기 프리코스 회고 우여곡절 많았던 우테코 5기 프리코스 회고를 적어본다..! 1차 코테에서 광탈했던 4기와 다르게 이번 5기는 프리코스를 지원자 모두가 참여할 수 있었기에,…]]></description><link>https://www.jsh99.com/Diary/woowacourse_pre_5th/</link><guid isPermaLink="false">https://www.jsh99.com/Diary/woowacourse_pre_5th/</guid><pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;우아한테크코스-프론트엔드-5기-프리코스-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-5%EA%B8%B0-%ED%94%84%EB%A6%AC%EC%BD%94%EC%8A%A4-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;우아한테크코스 프론트엔드 5기 프리코스 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;우아한테크코스 프론트엔드 5기 프리코스 회고&lt;/h2&gt;
 &lt;br&gt; 
 &lt;p&gt;우여곡절 많았던 우테코 5기 프리코스 회고를 적어본다..! 1차 코테에서 광탈했던 4기와 다르게 이번 5기는 프리코스를 지원자 모두가 참여할 수 있었기에, 4주 동안 미션을 진행하며 정신없는 나날들을 보냈다. 최종 코테까지 가지 못하더라도 그만큼 얻어 가는 것이 많았으니 그 내용들을 블로그에 기록하려고 한다. 세 단어로 이번 프리코스를 정의할 수 있을 것 같다.&lt;/p&gt;
 &lt;blockquote&gt;
