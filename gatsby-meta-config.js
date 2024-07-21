@@ -14,7 +14,7 @@ module.exports = {
     name: `정서현`,
     bio: {
       role: `개발자`,
-      description: ['초보 프론트엔드', '꾸준히 성장 중인'],
+      description: ['끊임없이 소통하는', '새롭게 도전하는', '신뢰할 수 있는'],
       thumbnail: 'Memoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
